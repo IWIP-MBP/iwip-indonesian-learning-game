@@ -1,0 +1,84 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: iwip-db
+    restart: always
+    environment:
+      MYSQL_DATABASE: iwip_indonesian
+      MYSQL_ROOT_PASSWORD: root1234
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ../database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - iwip-network
+
+  redis:
+    image: redis:alpine
+    container_name: iwip-redis
+    restart: always
+    ports:
+      - "6379:6379"
+    networks:
+      - iwip-network
+
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend
+    container_name: iwip-backend
+    restart: always
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=iwip_indonesian
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root1234
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - JWT_SECRET_KEY=iwip_indonesia_secret_key_998877
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+      - redis
+    networks:
+      - iwip-network
+
+  celery_worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend
+    container_name: iwip-celery
+    restart: always
+    command: celery -A backend.tasks.celery_app worker --loglevel=info
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+    networks:
+      - iwip-network
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    container_name: iwip-frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - iwip-network
+
+volumes:
+  mysql_data:
+
+networks:
+  iwip-network:
+    driver: bridge
