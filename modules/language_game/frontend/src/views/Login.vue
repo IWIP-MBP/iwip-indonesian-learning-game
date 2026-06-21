@@ -90,10 +90,7 @@
                 登 录 / SIGN IN
               </button>
             </form>
-
-            <div class="text-center mt-4">
-              <span class="text-muted small">系统默认管理员账号为：admin / admin123</span>
-            </div>
+            <!-- Admin credentials helper text removed -->
           </div>
         </div>
       </div>

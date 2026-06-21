@@ -22,9 +22,12 @@ def get_lessons():
         lesson_dict = lesson.to_dict()
         
         # Unlock logic:
+        # If employee_id is 'admin', always unlock.
         # Lesson 1 is always unlocked.
         # Lesson K is unlocked if Lesson K-1 is in passed_ids.
-        if lesson.id == 1:
+        if employee_id == 'admin':
+            unlocked = True
+        elif lesson.id == 1:
             unlocked = True
         else:
             unlocked = (lesson.id - 1) in passed_ids
@@ -44,7 +47,7 @@ def get_lesson_detail(lesson_id):
         
     # Check unlock status
     employee_id = request.employee_id
-    if lesson_id > 1:
+    if employee_id != 'admin' and lesson_id > 1:
         prev_passed = LearningRecord.query.filter_by(
             employee_id=employee_id, lesson_id=lesson_id-1
         ).first()
@@ -63,3 +66,4 @@ def get_lesson_detail(lesson_id):
         'dialogues': dials,
         'grammar': gram
     }), 200
+

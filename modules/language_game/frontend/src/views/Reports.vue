@@ -2,7 +2,7 @@
   <div class="reports-container py-4 text-white">
     <div class="mb-5">
       <h1 class="display-title fw-bold mb-2 text-white glow-text-primary">学习分析报表</h1>
-      <p class="text-muted fs-5">深入理解您的学习进展与能力结构。</p>
+      <p class="text-white-50 fs-5">深入理解您的学习进展与能力结构。</p>
     </div>
 
     <!-- Charts Row 1 -->
@@ -11,7 +11,7 @@
       <div class="col-lg-6">
         <div class="glass-card chart-card">
           <h4 class="text-white fw-bold mb-3 display-title">五维能力雷达图</h4>
-          <p class="text-muted small mb-4">分析词汇、语法、对话、安全、办公五个核心能力的偏向性。</p>
+          <p class="text-white-50 small mb-4">分析词汇、语法、对话、安全、办公五个核心能力的偏向性。</p>
           <div ref="radarChartRef" class="chart-container"></div>
         </div>
       </div>
@@ -20,7 +20,7 @@
       <div class="col-lg-6">
         <div class="glass-card chart-card">
           <h4 class="text-white fw-bold mb-3 display-title">近期学习趋势图</h4>
-          <p class="text-muted small mb-4">展示最近 14 天您每天获取的经验值与学习时间变化。</p>
+          <p class="text-white-50 small mb-4">展示最近 14 天您每天获取的经验值与学习时间变化。</p>
           <div ref="trendChartRef" class="chart-container"></div>
         </div>
       </div>
@@ -32,7 +32,7 @@
       <div class="col-lg-6">
         <div class="glass-card chart-card">
           <h4 class="text-white fw-bold mb-3 display-title">部门平均成绩对比</h4>
-          <p class="text-muted small mb-4">比较公司各部门的平均 XP 积分情况（KPI培训管理参考）。</p>
+          <p class="text-white-50 small mb-4">比较公司各部门的平均 XP 积分情况（KPI培训管理参考）。</p>
           <div ref="barChartRef" class="chart-container"></div>
         </div>
       </div>
@@ -41,7 +41,7 @@
       <div class="col-lg-6">
         <div class="glass-card chart-card">
           <h4 class="text-white fw-bold mb-3 display-title">年度学习热力图</h4>
-          <p class="text-muted small mb-4">以日历形式记录您在当前年份里的每日活跃度。</p>
+          <p class="text-white-50 small mb-4">以日历形式记录您在当前年份里的每日活跃度。</p>
           <div ref="heatmapChartRef" class="chart-container"></div>
         </div>
       </div>

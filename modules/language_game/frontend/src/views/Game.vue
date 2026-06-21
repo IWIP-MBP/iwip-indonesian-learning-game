@@ -128,10 +128,26 @@
 
           <!-- Picture Question Image Display -->
           <div v-if="currentQuestion.type === 'picture'" class="picture-quiz-box mb-4">
-            <div class="img-frame rounded-4 border border-light border-opacity-10 mx-auto overflow-hidden shadow">
-              <!-- We render beautiful clean illustrations using letter or standard icons if img loading fails -->
-              <div class="img-fallback d-flex align-items-center justify-content-center fs-1">
-                🖼️
+            <div class="img-frame rounded-4 border border-light border-opacity-10 mx-auto overflow-hidden shadow d-flex flex-column align-items-center justify-content-center">
+              <!-- Try to render actual image if it loads correctly -->
+              <img 
+                v-if="currentQuestion.image_path && !imageError" 
+                :src="currentQuestion.image_path" 
+                @error="handleImageError"
+                class="img-fluid rounded-3 object-fit-cover w-100 h-100"
+                alt="示意图"
+              />
+              <!-- Premium fallback illustration container with emoji and concept info -->
+              <div v-else class="w-100 h-100 d-flex flex-column align-items-center justify-content-center p-3 animate-fade-in">
+                <div class="visual-badge mb-3">
+                  <span class="visual-emoji">{{ getVisualEmoji(getTranslationFromExplanation(currentQuestion.explanation)) }}</span>
+                </div>
+                <div class="px-3 py-1 rounded-pill bg-primary bg-opacity-20 border border-primary border-opacity-20 text-info small fw-bold mb-1" style="font-size: 11px; letter-spacing: 1px;">
+                  示意图 / CONCEPT
+                </div>
+                <h4 class="text-white fw-bold mb-0 glow-text-primary fs-5">
+                  {{ getTranslationFromExplanation(currentQuestion.explanation) }}
+                </h4>
               </div>
             </div>
           </div>
@@ -258,6 +274,7 @@ const wrongQuestionIds = ref([])
 const correctQuestionIds = ref([])
 const sessionWrongAnswers = ref([])
 const earnedBadges = ref([])
+const imageError = ref(false)
 
 // Drag match states
 const matchLeft = ref([])
@@ -317,6 +334,7 @@ const setupCurrentQuestion = () => {
   selectedLeft.value = null
   selectedRight.value = null
   matchPairs.value = []
+  imageError.value = false
   
   const q = currentQuestion.value
   
@@ -375,6 +393,176 @@ const speakWord = (word) => {
   } else {
     console.warn('Speech synthesis not supported in this browser.')
   }
+}
+
+const handleImageError = () => {
+  imageError.value = true
+}
+
+const getTranslationFromExplanation = (explanation) => {
+  if (!explanation) return '示意图'
+  const match = explanation.match(/图片展示的是[“"']([^”"']+)[”"']/)
+  if (match && match[1]) {
+    return match[1]
+  }
+  return '示意图'
+}
+
+const getVisualEmoji = (translation) => {
+  if (!translation) return '🎨'
+  const t = translation.trim().toLowerCase()
+  const emojiMap = {
+    '左': '⬅️',
+    '右': '➡️',
+    '前面': '⬆️',
+    '后面': '⬇️',
+    '向前': '⬆️',
+    '往后': '⬇️',
+    '往左': '⬅️',
+    '往右': '➡️',
+    '我': '🙋‍♂️',
+    '自己': '🙋‍♂️',
+    '你': '🫵',
+    '您': '🫵',
+    '他': '👤',
+    '她': '👤',
+    '我们': '👥',
+    '你们': '👥',
+    '他们': '👥',
+    '大家': '👥',
+    '咱们': '👥',
+    '人': '👤',
+    '员工': '👷',
+    '一': '1️⃣',
+    '二': '2️⃣',
+    '三': '3️⃣',
+    '四': '4️⃣',
+    '五': '5️⃣',
+    '六': '6️⃣',
+    '七': '7️⃣',
+    '八': '8️⃣',
+    '九': '9️⃣',
+    '十': '🔟',
+    '零': '0️⃣',
+    '一月': '📅',
+    '二月': '📅',
+    '三月': '📅',
+    '四月': '📅',
+    '五月': '📅',
+    '六月': '📅',
+    '七月': '📅',
+    '八月': '📅',
+    '九月': '📅',
+    '十月': '📅',
+    '十一月': '📅',
+    '十二月': '📅',
+    '星期一': '📅',
+    '星期二': '📅',
+    '星期三': '📅',
+    '星期四': '📅',
+    '星期五': '📅',
+    '星期六': '📅',
+    '星期日': '📅',
+    '日期': '📅',
+    '日': '📅',
+    '年': '📅',
+    '月': '📅',
+    '小时': '⏳',
+    '上班': '💼',
+    '下班': '🏃‍♂️',
+    '工作': '💼',
+    '办公室': '🏢',
+    '会议': '👥',
+    '会议室': '🤝',
+    '工卡': '🪪',
+    '刷脸': '👤',
+    '任务': '🎯',
+    '现场': '🏗️',
+    '常规': '📋',
+    '发送': '✉️',
+    '寄': '✉️',
+    '取样': '🧪',
+    '拍照': '📷',
+    '检查': '🔍',
+    '医院': '🏥',
+    '诊所': '🏥',
+    '医生': '👨‍⚕️',
+    '护士': '👩‍⚕️',
+    '发烧': '🤒',
+    '感冒': '🤧',
+    '咳嗽': '😷',
+    '腹泻': '🧻',
+    '骨折': '🦴',
+    '药': '💊',
+    '流血': '🩸',
+    '头晕': '🌀',
+    '呕吐': '🤮',
+    '健康': '💪',
+    '安全': '🛡️',
+    '请假': '📝',
+    '签字': '✍️',
+    '单子': '📄',
+    '窗口': '🎟️',
+    '护照': '📕',
+    '签证': '🛂',
+    '身份证': '🪪',
+    '高铁': '🚄',
+    '船': '🚢',
+    '汽车': '🚗',
+    '摩托车': '🏍️',
+    '手机': '📱',
+    '吃': '🍽️',
+    '饭': '🍽️',
+    '吃午饭': '🍽️',
+    '吃早饭': '🍽️',
+    '吃晚饭': '🍽️',
+    '食堂': '🍽️',
+    '超市': '🛒',
+    '买': '🛒',
+    '东西': '📦',
+    '苹果': '🍎',
+    '梨': '🍐',
+    '葡萄': '🍇',
+    '橘子': '🍊',
+    '空心菜': '🥬',
+    '水果': '🍎',
+    '足球': '⚽',
+    '乒乓球': '🏓',
+    '天气': '🌤️',
+    '多云': '☁️',
+    '刮风': '💨',
+    '凉快': '🍃',
+    '炎热': '🥵',
+    '对': '✅',
+    '正确': '✅',
+    '好': '✅',
+    '好的': '✅',
+    '错': '❌',
+    '坏': '❌',
+    '什么': '❓',
+    '哪里': '📍',
+    '这里': '📍',
+    '那儿': '📍',
+    '谁': '👤',
+    '有': '📦',
+    'ai': '🔤',
+    'ei': '🔤',
+    '发音': '🗣️',
+    '颤音': '🗣️',
+    '鼻音': '🗣️',
+    '边音': '🗣️',
+    '擦音': '🗣️',
+    '双元音': '🗣️',
+    '子音': '🗣️'
+  }
+  if (emojiMap[t]) return emojiMap[t]
+  for (const [key, value] of Object.entries(emojiMap)) {
+    if (t.includes(key)) return value
+  }
+  if (t.includes('音') || t.includes('发')) return '🗣️'
+  if (t.includes('痛') || t.includes('病') || t.includes('晕')) return '🤒'
+  if (t.includes('一') || t.includes('二') || t.includes('三') || t.includes('四') || t.includes('五') || t.includes('六') || t.includes('七') || t.includes('八') || t.includes('九') || t.includes('十')) return '🔢'
+  return '🎨'
 }
 
 // Match interactions
@@ -683,16 +871,44 @@ onMounted(() => {
 }
 
 .img-frame {
-  width: 200px;
-  height: 200px;
-  background: rgba(255, 255, 255, 0.05);
+  width: 280px;
+  height: 180px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.08) 100%) !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  backdrop-filter: blur(8px);
 }
 
 .img-fallback {
   opacity: 0.5;
+}
+
+.visual-badge {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.visual-emoji {
+  font-size: 38px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 .option-btn {
