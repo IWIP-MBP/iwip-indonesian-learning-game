@@ -146,7 +146,13 @@ const handleLogin = async () => {
 .login-wrapper {
   min-height: 80vh;
 }
+.text-muted {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
 .text-light-muted {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.form-label {
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 </style>

@@ -362,6 +362,14 @@ onMounted(() => {
   border-style: dashed !important;
 }
 
+.text-muted {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-label {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
 .divider-line::before,
 .divider-line::after {
   content: "";

@@ -420,7 +420,7 @@ const playSound = (isCorrect) => {
       osc1.frequency.setValueAtTime(880, now + 0.08)
       
       gain1.gain.setValueAtTime(0.08, now)
-      gain1.gain.exponentialRampToValueAtTime(0.001, now + 0.3)
+      gain1.gain.linearRampToValueAtTime(0, now + 0.3)
       
       osc1.connect(gain1)
       gain1.connect(ctx.destination)
@@ -430,12 +430,12 @@ const playSound = (isCorrect) => {
       const now = ctx.currentTime
       const osc2 = ctx.createOscillator()
       const gain2 = ctx.createGain()
-      osc2.type = 'triangle'
-      osc2.frequency.setValueAtTime(150, now)
-      osc2.frequency.linearRampToValueAtTime(90, now + 0.25)
+      osc2.type = 'sawtooth'
+      osc2.frequency.setValueAtTime(220, now)
+      osc2.frequency.linearRampToValueAtTime(120, now + 0.25)
       
-      gain2.gain.setValueAtTime(0.12, now)
-      gain2.gain.exponentialRampToValueAtTime(0.001, now + 0.3)
+      gain2.gain.setValueAtTime(0.1, now)
+      gain2.gain.linearRampToValueAtTime(0, now + 0.3)
       
       osc2.connect(gain2)
       gain2.connect(ctx.destination)
