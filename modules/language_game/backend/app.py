@@ -78,6 +78,12 @@ def seed_database(app):
             db.session.add(rep)
             db.session.commit()
             print("Seeded default admin user 'admin' / 'admin123'")
+        else:
+            # If admin exists with the dummy hash from init.sql, update it to the correct hash
+            if admin_user.password_hash == 'pbkdf2:sha256:600000$salt123$f25e985b8813bc6e6f987f6ee6a9b400787e974e64f84c40590a53b58':
+                admin_user.set_password('admin123')
+                db.session.commit()
+                print("Corrected dummy admin password hash to valid 'admin123' hash.")
             
         # 2. Check if Lessons are empty, seed from parsed_course.json
         if Lesson.query.first() is None:

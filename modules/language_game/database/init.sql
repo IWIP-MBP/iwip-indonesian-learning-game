@@ -173,7 +173,7 @@ INSERT INTO departments (name) VALUES ('管理层'), ('行政部'), ('安全环�
 -- Seed default admin account (password_hash is pbkdf2:sha256:600000$admin123_hash or similar, we will handle hash check in backend, let's write a standard hash for 'admin123')
 -- pbkdf2:sha256:600000$admin123$ef48d28a38a7c29fb1e3d3ff6987f6ee6a9b400787e974e64f84c40590a53b58 (simulated pbkdf2 hash)
 INSERT INTO employees (id, name, department_id, password_hash, role) 
-VALUES ('admin', '管理员', 1, 'pbkdf2:sha256:600000$salt123$f25e985b8813bc6e6f987f6ee6a9b400787e974e64f84c40590a53b58', 'admin');
+VALUES ('admin', '管理员', 1, 'scrypt:32768:8:1$WK7dJvmUv0YXSYmQ$36e4274ff6921554dd3df10941c8431af2d13900067c704548e18d9a4a64d29eb5eeafd02631fa45d0c3e53b32085a0ef44dc3676979742cf57f097b47a42e54', 'admin');
 
 -- Seed default badges
 INSERT INTO badges (name, description, icon_path, trigger_type) VALUES

@@ -77,22 +77,47 @@
         <!-- Bulk JSON/Excel Import -->
         <div class="glass-card">
           <h4 class="text-white fw-bold mb-3 display-title">批量导入参训员工</h4>
-          <p class="text-muted small mb-3">支持复制 Excel 表格中的 JSON 数据直接进行批量导入。</p>
           
+          <!-- Excel File Import -->
+          <div class="mb-4">
+            <label class="form-label text-muted small fw-medium mb-2 d-block">📥 选择 Excel 电子表格文件 (.xlsx, .xls)</label>
+            <div class="position-relative">
+              <input 
+                type="file" 
+                ref="excelFileInput" 
+                class="form-control d-none" 
+                accept=".xlsx, .xls"
+                @change="handleExcelUpload"
+              />
+              <button 
+                type="button" 
+                class="btn glass-btn w-100 py-3 text-white border-dashed border-light border-opacity-20 hover-bg-primary d-flex flex-column align-items-center justify-content-center gap-2"
+                @click="excelFileInput.click()"
+              >
+                <span class="fs-4">📊</span>
+                <span class="fw-bold">点击选择 Excel 文件进行导入</span>
+                <span class="text-muted small text-wrap px-2">支持的格式: .xlsx, .xls (需包含表头: 工号、姓名、部门、密码)</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="text-center my-3 text-muted position-relative divider-line">
+            <span class="px-2 small text-muted">或：复制表格行数据直接粘贴为 JSON 进行导入</span>
+          </div>
+
           <div class="mb-3">
             <textarea 
               class="form-control glass-input font-monospace text-white small" 
-              rows="6" 
+              rows="4" 
               v-model="importJsonText"
               placeholder='[
-  {"工号": "EMP010", "姓名": "李四", "部门": "生产部", "密码": "123456"},
-  {"工号": "EMP011", "姓名": "王五", "部门": "后勤部", "密码": "123456"}
+  {"工号": "EMP010", "姓名": "李四", "部门": "生产部", "密码": "123456"}
 ]'
             ></textarea>
           </div>
           
           <button class="btn glass-btn w-100 py-3 text-white fw-bold border-primary border-opacity-25 hover-bg-primary" @click="handleBulkImport">
-            批量导入员工数据
+            批量导入 JSON 数据
           </button>
         </div>
       </div>
@@ -140,6 +165,9 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
+import * as XLSX from 'xlsx'
+
+const excelFileInput = ref(null)
 
 const employees = ref([])
 const departments = ref([
@@ -221,12 +249,9 @@ const deleteEmployee = async (id) => {
 }
 
 const handleBulkImport = async () => {
-  if (!importJsonText.value.strip) {
-    // Basic trim check
-    if (!importJsonText.value.trim()) {
-      alert('请输入JSON数据')
-      return
-    }
+  if (!importJsonText.value.trim()) {
+    alert('请输入JSON数据')
+    return
   }
   
   try {
@@ -238,6 +263,36 @@ const handleBulkImport = async () => {
   } catch (err) {
     alert('JSON格式错误或导入失败：' + err.message)
   }
+}
+
+const handleExcelUpload = (event) => {
+  const files = event.target.files
+  if (!files || files.length === 0) return
+  const file = files[0]
+  
+  const reader = new FileReader()
+  reader.onload = async (e) => {
+    try {
+      const data = new Uint8Array(e.target.result)
+      const workbook = XLSX.read(data, { type: 'array' })
+      const firstSheetName = workbook.SheetNames[0]
+      const worksheet = workbook.Sheets[firstSheetName]
+      const jsonData = XLSX.utils.sheet_to_json(worksheet)
+      
+      if (jsonData.length === 0) {
+        alert('导入失败：Excel 表格中未检测到数据行！')
+        return
+      }
+      
+      const response = await axios.post('/api/admin/employees/import-json', jsonData)
+      alert(response.data.message)
+      event.target.value = '' // Reset file input
+      fetchEmployees()
+    } catch (err) {
+      alert('解析或导入 Excel 失败：' + (err.response?.data?.message || err.message))
+    }
+  }
+  reader.readAsArrayBuffer(file)
 }
 
 const exportReport = async () => {
@@ -265,6 +320,28 @@ onMounted(() => {
 .hover-bg-primary:hover {
   background: rgba(99, 102, 241, 0.15) !important;
   border-color: var(--color-primary) !important;
+}
+
+.border-dashed {
+  border-style: dashed !important;
+}
+
+.divider-line::before,
+.divider-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 15%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.divider-line::before {
+  left: 0;
+}
+
+.divider-line::after {
+  right: 0;
 }
 
 .table th {
