@@ -80,7 +80,16 @@
           
           <!-- Excel File Import -->
           <div class="mb-4">
-            <label class="form-label text-muted small fw-medium mb-2 d-block">📥 选择 Excel 电子表格文件 (.xlsx, .xls)</label>
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <label class="form-label text-muted small fw-medium mb-0">📥 选择 Excel 电子表格文件 (.xlsx, .xls)</label>
+              <button 
+                type="button" 
+                class="btn btn-link btn-sm text-info p-0 text-decoration-none small fw-bold"
+                @click="downloadTemplate"
+              >
+                📋 下载 Excel 导入模板
+              </button>
+            </div>
             <div class="position-relative">
               <input 
                 type="file" 
@@ -170,14 +179,16 @@ import * as XLSX from 'xlsx'
 const excelFileInput = ref(null)
 
 const employees = ref([])
-const departments = ref([
-  { id: 1, name: '管理层' },
-  { id: 2, name: '行政部' },
-  { id: 3, name: '安全环保部' },
-  { id: 4, name: '生产部' },
-  { id: 5, name: '设备部' },
-  { id: 6, name: '后勤部' }
-])
+const departments = ref([])
+
+const fetchDepartments = async () => {
+  try {
+    const response = await axios.get('/api/admin/departments')
+    departments.value = response.data
+  } catch (err) {
+    console.error('Failed to load departments list:', err)
+  }
+}
 
 const empForm = ref({
   id: '',
@@ -210,6 +221,7 @@ const saveEmployee = async () => {
     }
     cancelEdit()
     fetchEmployees()
+    fetchDepartments()
   } catch (err) {
     alert(err.response?.data?.message || '操作失败')
   }
@@ -260,6 +272,7 @@ const handleBulkImport = async () => {
     alert(response.data.message)
     importJsonText.value = ''
     fetchEmployees()
+    fetchDepartments()
   } catch (err) {
     alert('JSON格式错误或导入失败：' + err.message)
   }
@@ -288,11 +301,33 @@ const handleExcelUpload = (event) => {
       alert(response.data.message)
       event.target.value = '' // Reset file input
       fetchEmployees()
+      fetchDepartments()
     } catch (err) {
       alert('解析或导入 Excel 失败：' + (err.response?.data?.message || err.message))
     }
   }
   reader.readAsArrayBuffer(file)
+}
+
+const downloadTemplate = () => {
+  const headers = ['工号', '姓名', '部门', '密码']
+  const sampleData = [
+    { '工号': 'EMP010', '姓名': '李四', '部门': '生产部', '密码': '123456' },
+    { '工号': 'EMP011', '姓名': '王五', '部门': '后勤部', '密码': '123456' }
+  ]
+  const worksheet = XLSX.utils.json_to_sheet(sampleData, { header: headers })
+  const workbook = XLSX.utils.book_new()
+  XLSX.utils.book_append_sheet(workbook, worksheet, '导入模板')
+  
+  const excelBuffer = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' })
+  const blob = new Blob([excelBuffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' })
+  const url = window.URL.createObjectURL(blob)
+  const link = document.createElement('a')
+  link.href = url
+  link.setAttribute('download', '员工导入模板.xlsx')
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
 }
 
 const exportReport = async () => {
@@ -313,6 +348,7 @@ const exportReport = async () => {
 
 onMounted(() => {
   fetchEmployees()
+  fetchDepartments()
 })
 </script>
 

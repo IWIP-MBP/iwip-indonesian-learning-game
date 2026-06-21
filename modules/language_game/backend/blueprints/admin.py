@@ -12,6 +12,12 @@ def get_employees():
     employees = Employee.query.all()
     return jsonify([emp.to_dict() for emp in employees]), 200
 
+@admin_bp.route('/admin/departments', methods=['GET'])
+@admin_required
+def get_departments():
+    departments = Department.query.all()
+    return jsonify([dept.to_dict() for dept in departments]), 200
+
 @admin_bp.route('/admin/employees', methods=['POST'])
 @admin_required
 def create_employee():

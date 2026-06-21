@@ -85,6 +85,17 @@ def seed_database(app):
                 db.session.commit()
                 print("Corrected dummy admin password hash to valid 'admin123' hash.")
             
+            # Ensure admin has a department
+            if not admin_user.department_id:
+                admin_dept = Department.query.filter_by(name='管理层').first()
+                if not admin_dept:
+                    admin_dept = Department(name='管理层')
+                    db.session.add(admin_dept)
+                    db.session.commit()
+                admin_user.department_id = admin_dept.id
+                db.session.commit()
+                print("Assigned '管理层' department to admin user.")
+            
         # 2. Check if Lessons are empty, seed from parsed_course.json
         if Lesson.query.first() is None:
             json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database/parsed_course.json'))
