@@ -3,33 +3,33 @@
     <!-- Navbar (Hidden on Login screen) -->
     <nav v-if="userStore.isLoggedIn" class="navbar navbar-expand-lg navbar-dark glass-navbar py-3">
       <div class="container">
-        <router-link class="navbar-brand display-title fw-bold text-white fs-4 glow-text-primary" to="/">
+        <router-link class="navbar-brand display-title fw-bold text-white fs-4 glow-text-primary" to="/" @click="isMenuOpen = false">
           IWIP INDONESIAN
         </router-link>
         
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler border-0" type="button" @click="isMenuOpen = !isMenuOpen">
           <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" :class="{ 'show': isMenuOpen }" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-2">
             <li class="nav-item">
-              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/map">
+              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/map" @click="isMenuOpen = false">
                 学习地图
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/reports">
+              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/reports" @click="isMenuOpen = false">
                 分析报表
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/leaderboard">
+              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/leaderboard" @click="isMenuOpen = false">
                 排行榜
               </router-link>
             </li>
             <li class="nav-item" v-if="userStore.isAdmin">
-              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/admin">
+              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/admin" @click="isMenuOpen = false">
                 管理中心
               </router-link>
             </li>
@@ -41,7 +41,7 @@
               <span class="d-block text-muted small">{{ userStore.department }} | LV.{{ userStore.level }}</span>
             </div>
             
-            <router-link to="/" class="avatar-link">
+            <router-link to="/" class="avatar-link" @click="isMenuOpen = false">
               <div class="user-avatar">
                 {{ userStore.name.charAt(0) }}
               </div>
@@ -63,12 +63,14 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { useUserStore } from './store/store'
 import { useRouter } from 'vue-router'
 import axios from 'axios'
 
 const userStore = useUserStore()
 const router = useRouter()
+const isMenuOpen = ref(false)
 
 // Initialize auth headers if token exists on load
 if (userStore.token) {
@@ -76,6 +78,7 @@ if (userStore.token) {
 }
 
 const handleLogout = () => {
+  isMenuOpen.value = false
   userStore.logout()
   router.push('/login')
 }
