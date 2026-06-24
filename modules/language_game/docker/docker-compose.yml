@@ -42,6 +42,8 @@ services:
       - JWT_SECRET_KEY=iwip_indonesia_secret_key_998877
     ports:
       - "5000:5000"
+    volumes:
+      - ../database:/app/database
     depends_on:
       - db
       - redis

@@ -285,7 +285,7 @@ def parse_course(pdf_path):
     }
 
 def main():
-    pdf_path = r"d:\STUDY\印尼语.pdf"
+    pdf_path = r"d:\STUDY\初级印尼语培训课程（修订）.pdf"
     print("Parsing PDF course textbook...")
     data = parse_course(pdf_path)
     
