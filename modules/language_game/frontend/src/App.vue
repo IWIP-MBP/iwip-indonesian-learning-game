@@ -14,6 +14,11 @@
         <div class="collapse navbar-collapse" :class="{ 'show': isMenuOpen }" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-2">
             <li class="nav-item">
+              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/about" @click="isMenuOpen = false">
+                学习介绍
+              </router-link>
+            </li>
+            <li class="nav-item">
               <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/map" @click="isMenuOpen = false">
                 学习地图
               </router-link>

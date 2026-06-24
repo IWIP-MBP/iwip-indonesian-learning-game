@@ -1,5 +1,6 @@
 import os
 import json
+import click
 from flask import Flask, jsonify
 from flask_cors import CORS
 from .models import db, Lesson, Vocabulary, Sentence, Dialogue, Grammar, Question, QuestionOption, Employee, Department, LanguageReport
@@ -38,8 +39,9 @@ def create_app(test_config=None):
     
     # Setup startup/seeding hooks
     @app.cli.command("seed-db")
-    def seed_db_command():
-        seed_database(app)
+    @click.option('--force', is_flag=True, help="Force reseed even if data exists")
+    def seed_db_command(force):
+        seed_database(app, force=force)
         
     # Health check route
     @app.route('/health')
@@ -48,7 +50,7 @@ def create_app(test_config=None):
         
     return app
 
-def seed_database(app):
+def seed_database(app, force=False):
     with app.app_context():
         print("Starting Database Seeding...")
         db.create_all()
@@ -69,21 +71,21 @@ def seed_database(app):
                 department_id=admin_dept.id,
                 role='admin'
             )
-            # Default password is 'admin123'
-            admin_user.set_password('admin123')
+            # Default password is '123456'
+            admin_user.set_password('123456')
             db.session.add(admin_user)
             
             # Create report card
             rep = LanguageReport(employee_id='admin')
             db.session.add(rep)
             db.session.commit()
-            print("Seeded default admin user 'admin' / 'admin123'")
+            print("Seeded default admin user 'admin' / '123456'")
         else:
-            # If admin exists with the dummy hash from init.sql, update it to the correct hash
-            if admin_user.password_hash == 'pbkdf2:sha256:600000$salt123$f25e985b8813bc6e6f987f6ee6a9b400787e974e64f84c40590a53b58':
-                admin_user.set_password('admin123')
+            # If force is True, always reset password to '123456'
+            if force:
+                admin_user.set_password('123456')
                 db.session.commit()
-                print("Corrected dummy admin password hash to valid 'admin123' hash.")
+                print("Force flag set: reset admin password to '123456'.")
             
             # Ensure admin has a department
             if not admin_user.department_id:
@@ -97,7 +99,15 @@ def seed_database(app):
                 print("Assigned '管理层' department to admin user.")
             
         # 2. Check if Lessons are empty, seed from parsed_course.json
-        if Lesson.query.first() is None:
+        if force:
+            print("Force flag is set. Clearing existing course content (vocab, sentences, dialogues, grammar)...")
+            Vocabulary.query.delete()
+            Sentence.query.delete()
+            Dialogue.query.delete()
+            Grammar.query.delete()
+            db.session.commit()
+
+        if Lesson.query.first() is None or force:
             json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database/parsed_course.json'))
             if os.path.exists(json_path):
                 print(f"Seeding course data from {json_path}...")
@@ -107,12 +117,17 @@ def seed_database(app):
                 lessons_list = course_data if isinstance(course_data, list) else course_data.get('lessons', [])
                 
                 for les in lessons_list:
-                    lesson = Lesson(
-                        id=les['id'],
-                        title=les['title'],
-                        type=les['type']
-                    )
-                    db.session.add(lesson)
+                    lesson = Lesson.query.get(les['id'])
+                    if not lesson:
+                        lesson = Lesson(
+                            id=les['id'],
+                            title=les['title'],
+                            type=les['type']
+                        )
+                        db.session.add(lesson)
+                    else:
+                        lesson.title = les['title']
+                        lesson.type = les['type']
                     
                     # Vocabs
                     for item in les.get('vocabulary', []):
@@ -160,7 +175,13 @@ def seed_database(app):
                 print(f"Warning: Course JSON file not found at {json_path}")
                 
         # 3. Check if Questions are empty, seed from generated_questions.json
-        if Question.query.first() is None:
+        if force:
+            print("Force flag is set. Clearing existing questions and options...")
+            QuestionOption.query.delete()
+            Question.query.delete()
+            db.session.commit()
+
+        if Question.query.first() is None or force:
             json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database/generated_questions.json'))
             if os.path.exists(json_path):
                 print(f"Seeding 3000+ questions from {json_path}...")

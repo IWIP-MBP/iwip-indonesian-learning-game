@@ -1,0 +1,715 @@
+[
+  {
+    "type": "vocab_choice",
+    "content": "Kami 和 Kita 都表示我们，区别是什么？",
+    "options": [
+      {
+        "text": "Kami 不包括对方，Kita 包括对方",
+        "is_correct": true
+      },
+      {
+        "text": "Kita 不包括对方，Kami 包括对方",
+        "is_correct": false
+      },
+      {
+        "text": "两者完全相同",
+        "is_correct": false
+      },
+      {
+        "text": "Kami 更正式",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Kami（我们，不含听者）；Kita（咱们，含听者）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Mereka 是什么意思？",
+    "options": [
+      {
+        "text": "他们",
+        "is_correct": true
+      },
+      {
+        "text": "你们",
+        "is_correct": false
+      },
+      {
+        "text": "咱们",
+        "is_correct": false
+      },
+      {
+        "text": "大家",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Mereka 意为他们/她们/它们，第三人称复数。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "kanan 是什么意思？",
+    "options": [
+      {
+        "text": "右",
+        "is_correct": true
+      },
+      {
+        "text": "左",
+        "is_correct": false
+      },
+      {
+        "text": "前面",
+        "is_correct": false
+      },
+      {
+        "text": "后面",
+        "is_correct": false
+      }
+    ],
+    "explanation": "kanan 意为右，kiri 意为左。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "kiri 是什么意思？",
+    "options": [
+      {
+        "text": "左",
+        "is_correct": true
+      },
+      {
+        "text": "右",
+        "is_correct": false
+      },
+      {
+        "text": "里",
+        "is_correct": false
+      },
+      {
+        "text": "外",
+        "is_correct": false
+      }
+    ],
+    "explanation": "kiri 意为左，kanan 意为右。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "maju 是什么意思？",
+    "options": [
+      {
+        "text": "往前/前进",
+        "is_correct": true
+      },
+      {
+        "text": "往后",
+        "is_correct": false
+      },
+      {
+        "text": "停止",
+        "is_correct": false
+      },
+      {
+        "text": "转弯",
+        "is_correct": false
+      }
+    ],
+    "explanation": "maju 意为往前/前进/先进。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "jalan kaki 是什么意思？",
+    "options": [
+      {
+        "text": "步行/走路",
+        "is_correct": true
+      },
+      {
+        "text": "走路上班",
+        "is_correct": false
+      },
+      {
+        "text": "道路",
+        "is_correct": false
+      },
+      {
+        "text": "脚步",
+        "is_correct": false
+      }
+    ],
+    "explanation": "jalan kaki = 走路，jalan 是走/路，kaki 是脚。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "mana 是什么意思？",
+    "options": [
+      {
+        "text": "哪里",
+        "is_correct": true
+      },
+      {
+        "text": "什么",
+        "is_correct": false
+      },
+      {
+        "text": "谁",
+        "is_correct": false
+      },
+      {
+        "text": "多少",
+        "is_correct": false
+      }
+    ],
+    "explanation": "mana 意为哪里/哪个，用于询问位置或选择。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "situ 是什么意思？",
+    "options": [
+      {
+        "text": "那儿（中距离）",
+        "is_correct": true
+      },
+      {
+        "text": "这里",
+        "is_correct": false
+      },
+      {
+        "text": "那里（远）",
+        "is_correct": false
+      },
+      {
+        "text": "哪里",
+        "is_correct": false
+      }
+    ],
+    "explanation": "situ 是中等距离的那儿，sini 是近处的这里，sana 是远处的那里。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "句子 Kamu di kiri. 的意思是？",
+    "options": [
+      {
+        "text": "你在左边",
+        "is_correct": true
+      },
+      {
+        "text": "你在右边",
+        "is_correct": false
+      },
+      {
+        "text": "你在前面",
+        "is_correct": false
+      },
+      {
+        "text": "你往左走",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Kamu di kiri. = 你（kamu）+ 在（di）+ 左边（kiri）= 你在左边。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "句子 Di mana mereka? 的意思是？",
+    "options": [
+      {
+        "text": "他们在哪里？",
+        "is_correct": true
+      },
+      {
+        "text": "他们是谁？",
+        "is_correct": false
+      },
+      {
+        "text": "他们做什么？",
+        "is_correct": false
+      },
+      {
+        "text": "他们什么时候来？",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Di mana mereka? = 在哪里（di mana）+ 他们（mereka）= 他们在哪里？"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "barat 是什么意思？",
+    "options": [
+      {
+        "text": "西",
+        "is_correct": true
+      },
+      {
+        "text": "东",
+        "is_correct": false
+      },
+      {
+        "text": "南",
+        "is_correct": false
+      },
+      {
+        "text": "北",
+        "is_correct": false
+      }
+    ],
+    "explanation": "barat 是西方，方位词：utara（北）、selatan（南）、timur（东）、barat（西）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "bersama 是什么意思？",
+    "options": [
+      {
+        "text": "一起",
+        "is_correct": true
+      },
+      {
+        "text": "分开",
+        "is_correct": false
+      },
+      {
+        "text": "独自",
+        "is_correct": false
+      },
+      {
+        "text": "合作",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bersama 意为一起/共同。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "basah 是什么意思？",
+    "options": [
+      {
+        "text": "湿",
+        "is_correct": true
+      },
+      {
+        "text": "干",
+        "is_correct": false
+      },
+      {
+        "text": "热",
+        "is_correct": false
+      },
+      {
+        "text": "冷",
+        "is_correct": false
+      }
+    ],
+    "explanation": "basah 意为湿，kering 意为干。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "batal 是什么意思？",
+    "options": [
+      {
+        "text": "取消",
+        "is_correct": true
+      },
+      {
+        "text": "完成",
+        "is_correct": false
+      },
+      {
+        "text": "推迟",
+        "is_correct": false
+      },
+      {
+        "text": "开始",
+        "is_correct": false
+      }
+    ],
+    "explanation": "batal 意为取消/作废，如 dibatalkan（被取消）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "bernyanyi 是什么意思？",
+    "options": [
+      {
+        "text": "唱歌",
+        "is_correct": true
+      },
+      {
+        "text": "跳舞",
+        "is_correct": false
+      },
+      {
+        "text": "跑步",
+        "is_correct": false
+      },
+      {
+        "text": "游泳",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bernyanyi = ber + nyanyi（唱），意为唱歌。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文他们对应的印尼语是？",
+    "options": [
+      {
+        "text": "mereka",
+        "is_correct": true
+      },
+      {
+        "text": "kami",
+        "is_correct": false
+      },
+      {
+        "text": "kita",
+        "is_correct": false
+      },
+      {
+        "text": "kalian",
+        "is_correct": false
+      }
+    ],
+    "explanation": "mereka 是第三人称复数他们。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文右对应的印尼语是？",
+    "options": [
+      {
+        "text": "kanan",
+        "is_correct": true
+      },
+      {
+        "text": "kiri",
+        "is_correct": false
+      },
+      {
+        "text": "depan",
+        "is_correct": false
+      },
+      {
+        "text": "belakang",
+        "is_correct": false
+      }
+    ],
+    "explanation": "kanan 是右，kiri 是左。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文左对应的印尼语是？",
+    "options": [
+      {
+        "text": "kiri",
+        "is_correct": true
+      },
+      {
+        "text": "kanan",
+        "is_correct": false
+      },
+      {
+        "text": "maju",
+        "is_correct": false
+      },
+      {
+        "text": "mundur",
+        "is_correct": false
+      }
+    ],
+    "explanation": "kiri 是左，kanan 是右。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文哪里对应的印尼语疑问词是？",
+    "options": [
+      {
+        "text": "mana",
+        "is_correct": true
+      },
+      {
+        "text": "apa",
+        "is_correct": false
+      },
+      {
+        "text": "siapa",
+        "is_correct": false
+      },
+      {
+        "text": "kapan",
+        "is_correct": false
+      }
+    ],
+    "explanation": "mana 意为哪里，用于询问位置。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文唱歌对应的印尼语是？",
+    "options": [
+      {
+        "text": "bernyanyi",
+        "is_correct": true
+      },
+      {
+        "text": "berdansa",
+        "is_correct": false
+      },
+      {
+        "text": "bermain",
+        "is_correct": false
+      },
+      {
+        "text": "berlari",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bernyanyi 意为唱歌，ber- 是动词前缀。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文取消对应的印尼语是？",
+    "options": [
+      {
+        "text": "batal",
+        "is_correct": true
+      },
+      {
+        "text": "berhenti",
+        "is_correct": false
+      },
+      {
+        "text": "buang",
+        "is_correct": false
+      },
+      {
+        "text": "belok",
+        "is_correct": false
+      }
+    ],
+    "explanation": "batal 意为取消/作废。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文湿对应的印尼语是？",
+    "options": [
+      {
+        "text": "basah",
+        "is_correct": true
+      },
+      {
+        "text": "kering",
+        "is_correct": false
+      },
+      {
+        "text": "panas",
+        "is_correct": false
+      },
+      {
+        "text": "dingin",
+        "is_correct": false
+      }
+    ],
+    "explanation": "basah 意为湿，kering 意为干。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文干净对应的印尼语是？",
+    "options": [
+      {
+        "text": "bersih",
+        "is_correct": true
+      },
+      {
+        "text": "kotor",
+        "is_correct": false
+      },
+      {
+        "text": "basah",
+        "is_correct": false
+      },
+      {
+        "text": "kering",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bersih 意为干净，kotor 意为脏。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文骑自行车对应的印尼语是？",
+    "options": [
+      {
+        "text": "bersepeda",
+        "is_correct": true
+      },
+      {
+        "text": "berlari",
+        "is_correct": false
+      },
+      {
+        "text": "berenang",
+        "is_correct": false
+      },
+      {
+        "text": "berjalan",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bersepeda 意为骑自行车，sepeda 是自行车。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文旅游对应的印尼语是？",
+    "options": [
+      {
+        "text": "berwisata",
+        "is_correct": true
+      },
+      {
+        "text": "bepergian",
+        "is_correct": false
+      },
+      {
+        "text": "berjalan",
+        "is_correct": false
+      },
+      {
+        "text": "berlibur",
+        "is_correct": false
+      }
+    ],
+    "explanation": "berwisata 意为旅游/观光，wisata 是旅游。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 bersama 】",
+    "options": [
+      {
+        "text": "一起",
+        "is_correct": true
+      },
+      {
+        "text": "分开",
+        "is_correct": false
+      },
+      {
+        "text": "独自",
+        "is_correct": false
+      },
+      {
+        "text": "对面",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bersama 意为一起/共同。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 barat 】",
+    "options": [
+      {
+        "text": "西",
+        "is_correct": true
+      },
+      {
+        "text": "东",
+        "is_correct": false
+      },
+      {
+        "text": "南",
+        "is_correct": false
+      },
+      {
+        "text": "北",
+        "is_correct": false
+      }
+    ],
+    "explanation": "barat 是西方。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 batuk 】",
+    "options": [
+      {
+        "text": "咳嗽",
+        "is_correct": true
+      },
+      {
+        "text": "发烧",
+        "is_correct": false
+      },
+      {
+        "text": "腹泻",
+        "is_correct": false
+      },
+      {
+        "text": "过敏",
+        "is_correct": false
+      }
+    ],
+    "explanation": "batuk 意为咳嗽。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 bekerja 】",
+    "options": [
+      {
+        "text": "做工作/干活",
+        "is_correct": true
+      },
+      {
+        "text": "游泳",
+        "is_correct": false
+      },
+      {
+        "text": "购物",
+        "is_correct": false
+      },
+      {
+        "text": "散步",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bekerja 意为工作/干活，kerja 是工作。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 belakang 】",
+    "options": [
+      {
+        "text": "后面",
+        "is_correct": true
+      },
+      {
+        "text": "前面",
+        "is_correct": false
+      },
+      {
+        "text": "旁边",
+        "is_correct": false
+      },
+      {
+        "text": "左边",
+        "is_correct": false
+      }
+    ],
+    "explanation": "belakang 意为后面，depan 意为前面。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 berapa 】",
+    "options": [
+      {
+        "text": "几/多少",
+        "is_correct": true
+      },
+      {
+        "text": "什么",
+        "is_correct": false
+      },
+      {
+        "text": "哪里",
+        "is_correct": false
+      },
+      {
+        "text": "为什么",
+        "is_correct": false
+      }
+    ],
+    "explanation": "berapa 意为几/多少，如 Berapa harganya?（多少钱？）"
+  }
+]

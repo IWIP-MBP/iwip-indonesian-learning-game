@@ -1,0 +1,715 @@
+[
+  {
+    "type": "vocab_choice",
+    "content": "Tidak 是什么意思？",
+    "options": [
+      {
+        "text": "不/没",
+        "is_correct": true
+      },
+      {
+        "text": "也",
+        "is_correct": false
+      },
+      {
+        "text": "已经",
+        "is_correct": false
+      },
+      {
+        "text": "还",
+        "is_correct": false
+      }
+    ],
+    "explanation": "tidak 是印尼语的否定词，相当于中文的不或没，用于否定动词和形容词。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Bukan 和 Tidak 有什么区别？",
+    "options": [
+      {
+        "text": "Bukan 否定名词，Tidak 否定动词/形容词",
+        "is_correct": true
+      },
+      {
+        "text": "Tidak 否定名词，Bukan 否定动词",
+        "is_correct": false
+      },
+      {
+        "text": "两者完全相同",
+        "is_correct": false
+      },
+      {
+        "text": "Bukan 更正式",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Bukan 用于否定名词（Bukan dokter=不是医生），Tidak 用于否定动词/形容词（Tidak baik=不好）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Karena 是什么意思？",
+    "options": [
+      {
+        "text": "因为",
+        "is_correct": true
+      },
+      {
+        "text": "所以",
+        "is_correct": false
+      },
+      {
+        "text": "但是",
+        "is_correct": false
+      },
+      {
+        "text": "如果",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Karena 意为因为，用于解释原因，如 Karena sakit（因为生病）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Mau 是什么意思？",
+    "options": [
+      {
+        "text": "要/想要",
+        "is_correct": true
+      },
+      {
+        "text": "能/会",
+        "is_correct": false
+      },
+      {
+        "text": "必须",
+        "is_correct": false
+      },
+      {
+        "text": "可以",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Mau 意为要/想要，表达意愿，如 Saya mau makan（我想吃东西）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Oke 是什么意思？",
+    "options": [
+      {
+        "text": "好的/OK",
+        "is_correct": true
+      },
+      {
+        "text": "不",
+        "is_correct": false
+      },
+      {
+        "text": "对的",
+        "is_correct": false
+      },
+      {
+        "text": "当然",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Oke 来自英语 OK，意为好的/确定。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Salah 是什么意思？",
+    "options": [
+      {
+        "text": "错",
+        "is_correct": true
+      },
+      {
+        "text": "对",
+        "is_correct": false
+      },
+      {
+        "text": "不好",
+        "is_correct": false
+      },
+      {
+        "text": "危险",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Salah 意为错/错误，与 benar 或 betul（对/正确）相对。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Dia tidak bisa datang. 的意思是？",
+    "options": [
+      {
+        "text": "他/她不能来",
+        "is_correct": true
+      },
+      {
+        "text": "他/她不来",
+        "is_correct": false
+      },
+      {
+        "text": "他/她来不了吗？",
+        "is_correct": false
+      },
+      {
+        "text": "他/她没有来",
+        "is_correct": false
+      }
+    ],
+    "explanation": "tidak + bisa（能）+ datang（来）= 不能来，dia 是第三人称单数他/她。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Datang 是什么意思？",
+    "options": [
+      {
+        "text": "来",
+        "is_correct": true
+      },
+      {
+        "text": "去",
+        "is_correct": false
+      },
+      {
+        "text": "离开",
+        "is_correct": false
+      },
+      {
+        "text": "回来",
+        "is_correct": false
+      }
+    ],
+    "explanation": "datang 意为来，pergi 意为去。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Pergi 是什么意思？",
+    "options": [
+      {
+        "text": "去",
+        "is_correct": true
+      },
+      {
+        "text": "来",
+        "is_correct": false
+      },
+      {
+        "text": "出发",
+        "is_correct": false
+      },
+      {
+        "text": "到达",
+        "is_correct": false
+      }
+    ],
+    "explanation": "pergi 意为去，datang 意为来。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Baik 是什么意思？",
+    "options": [
+      {
+        "text": "好",
+        "is_correct": true
+      },
+      {
+        "text": "坏",
+        "is_correct": false
+      },
+      {
+        "text": "美",
+        "is_correct": false
+      },
+      {
+        "text": "大",
+        "is_correct": false
+      }
+    ],
+    "explanation": "baik 意为好/良好，常用于回答 Apa kabar?（你好吗？）= Baik（很好）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Kamu benar dan saya salah. 的意思是？",
+    "options": [
+      {
+        "text": "你对我错",
+        "is_correct": true
+      },
+      {
+        "text": "你错我对",
+        "is_correct": false
+      },
+      {
+        "text": "我们都对",
+        "is_correct": false
+      },
+      {
+        "text": "你我都错",
+        "is_correct": false
+      }
+    ],
+    "explanation": "benar（对）dan（和）salah（错），这句话意为你对我错。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "dokter 是什么意思？",
+    "options": [
+      {
+        "text": "医生",
+        "is_correct": true
+      },
+      {
+        "text": "护士",
+        "is_correct": false
+      },
+      {
+        "text": "工程师",
+        "is_correct": false
+      },
+      {
+        "text": "老师",
+        "is_correct": false
+      }
+    ],
+    "explanation": "dokter 意为医生，源自英语 doctor。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "demam 是什么意思？",
+    "options": [
+      {
+        "text": "发烧",
+        "is_correct": true
+      },
+      {
+        "text": "咳嗽",
+        "is_correct": false
+      },
+      {
+        "text": "头痛",
+        "is_correct": false
+      },
+      {
+        "text": "腹泻",
+        "is_correct": false
+      }
+    ],
+    "explanation": "demam 意为发烧，是工厂医疗场景常见词。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "diare 是什么意思？",
+    "options": [
+      {
+        "text": "腹泻",
+        "is_correct": true
+      },
+      {
+        "text": "发烧",
+        "is_correct": false
+      },
+      {
+        "text": "过敏",
+        "is_correct": false
+      },
+      {
+        "text": "咳嗽",
+        "is_correct": false
+      }
+    ],
+    "explanation": "diare 意为腹泻，是医疗场景常见词。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "dilarang 是什么意思？",
+    "options": [
+      {
+        "text": "禁止",
+        "is_correct": true
+      },
+      {
+        "text": "允许",
+        "is_correct": false
+      },
+      {
+        "text": "必须",
+        "is_correct": false
+      },
+      {
+        "text": "可以",
+        "is_correct": false
+      }
+    ],
+    "explanation": "dilarang 意为禁止，常见于工厂安全规定，如 Dilarang merokok（禁止吸烟）。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文不/没对应的印尼语是？",
+    "options": [
+      {
+        "text": "tidak",
+        "is_correct": true
+      },
+      {
+        "text": "bukan",
+        "is_correct": false
+      },
+      {
+        "text": "jangan",
+        "is_correct": false
+      },
+      {
+        "text": "belum",
+        "is_correct": false
+      }
+    ],
+    "explanation": "tidak 否定动词/形容词，bukan 否定名词。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文因为对应的印尼语是？",
+    "options": [
+      {
+        "text": "karena",
+        "is_correct": true
+      },
+      {
+        "text": "jadi",
+        "is_correct": false
+      },
+      {
+        "text": "tetapi",
+        "is_correct": false
+      },
+      {
+        "text": "kalau",
+        "is_correct": false
+      }
+    ],
+    "explanation": "karena 意为因为。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文来对应的印尼语是？",
+    "options": [
+      {
+        "text": "datang",
+        "is_correct": true
+      },
+      {
+        "text": "pergi",
+        "is_correct": false
+      },
+      {
+        "text": "pulang",
+        "is_correct": false
+      },
+      {
+        "text": "balik",
+        "is_correct": false
+      }
+    ],
+    "explanation": "datang 意为来，pergi 意为去。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文去对应的印尼语是？",
+    "options": [
+      {
+        "text": "pergi",
+        "is_correct": true
+      },
+      {
+        "text": "datang",
+        "is_correct": false
+      },
+      {
+        "text": "pulang",
+        "is_correct": false
+      },
+      {
+        "text": "balik",
+        "is_correct": false
+      }
+    ],
+    "explanation": "pergi 意为去，datang 意为来。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文错对应的印尼语是？",
+    "options": [
+      {
+        "text": "salah",
+        "is_correct": true
+      },
+      {
+        "text": "benar",
+        "is_correct": false
+      },
+      {
+        "text": "betul",
+        "is_correct": false
+      },
+      {
+        "text": "baik",
+        "is_correct": false
+      }
+    ],
+    "explanation": "salah 意为错，benar/betul 意为对。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文禁止对应的印尼语是？",
+    "options": [
+      {
+        "text": "dilarang",
+        "is_correct": true
+      },
+      {
+        "text": "tidak boleh",
+        "is_correct": false
+      },
+      {
+        "text": "harus",
+        "is_correct": false
+      },
+      {
+        "text": "wajib",
+        "is_correct": false
+      }
+    ],
+    "explanation": "dilarang 意为禁止，工厂安全规定常见词。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文发烧对应的印尼语是？",
+    "options": [
+      {
+        "text": "demam",
+        "is_correct": true
+      },
+      {
+        "text": "batuk",
+        "is_correct": false
+      },
+      {
+        "text": "diare",
+        "is_correct": false
+      },
+      {
+        "text": "alergi",
+        "is_correct": false
+      }
+    ],
+    "explanation": "demam 意为发烧。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文腹泻对应的印尼语是？",
+    "options": [
+      {
+        "text": "diare",
+        "is_correct": true
+      },
+      {
+        "text": "demam",
+        "is_correct": false
+      },
+      {
+        "text": "batuk",
+        "is_correct": false
+      },
+      {
+        "text": "sakit kepala",
+        "is_correct": false
+      }
+    ],
+    "explanation": "diare 意为腹泻。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文医生对应的印尼语是？",
+    "options": [
+      {
+        "text": "dokter",
+        "is_correct": true
+      },
+      {
+        "text": "perawat",
+        "is_correct": false
+      },
+      {
+        "text": "bidan",
+        "is_correct": false
+      },
+      {
+        "text": "polisi",
+        "is_correct": false
+      }
+    ],
+    "explanation": "dokter 意为医生，源自英语 doctor。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文在（介词）对应的印尼语是？",
+    "options": [
+      {
+        "text": "di",
+        "is_correct": true
+      },
+      {
+        "text": "ke",
+        "is_correct": false
+      },
+      {
+        "text": "dari",
+        "is_correct": false
+      },
+      {
+        "text": "untuk",
+        "is_correct": false
+      }
+    ],
+    "explanation": "di 是位置介词在，ke 是方向介词去/来，dari 是来源介词从。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 tidak 】",
+    "options": [
+      {
+        "text": "不/没",
+        "is_correct": true
+      },
+      {
+        "text": "也",
+        "is_correct": false
+      },
+      {
+        "text": "已经",
+        "is_correct": false
+      },
+      {
+        "text": "很",
+        "is_correct": false
+      }
+    ],
+    "explanation": "tidak 是否定词不/没。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 karena 】",
+    "options": [
+      {
+        "text": "因为",
+        "is_correct": true
+      },
+      {
+        "text": "所以",
+        "is_correct": false
+      },
+      {
+        "text": "但是",
+        "is_correct": false
+      },
+      {
+        "text": "如果",
+        "is_correct": false
+      }
+    ],
+    "explanation": "karena 意为因为。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 mau 】",
+    "options": [
+      {
+        "text": "要/想要",
+        "is_correct": true
+      },
+      {
+        "text": "能/会",
+        "is_correct": false
+      },
+      {
+        "text": "必须",
+        "is_correct": false
+      },
+      {
+        "text": "可以",
+        "is_correct": false
+      }
+    ],
+    "explanation": "mau 意为要/想要。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 salah 】",
+    "options": [
+      {
+        "text": "错",
+        "is_correct": true
+      },
+      {
+        "text": "对",
+        "is_correct": false
+      },
+      {
+        "text": "不",
+        "is_correct": false
+      },
+      {
+        "text": "好",
+        "is_correct": false
+      }
+    ],
+    "explanation": "salah 意为错误。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 dilarang 】",
+    "options": [
+      {
+        "text": "禁止",
+        "is_correct": true
+      },
+      {
+        "text": "允许",
+        "is_correct": false
+      },
+      {
+        "text": "必须",
+        "is_correct": false
+      },
+      {
+        "text": "可以",
+        "is_correct": false
+      }
+    ],
+    "explanation": "dilarang 意为禁止，常见于安全警示。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 dokter 】",
+    "options": [
+      {
+        "text": "医生",
+        "is_correct": true
+      },
+      {
+        "text": "护士",
+        "is_correct": false
+      },
+      {
+        "text": "工程师",
+        "is_correct": false
+      },
+      {
+        "text": "老师",
+        "is_correct": false
+      }
+    ],
+    "explanation": "dokter 意为医生。"
+  }
+]
