@@ -98,7 +98,7 @@ def seed_database(app, force=False):
                 db.session.commit()
                 print("Assigned '管理层' department to admin user.")
             
-        # 2. Check if Lessons are empty, seed from parsed_course.json
+        # 2. Check if Lessons are empty, seed from parsed_course_fixed.json
         if force:
             print("Force flag is set. Clearing existing course content (vocab, sentences, dialogues, grammar)...")
             Vocabulary.query.delete()
@@ -108,7 +108,7 @@ def seed_database(app, force=False):
             db.session.commit()
 
         if Lesson.query.first() is None or force:
-            json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database/parsed_course.json'))
+            json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database/parsed_course_fixed.json'))
             if os.path.exists(json_path):
                 print(f"Seeding course data from {json_path}...")
                 with open(json_path, 'r', encoding='utf-8') as f:

@@ -119,7 +119,8 @@ CREATE TABLE IF NOT EXISTS wrong_questions (
     employee_id VARCHAR(50) NOT NULL,
     question_id INT NOT NULL,
     wrong_count INT DEFAULT 1,
-    last_wrong_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    recall_count INT DEFAULT 0,
+    last_wrong_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (employee_id) REFERENCES employees(id) ON DELETE CASCADE,
     FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE,
     UNIQUE KEY uq_emp_question (employee_id, question_id)

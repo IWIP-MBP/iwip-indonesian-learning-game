@@ -17,6 +17,7 @@ def _filter_vocab(vocab):
         r'^B:$',
     ]
     clean = []
+    seen = set()
     for v in vocab:
         word = v.get('word', '').strip()
         trans = v.get('translation', '').strip()
@@ -28,6 +29,12 @@ def _filter_vocab(vocab):
             continue
         if len(trans) < 1 or len(word) < 1:
             continue
+        
+        # Case-insensitive duplicate check
+        word_lower = word.lower()
+        if word_lower in seen:
+            continue
+        seen.add(word_lower)
         clean.append(v)
     return clean
 
@@ -48,8 +55,7 @@ def _make_options(correct_text, distractors, shuffle=True):
     return opts
 
 
-def generate_vocab_choice(word_list, index, qid, lesson_id):
-    item = word_list[index % len(word_list)]
+def generate_vocab_choice(word_list, item, qid, lesson_id):
     word, translation = item['word'], item['translation']
     others = [w for w in word_list if w['word'] != word]
     distractors = [d['translation'] for d in random.sample(others, min(3, len(others)))]
@@ -61,8 +67,7 @@ def generate_vocab_choice(word_list, index, qid, lesson_id):
     }
 
 
-def generate_cn_to_indo(word_list, index, qid, lesson_id):
-    item = word_list[index % len(word_list)]
+def generate_cn_to_indo(word_list, item, qid, lesson_id):
     word, translation = item['word'], item['translation']
     others = [w for w in word_list if w['word'] != word]
     distractors = [d['word'] for d in random.sample(others, min(3, len(others)))]
@@ -74,8 +79,7 @@ def generate_cn_to_indo(word_list, index, qid, lesson_id):
     }
 
 
-def generate_indo_to_cn(word_list, index, qid, lesson_id):
-    item = word_list[index % len(word_list)]
+def generate_indo_to_cn(word_list, item, qid, lesson_id):
     word, translation = item['word'], item['translation']
     others = [w for w in word_list if w['word'] != word]
     distractors = [d['translation'] for d in random.sample(others, min(3, len(others)))]
@@ -87,8 +91,7 @@ def generate_indo_to_cn(word_list, index, qid, lesson_id):
     }
 
 
-def generate_audio_question(word_list, index, qid, lesson_id):
-    item = word_list[index % len(word_list)]
+def generate_audio_question(word_list, item, qid, lesson_id):
     word, translation = item['word'], item['translation']
     others = [w for w in word_list if w['word'] != word]
     distractors = [d['translation'] for d in random.sample(others, min(3, len(others)))]
@@ -100,8 +103,7 @@ def generate_audio_question(word_list, index, qid, lesson_id):
     }
 
 
-def generate_picture_question(word_list, index, qid, lesson_id):
-    item = word_list[index % len(word_list)]
+def generate_picture_question(word_list, item, qid, lesson_id):
     word, translation = item['word'], item['translation']
     others = [w for w in word_list if w['word'] != word]
     distractors = [d['word'] for d in random.sample(others, min(3, len(others)))]
@@ -115,19 +117,7 @@ def generate_picture_question(word_list, index, qid, lesson_id):
     }
 
 
-def generate_fill_blank_sentence(sentences, vocab, qid, lesson_id):
-    clean_sents = [
-        (s['indonesian'], s['chinese']) for s in sentences
-        if s.get('chinese') and s['chinese'].strip() not in ('=', '')
-        and not re.match(r'^\d+[\.\)]', s['chinese'].strip())
-        and len(s['chinese'].strip()) > 3
-        and re.search(r'[\u4e00-\u9fff]', s['chinese'])
-    ]
-    if not clean_sents:
-        return _fill_blank_word_spelling(vocab, qid, lesson_id)
-
-    idx = qid % len(clean_sents)
-    indo, cn = clean_sents[idx]
+def generate_fill_blank_sentence(indo, cn, vocab, qid, lesson_id):
     words = re.findall(r'\b[a-zA-Z\-]+\b', indo)
     masked_word = None
     for w in words:
@@ -138,7 +128,7 @@ def generate_fill_blank_sentence(sentences, vocab, qid, lesson_id):
         candidates = [w for w in words if len(w) > 2]
         masked_word = random.choice(candidates) if candidates else words[0]
     if not masked_word:
-        return _fill_blank_word_spelling(vocab, qid, lesson_id)
+        return None
 
     masked_indo = re.sub(r'\b' + re.escape(masked_word) + r'\b', '_______', indo, count=1)
     distractor_words = [v['word'] for v in vocab if v['word'].lower() != masked_word.lower()]
@@ -153,8 +143,7 @@ def generate_fill_blank_sentence(sentences, vocab, qid, lesson_id):
     }
 
 
-def _fill_blank_word_spelling(vocab, qid, lesson_id):
-    item = vocab[qid % len(vocab)]
+def generate_fill_blank_spelling(vocab, item, qid, lesson_id):
     word, translation = item['word'], item['translation']
     if len(word) < 3:
         return {
@@ -178,13 +167,9 @@ def _fill_blank_word_spelling(vocab, qid, lesson_id):
     }
 
 
-def generate_dialogue_question(dialogues, vocab, qid, lesson_id):
-    if not dialogues:
-        return _static_dialogue(qid, lesson_id)
-    dial = dialogues[qid % len(dialogues)]
+def generate_dialogue_question(dialogues, dial, qid, lesson_id):
     indo = dial.get('indonesian', '')
     cn = dial.get('chinese', '')
-    # skip if cn is noise
     if not cn or not re.search(r'[\u4e00-\u9fff]', cn):
         cn = ''
     g = dial.get('dialogue_group', 1)
@@ -210,8 +195,8 @@ def generate_dialogue_question(dialogues, vocab, qid, lesson_id):
     }
 
 
-def _static_dialogue(qid, lesson_id):
-    templates = [
+def get_static_dialogues():
+    return [
         {
             'content': '根据对话选择最合适的回复：\n【 A: Selamat pagi! (早上好！) 】',
             'correct': 'B: Selamat pagi! (早上好！)',
@@ -231,7 +216,7 @@ def _static_dialogue(qid, lesson_id):
             'explanation': '被问名字时回答"Nama saya ___."'
         },
         {
-            'content': '根据对话选择最合适的回复：\n【 A: Kamu berasal dari mana? (你来自哪里？) 】',
+            'content': '根据对话选择最合适的回复：\n【 A: Kamu berasal from mana? (你来自哪里？) 】',
             'correct': 'B: Saya berasal dari Tiongkok. (我来自中国。)',
             'wrong': ['B: Saya baik-baik saja. (我很好。)', 'B: Umur saya 25 tahun. (我25岁。)', 'B: Hobi saya membaca. (我的爱好是看书。)'],
             'explanation': '被问籍贯时回答"Saya berasal dari ___."'
@@ -255,23 +240,40 @@ def _static_dialogue(qid, lesson_id):
             'explanation': '指引方向用"di sebelah kanan/kiri"（在右边/左边）。'
         },
     ]
-    t = templates[qid % len(templates)]
-    return {
-        'id': qid, 'lesson_id': lesson_id, 'type': 'dialogue',
-        'content': t['content'],
-        'options': _make_options(t['correct'], t['wrong']),
-        'explanation': t['explanation']
-    }
 
 
-def generate_drag_match(word_list, qid, lesson_id):
-    pairs = random.sample(word_list, min(4, len(word_list)))
+def generate_drag_match(pairs, qid, lesson_id):
     content_pairs = [{'indo': p['word'], 'cn': p['translation']} for p in pairs]
     return {
         'id': qid, 'lesson_id': lesson_id, 'type': 'drag_match',
         'content': json.dumps(content_pairs, ensure_ascii=False),
         'options': [],
         'explanation': '拖拽匹配：请将印尼语单词与对应的中文含义连线配对。'
+    }
+
+
+def generate_word_sort(indo, cn, vocab, qid, lesson_id):
+    clean_indo = re.sub(r'[.,!?¿¡]', '', indo).strip()
+    correct_words = [w.strip() for w in clean_indo.split() if w.strip()]
+    if not correct_words:
+        return None
+        
+    distractor_pool = [v['word'] for v in vocab if v['word'].lower() not in [w.lower() for w in correct_words]]
+    if len(distractor_pool) < 3:
+        distractor_pool += ['saya', 'itu', 'ini', 'di', 'ada', 'dan', 'kamu', 'mereka']
+    distractor_words = random.sample(distractor_pool, min(3, len(distractor_pool)))
+    
+    options = [{'text': clean_indo, 'is_correct': True}]
+    for d in distractor_words:
+        options.append({'text': d, 'is_correct': False})
+        
+    return {
+        'id': qid,
+        'lesson_id': lesson_id,
+        'type': 'word_sort',
+        'content': '请排列单词以翻译句子：\n' + cn,
+        'options': options,
+        'explanation': '句子拼接："' + cn + '" 对应的印尼语是 "' + clean_indo + '"。'
     }
 
 
@@ -310,6 +312,7 @@ def generate_lesson_questions(lesson, qid_start, curated=None):
 
     questions = []
     qid = qid_start
+    seen_keys = set()
 
     # Use curated questions first
     if curated:
@@ -317,61 +320,126 @@ def generate_lesson_questions(lesson, qid_start, curated=None):
             q = dict(cq)
             q['id'] = qid
             q['lesson_id'] = lesson_id
-            questions.append(q)
-            qid += 1
+            
+            key = (q['type'], q['content'].strip().lower())
+            if key not in seen_keys:
+                questions.append(q)
+                seen_keys.add(key)
+                qid += 1
             if len(questions) >= 60:  # max 60 curated
                 break
 
-    curated_count = len(questions)
-    need = 150 - curated_count
+    # Pools of candidates
+    pools = {
+        'vocab_choice': [],
+        'cn_to_indo': [],
+        'indo_to_cn': [],
+        'audio': [],
+        'picture': [],
+        'fill_blank': [],
+        'word_sort': [],
+        'dialogue': [],
+        'drag_match': []
+    }
 
-    # Distribute remaining questions evenly
-    n_vocab_choice = need * 22 // 100
-    n_cn_to_indo   = need * 18 // 100
-    n_indo_to_cn   = need * 18 // 100
-    n_audio        = need * 13 // 100
-    n_picture      = need *  8 // 100
-    n_fill_blank   = need * 10 // 100
-    n_dialogue     = need *  6 // 100
-    n_drag_match   = need - n_vocab_choice - n_cn_to_indo - n_indo_to_cn - n_audio - n_picture - n_fill_blank - n_dialogue
+    # Populate vocab-based pools
+    for item in vocab:
+        pools['vocab_choice'].append(generate_vocab_choice(vocab, item, 0, lesson_id))
+        pools['cn_to_indo'].append(generate_cn_to_indo(vocab, item, 0, lesson_id))
+        pools['indo_to_cn'].append(generate_indo_to_cn(vocab, item, 0, lesson_id))
+        pools['audio'].append(generate_audio_question(vocab, item, 0, lesson_id))
+        pools['picture'].append(generate_picture_question(vocab, item, 0, lesson_id))
+        pools['fill_blank'].append(generate_fill_blank_spelling(vocab, item, 0, lesson_id))
 
-    for i in range(n_vocab_choice):
-        questions.append(generate_vocab_choice(vocab, i, qid, lesson_id))
-        qid += 1
-    for i in range(n_cn_to_indo):
-        questions.append(generate_cn_to_indo(vocab, i, qid, lesson_id))
-        qid += 1
-    for i in range(n_indo_to_cn):
-        questions.append(generate_indo_to_cn(vocab, i, qid, lesson_id))
-        qid += 1
-    for i in range(n_audio):
-        questions.append(generate_audio_question(vocab, i, qid, lesson_id))
-        qid += 1
-    for i in range(n_picture):
-        questions.append(generate_picture_question(vocab, i, qid, lesson_id))
-        qid += 1
-    for i in range(n_fill_blank):
-        questions.append(generate_fill_blank_sentence(sentences, vocab, qid, lesson_id))
-        qid += 1
-    for i in range(n_dialogue):
-        questions.append(generate_dialogue_question(dialogues, vocab, qid, lesson_id))
-        qid += 1
-    for i in range(max(1, n_drag_match)):
-        questions.append(generate_drag_match(vocab, qid, lesson_id))
-        qid += 1
+    # Populate sentence-based pools
+    clean_sents = [
+        (s['indonesian'], s['chinese']) for s in sentences
+        if s.get('chinese') and s['chinese'].strip() not in ('=', '')
+        and not re.match(r'^\d+[\.\)]', s['chinese'].strip())
+        and len(s['chinese'].strip()) > 3
+        and re.search(r'[\u4e00-\u9fff]', s['chinese'])
+    ]
 
-    # Pad to 150
+    for indo, cn in clean_sents:
+        q_fb = generate_fill_blank_sentence(indo, cn, vocab, 0, lesson_id)
+        if q_fb:
+            pools['fill_blank'].append(q_fb)
+        
+        q_ws = generate_word_sort(indo, cn, vocab, 0, lesson_id)
+        if q_ws:
+            pools['word_sort'].append(q_ws)
+
+    # Populate dialogue-based pool
+    clean_dials = [
+        d for d in dialogues
+        if d.get('indonesian') and d.get('chinese')
+        and re.search(r'[\u4e00-\u9fff]', d['chinese'])
+    ]
+    if clean_dials:
+        for dial in clean_dials:
+            q_dg = generate_dialogue_question(dialogues, dial, 0, lesson_id)
+            if q_dg:
+                pools['dialogue'].append(q_dg)
+    else:
+        # Fallback to static dialogue templates at most once each
+        for t in get_static_dialogues():
+            q_dg = {
+                'id': 0, 'lesson_id': lesson_id, 'type': 'dialogue',
+                'content': t['content'],
+                'options': _make_options(t['correct'], t['wrong']),
+                'explanation': t['explanation']
+            }
+            pools['dialogue'].append(q_dg)
+
+    # Populate drag match pool
+    drag_match_seen_sets = set()
+    for _ in range(50):
+        if len(vocab) >= 4:
+            pairs = random.sample(vocab, 4)
+            words_set = frozenset(p['word'] for p in pairs)
+            if words_set not in drag_match_seen_sets:
+                drag_match_seen_sets.add(words_set)
+                pools['drag_match'].append(generate_drag_match(pairs, 0, lesson_id))
+
+    # Shuffle pools for variation
+    for p_type in pools:
+        random.shuffle(pools[p_type])
+
+    # Round-robin assembly to 150 unique questions
+    pool_order = ['vocab_choice', 'cn_to_indo', 'indo_to_cn', 'audio', 'picture', 'fill_blank', 'word_sort', 'dialogue', 'drag_match']
+    pool_indices = {p: 0 for p in pool_order}
+
+    stuck_counter = 0
     while len(questions) < 150:
-        t = qid % 3
-        if t == 0:
-            questions.append(generate_vocab_choice(vocab, qid % len(vocab), qid, lesson_id))
-        elif t == 1:
-            questions.append(generate_cn_to_indo(vocab, qid % len(vocab), qid, lesson_id))
+        added_any = False
+        for p_type in pool_order:
+            if len(questions) >= 150:
+                break
+            pool = pools[p_type]
+            idx = pool_indices[p_type]
+            
+            while idx < len(pool):
+                candidate = pool[idx]
+                idx += 1
+                pool_indices[p_type] = idx
+                
+                key = (candidate['type'], candidate['content'].strip().lower())
+                if key not in seen_keys:
+                    candidate['id'] = qid
+                    questions.append(candidate)
+                    seen_keys.add(key)
+                    qid += 1
+                    added_any = True
+                    break
+        
+        if not added_any:
+            stuck_counter += 1
+            if stuck_counter > 5:
+                break
         else:
-            questions.append(generate_indo_to_cn(vocab, qid % len(vocab), qid, lesson_id))
-        qid += 1
+            stuck_counter = 0
 
-    return questions[:150], qid
+    return questions, qid
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -379,7 +447,7 @@ def generate_lesson_questions(lesson, qid_start, curated=None):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
-    json_path = r"d:\STUDY\modules\language_game\database\parsed_course.json"
+    json_path = r"d:\STUDY\modules\language_game\database\parsed_course_fixed.json"
     if not os.path.exists(json_path):
         print(f"Error: parsed course JSON not found at {json_path}")
         return

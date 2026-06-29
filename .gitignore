@@ -17,3 +17,8 @@ build/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class

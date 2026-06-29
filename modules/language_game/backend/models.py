@@ -207,7 +207,8 @@ class WrongQuestion(db.Model):
     employee_id = db.Column(db.String(50), db.ForeignKey('employees.id', ondelete='CASCADE'), nullable=False)
     question_id = db.Column(db.Integer, db.ForeignKey('questions.id', ondelete='CASCADE'), nullable=False)
     wrong_count = db.Column(db.Integer, default=1)
-    last_wrong_time = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    recall_count = db.Column(db.Integer, default=0)
+    last_wrong_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
     question = db.relationship('Question', lazy=True)
 
@@ -217,7 +218,8 @@ class WrongQuestion(db.Model):
             'employee_id': self.employee_id,
             'question_id': self.question_id,
             'wrong_count': self.wrong_count,
-            'last_wrong_time': self.last_wrong_time.isoformat() if self.last_wrong_time else None,
+            'recall_count': self.recall_count,
+            'last_wrong_at': self.last_wrong_at.isoformat() if self.last_wrong_at else None,
             'question_details': self.question.to_dict() if self.question else None
         }
 

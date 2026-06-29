@@ -152,7 +152,18 @@
             </div>
           </div>
 
-          <h3 class="text-white fw-bold lh-base" v-html="currentQuestion.content"></h3>
+          <div class="d-flex flex-column align-items-center justify-content-center gap-3">
+            <h3 class="text-white fw-bold lh-base mb-0 text-center" v-html="currentQuestion.content"></h3>
+            <button 
+              v-if="getIndoTextFromPrompt(currentQuestion.content, currentQuestion) && currentQuestion.type !== 'audio'" 
+              class="btn btn-sm btn-outline-light rounded-pill px-3 py-2 border border-light border-opacity-20 float-animation d-flex align-items-center gap-2" 
+              @click="speakWord(getIndoTextFromPrompt(currentQuestion.content, currentQuestion))"
+              title="播放句子/单词发音"
+              style="font-size: 13px;"
+            >
+              🔊 播放原音
+            </button>
+          </div>
         </div>
 
         <!-- Answers / Interactive Widgets -->
@@ -195,7 +206,84 @@
             </div>
           </div>
 
-          <!-- 2. Choices (For vocab_choice, cn_to_indo, indo_to_cn, audio, picture, fill_blank, dialogue) -->
+          <!-- 2. Word Sort (Duolingo-style Sentence Builder) -->
+          <div v-else-if="currentQuestion.type === 'word_sort'" class="word-sort-wrapper py-3">
+            <!-- Selected Words Area -->
+            <div class="assembled-sentence-box mb-4 p-3 rounded-4 border border-light border-opacity-10 d-flex flex-wrap gap-2 align-items-center bg-dark bg-opacity-20" style="min-height: 80px;">
+              <span v-if="assembledChips.length === 0" class="text-muted small">点击下方词贴来拼接句子...</span>
+              <button 
+                v-for="(chip, index) in assembledChips" 
+                :key="chip.id"
+                class="btn word-chip word-chip-active animate-pop-in"
+                @click="removeChip(index)"
+                :disabled="answered"
+              >
+                {{ chip.text }}
+              </button>
+            </div>
+
+            <!-- Scrambled Word Chips Area -->
+            <div class="scrambled-chips-box d-flex flex-wrap gap-2 justify-content-center mb-4">
+              <button 
+                v-for="chip in wordChips" 
+                :key="chip.id"
+                class="btn word-chip"
+                :class="{ 'word-chip-used': chip.used }"
+                @click="addChip(chip)"
+                :disabled="chip.used || answered"
+              >
+                {{ chip.text }}
+              </button>
+            </div>
+
+            <div class="text-center mt-2">
+              <button 
+                class="btn glass-btn glass-btn-primary px-5 py-3 text-white fw-bold"
+                @click="checkWordSortAnswer"
+                :disabled="assembledChips.length === 0 || answered"
+              >
+                提 交 翻 译
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Picture Grid (2x2 Card selection grid for picture questions) -->
+          <div v-else-if="currentQuestion.type === 'picture'" class="picture-grid-wrapper py-3">
+            <div class="row g-3">
+              <div 
+                class="col-6 col-sm-6" 
+                v-for="(opt, oIdx) in currentQuestion.options" 
+                :key="oIdx"
+              >
+                <button 
+                  class="btn glass-btn picture-card p-3 w-100 border border-light border-opacity-10 text-white rounded-4 text-center d-flex flex-column align-items-center justify-content-center option-btn h-100"
+                  :class="[getOptionClass(opt), { 'card-selected': selectedOptionId === opt.id }]"
+                  @click="selectOption(opt)"
+                  :disabled="answered"
+                  style="min-height: 180px;"
+                >
+                  <div class="visual-badge mb-3 bg-opacity-10 bg-white">
+                    <span class="visual-emoji" style="font-size: 40px;">{{ getVisualEmoji(opt.option_text) }}</span>
+                  </div>
+                  <h5 class="fw-bold mb-0 text-white mt-1 d-flex align-items-center justify-content-center gap-2">
+                    <span>{{ opt.option_text }}</span>
+                    <button 
+                      v-if="getSpeakTextForOption(opt.option_text)" 
+                      class="btn btn-sm btn-outline-light border-0 p-1 speak-opt-btn"
+                      @click.stop="speakWord(getSpeakTextForOption(opt.option_text))"
+                      title="播放发音"
+                      style="font-size: 14px; line-height: 1;"
+                    >
+                      🔊
+                    </button>
+                  </h5>
+                  <span class="opt-letter-corner">{{ getLetter(oIdx) }}</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Standard Choices (vocab_choice, cn_to_indo, indo_to_cn, audio, fill_blank, dialogue) -->
           <div v-else class="row g-3">
             <div 
               class="col-12 col-md-6" 
@@ -203,13 +291,24 @@
               :key="oIdx"
             >
               <button 
-                class="btn glass-btn text-start p-4 w-100 border border-light border-opacity-10 text-white rounded-4 option-btn"
+                class="btn glass-btn text-start p-4 w-100 border border-light border-opacity-10 text-white rounded-4 option-btn d-flex justify-content-between align-items-center"
                 :class="getOptionClass(opt)"
                 @click="selectOption(opt)"
                 :disabled="answered"
               >
-                <span class="opt-letter me-3">{{ getLetter(oIdx) }}.</span>
-                <span>{{ opt.option_text }}</span>
+                <div>
+                  <span class="opt-letter me-3">{{ getLetter(oIdx) }}.</span>
+                  <span>{{ opt.option_text }}</span>
+                </div>
+                <button 
+                  v-if="getSpeakTextForOption(opt.option_text)" 
+                  class="btn btn-sm btn-outline-light border-0 p-2 speak-opt-btn"
+                  @click.stop="speakWord(getSpeakTextForOption(opt.option_text))"
+                  title="播放发音"
+                  style="font-size: 14px; line-height: 1;"
+                >
+                  🔊
+                </button>
               </button>
             </div>
           </div>
@@ -224,7 +323,18 @@
             <span class="text-muted small font-monospace">+{{ currentXpAward }} XP</span>
           </div>
           
-          <p class="text-light mb-4 small">{{ currentQuestion.explanation }}</p>
+          <p class="text-light mb-4 small d-flex align-items-center flex-wrap gap-2">
+            <span>{{ currentQuestion.explanation }}</span>
+            <button 
+              v-if="getCorrectSentenceToSpeak(currentQuestion)" 
+              class="btn btn-xs btn-outline-light border border-light border-opacity-20 rounded-pill px-2 py-1 d-flex align-items-center gap-1"
+              @click="speakWord(getCorrectSentenceToSpeak(currentQuestion))"
+              title="播放完整正确句子发音"
+              style="font-size: 11px;"
+            >
+              🔊 听整句
+            </button>
+          </p>
           
           <div class="text-end">
             <button class="btn glass-btn glass-btn-primary px-5 py-3 text-white fw-bold" @click="nextQuestion">
@@ -282,6 +392,10 @@ const matchRight = ref([])
 const selectedLeft = ref(null)
 const selectedRight = ref(null)
 const matchPairs = ref([]) // [{"left": "saya", "right": "我"}]
+
+// Word sort states
+const wordChips = ref([])
+const assembledChips = ref([])
 
 const modeText = computed(() => {
   if (mode === 'boss') return 'BOSS 终极挑战'
@@ -348,6 +462,35 @@ const setupCurrentQuestion = () => {
     randomizeArray(matchRight.value)
   }
   
+  if (q.type === 'word_sort') {
+    assembledChips.value = []
+    const correctOpt = q.options.find(o => o.is_correct)
+    const correctSentence = correctOpt ? correctOpt.option_text : ''
+    
+    // Clean and split correct sentence into word chips
+    const correctWords = correctSentence.split(/\s+/).filter(w => w.trim())
+    const distractorWords = q.options.filter(o => !o.is_correct).map(o => o.option_text)
+    
+    const pool = []
+    correctWords.forEach((word, idx) => {
+      pool.push({
+        id: `correct-${idx}-${word}`,
+        text: word,
+        used: false
+      })
+    })
+    distractorWords.forEach((word, idx) => {
+      pool.push({
+        id: `distractor-${idx}-${word}`,
+        text: word,
+        used: false
+      })
+    })
+    
+    randomizeArray(pool)
+    wordChips.value = pool
+  }
+  
   // Speak the word automatically if it is audio quiz
   if (q.type === 'audio') {
     setTimeout(() => {
@@ -398,6 +541,83 @@ const speakWord = (word) => {
   }
 }
 
+// Speak helper to extract Indonesian text from prompts containing mixed languages
+const getIndoTextFromPrompt = (content, q) => {
+  if (!content) return ''
+  let text = content
+  
+  // Replace blanks with correct words for clean speech playback
+  if (text.includes('_______') && q && q.options) {
+    const correctOpt = q.options.find(o => o.is_correct)
+    if (correctOpt) {
+      text = text.replace(/_______/g, correctOpt.option_text)
+    }
+  }
+  if (text.includes('_') && q && q.options) {
+    const correctOpt = q.options.find(o => o.is_correct)
+    if (correctOpt && correctOpt.option_text.length === 1) {
+      text = text.replace(/_/g, correctOpt.option_text)
+    }
+  }
+  
+  // Remove Chinese characters
+  text = text.replace(/[\u4e00-\u9fff]/g, '')
+  
+  // Remove generic prompt guide words
+  text = text.replace(/对方说：/g, '')
+  text = text.replace(/选择正确的中文翻译：/g, '')
+  text = text.replace(/单词/g, '')
+  text = text.replace(/的中文意思是什么/g, '')
+  text = text.replace(/补全句子：/g, '')
+  text = text.replace(/请补全单词拼写：/g, '')
+  text = text.replace(/^[A-Z]:\s*/gi, '')
+  
+  // Clean punctuation and spacing
+  text = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'“”‘’【】？：\n\r]/g, ' ')
+  text = text.replace(/\s+/g, ' ').trim()
+  
+  if (/[a-zA-Z]/.test(text) && text.length > 1) {
+    return text
+  }
+  return ''
+}
+
+const getSpeakTextForOption = (optText) => {
+  if (!optText) return ''
+  const match = optText.match(/^([^(（]+)/)
+  if (match && match[1]) {
+    const clean = match[1].trim()
+    if (!/[\u4e00-\u9fff]/.test(clean)) {
+      return clean
+    }
+  }
+  return ''
+}
+
+const getCorrectSentenceToSpeak = (q) => {
+  if (!q) return ''
+  if (q.type === 'word_sort') {
+    const correctOpt = q.options.find(o => o.is_correct)
+    return correctOpt ? correctOpt.option_text : ''
+  }
+  if (q.type === 'fill_blank') {
+    const correctOpt = q.options.find(o => o.is_correct)
+    const correctWord = correctOpt ? correctOpt.option_text : ''
+    const match = q.content.match(/补全句子：\s*\n?([^\n（]+)/)
+    if (match && match[1]) {
+      return match[1].replace(/_______/g, correctWord)
+    }
+  }
+  if (q.type === 'dialogue') {
+    const correctOpt = q.options.find(o => o.is_correct)
+    if (correctOpt) {
+      const match = correctOpt.option_text.match(/^([^(（]+)/)
+      return match ? match[1].replace(/^[A-Z]:\s*/i, '').trim() : ''
+    }
+  }
+  return ''
+}
+
 const handleImageError = () => {
   imageError.value = true
 }
@@ -415,6 +635,56 @@ const getVisualEmoji = (translation) => {
   if (!translation) return '🎨'
   const t = translation.trim().toLowerCase()
   const emojiMap = {
+    // Indonesian vocabulary mappings
+    'saya': '🙋‍♂️',
+    'aku': '🙋‍♂️',
+    'kamu': '🫵',
+    'anda': '🫵',
+    'dia': '👤',
+    'kita': '👥',
+    'kami': '👥',
+    'mereka': '👥',
+    'kantor': '🏢',
+    'asrama': '🏠',
+    'makan': '🍽️',
+    'minum': '🥛',
+    'tidur': '😴',
+    'jalan': '🚶',
+    'lari': '🏃',
+    'duduk': '🪑',
+    'berdiri': '🧍',
+    'sekolah': '🏫',
+    'pasar': '🛒',
+    'toko': '🏪',
+    'restoran': '🍔',
+    'buku': '📖',
+    'pensil': '✏️',
+    'meja': '🪧',
+    'kursi': '🪑',
+    'komputer': '💻',
+    'telepon': '📞',
+    'pagi': '🌅',
+    'siang': '☀️',
+    'sore': '🌇',
+    'malam': '🌃',
+    'senin': '📅',
+    'selasa': '📅',
+    'rabu': '📅',
+    'kamis': '📅',
+    'jumat': '📅',
+    'sabtu': '📅',
+    'minggu': '📅',
+    'apel': '🍎',
+    'pisang': '🍌',
+    'jeruk': '🍊',
+    'semangka': '🍉',
+    'anggur': '🍇',
+    'dokter': '👨‍⚕️',
+    'sakit': '🤒',
+    'obat': '💊',
+    'aman': '🛡️',
+    'bahaya': '⚠️',
+    // Chinese/English vocabulary mappings
     '左': '⬅️',
     '右': '➡️',
     '前面': '⬆️',
@@ -568,10 +838,66 @@ const getVisualEmoji = (translation) => {
   return '🎨'
 }
 
+// Word sort interactions
+const addChip = (chip) => {
+  if (answered.value) return
+  chip.used = true
+  assembledChips.value.push(chip)
+  speakWord(chip.text)
+}
+
+const removeChip = (index) => {
+  if (answered.value) return
+  const chip = assembledChips.value[index]
+  chip.used = false
+  assembledChips.value.splice(index, 1)
+}
+
+const checkWordSortAnswer = () => {
+  if (answered.value) return
+  
+  const q = currentQuestion.value
+  const correctOpt = q.options.find(o => o.is_correct)
+  const correctSentence = correctOpt ? correctOpt.option_text : ''
+  
+  const userSentence = assembledChips.value.map(c => c.text).join(' ')
+  
+  const cleanStr = (s) => s.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'']/g, "").replace(/\s+/g, " ").trim()
+  
+  const isCorrect = cleanStr(userSentence) === cleanStr(correctSentence)
+  
+  answered.value = true
+  answeredCorrectly.value = isCorrect
+  playSound(isCorrect)
+  
+  if (isCorrect) {
+    correctCount.value++
+    combo.value++
+    if (combo.value > maxCombo.value) {
+      maxCombo.value = combo.value
+    }
+    currentXpAward.value = 10 + (combo.value * 2)
+    xpGained.value += currentXpAward.value
+    correctQuestionIds.value.push(q.id)
+  } else {
+    combo.value = 0
+    currentXpAward.value = 0
+    wrongQuestionIds.value.push(q.id)
+    
+    sessionWrongAnswers.value.push({
+      type_text: '单词排序',
+      content: q.content,
+      correct_answer: correctSentence,
+      explanation: q.explanation
+    })
+  }
+}
+
 // Match interactions
 const clickLeft = (word) => {
   if (isMatchCompleted(word, 'left')) return
   selectedLeft.value = word
+  speakWord(word)
   triggerMatchIfPossible()
 }
 
@@ -739,7 +1065,8 @@ const getTypeText = (type) => {
     'picture': '图片辨词',
     'fill_blank': '句子填空',
     'dialogue': '对话补全',
-    'drag_match': '连线匹配'
+    'drag_match': '连线匹配',
+    'word_sort': '单词排序'
   }
   return map[type] || '课后考核'
 }
@@ -1004,6 +1331,107 @@ onMounted(() => {
   font-family: 'Outfit', sans-serif;
   font-weight: 800;
   color: var(--color-primary);
+}
+
+/* Word Sort Styles */
+.word-chip {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.word-chip:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.word-chip-active {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(168, 85, 247, 0.2));
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+.word-chip-used {
+  opacity: 0.25;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.02) !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  box-shadow: none !important;
+}
+
+.assembled-sentence-box {
+  background: rgba(13, 15, 24, 0.4) !important;
+  backdrop-filter: blur(8px);
+  border: 1px dashed rgba(255, 255, 255, 0.1) !important;
+}
+
+.scrambled-chips-box {
+  min-height: 50px;
+}
+
+/* Picture Choice Grid Card Styles */
+.picture-card {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+.picture-card:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+.card-selected {
+  background: rgba(99, 102, 241, 0.1) !important;
+  border-color: rgba(99, 102, 241, 0.5) !important;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.25) !important;
+}
+
+.opt-letter-corner {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.05);
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Micro-animations */
+.animate-pop-in {
+  animation: popIn 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+.shake-animation {
+  animation: shake 0.4s ease-in-out;
 }
 
 .animate-slide-up {
