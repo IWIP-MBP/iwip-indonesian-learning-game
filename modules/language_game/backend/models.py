@@ -299,3 +299,36 @@ class SystemLog(db.Model):
             'message': self.message,
             'created_at': self.created_at.isoformat() if self.created_at else None
         }
+
+class SpecialCategory(db.Model):
+    __tablename__ = 'special_categories'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(100), nullable=False, unique=True)
+    code = db.Column(db.String(100), nullable=False)
+    
+    words = db.relationship('SpecialWord', backref='category', lazy=True, cascade='all, delete-orphan')
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'code': self.code,
+            'word_count': len(self.words)
+        }
+
+class SpecialWord(db.Model):
+    __tablename__ = 'special_words'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    category_id = db.Column(db.Integer, db.ForeignKey('special_categories.id', ondelete='CASCADE'), nullable=False)
+    word = db.Column(db.String(255), nullable=False)
+    translation = db.Column(db.String(255), nullable=False)
+    audio_path = db.Column(db.String(255), nullable=True)
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'category_id': self.category_id,
+            'word': self.word,
+            'translation': self.translation,
+            'audio_path': self.audio_path
+        }

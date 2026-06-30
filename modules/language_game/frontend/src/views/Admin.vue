@@ -129,6 +129,33 @@
             批量导入 JSON 数据
           </button>
         </div>
+
+        <!-- System Port Configuration -->
+        <div class="glass-card mt-4">
+          <h4 class="text-white fw-bold mb-3 display-title">系统端口配置 (Docker)</h4>
+          <p class="text-muted small">如果您需要分时/复用域名，可以在此更改前端服务的外网映射端口：</p>
+          
+          <div class="mb-3">
+            <label class="form-label text-muted small fw-medium">外网访问端口</label>
+            <input 
+              type="number" 
+              class="form-control glass-input" 
+              v-model="systemPort" 
+              placeholder="例如: 8080" 
+              required
+            />
+          </div>
+          
+          <button class="btn glass-btn w-100 py-3 text-white fw-bold border-info border-opacity-25 hover-bg-primary" @click="saveSystemPort">
+            💾 保存并重启服务
+          </button>
+
+          <div v-if="portInstructions" class="mt-3 p-3 rounded bg-info bg-opacity-10 border border-info border-opacity-25 animate-fade-in">
+            <div class="text-info fw-bold small mb-1">✓ {{ portSuccessMessage }}</div>
+            <p class="text-light small mb-2" style="font-size: 12px;">新端口绑定需执行下方命令重启 Docker 容器生效：</p>
+            <pre class="bg-dark p-2 rounded text-warning font-monospace select-all mb-0" style="font-size: 11px; white-space: pre-wrap; word-break: break-all;">{{ portInstructions }}</pre>
+          </div>
+        </div>
       </div>
 
       <!-- Employee List Panel -->
@@ -346,9 +373,39 @@ const exportReport = async () => {
   }
 }
 
+// System Port Management
+const systemPort = ref(8080)
+const portInstructions = ref('')
+const portSuccessMessage = ref('')
+
+const fetchSystemPort = async () => {
+  try {
+    const response = await axios.get('/api/admin/system/port')
+    systemPort.value = response.data.port
+  } catch (err) {
+    console.error('Failed to load system port:', err)
+  }
+}
+
+const saveSystemPort = async () => {
+  if (!systemPort.value) {
+    alert('请输入端口号')
+    return
+  }
+  try {
+    const response = await axios.post('/api/admin/system/port', { port: systemPort.value })
+    portSuccessMessage.value = response.data.message
+    portInstructions.value = response.data.instructions
+    alert('端口配置文件已保存成功，请根据提示执行重启命令。')
+  } catch (err) {
+    alert('端口配置保存失败: ' + (err.response?.data?.message || err.message))
+  }
+}
+
 onMounted(() => {
   fetchEmployees()
   fetchDepartments()
+  fetchSystemPort()
 })
 </script>
 

@@ -24,6 +24,11 @@
               </router-link>
             </li>
             <li class="nav-item">
+              <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/special-study" @click="isMenuOpen = false">
+                专项学习
+              </router-link>
+            </li>
+            <li class="nav-item">
               <router-link class="nav-link px-3 rounded text-light" active-class="active-nav-link" to="/reports" @click="isMenuOpen = false">
                 分析报表
               </router-link>

@@ -44,6 +44,7 @@ services:
       - "5000:5000"
     volumes:
       - ../database:/app/database
+      - ../docker:/app/docker
     depends_on:
       - db
       - redis
@@ -72,7 +73,7 @@ services:
     container_name: iwip-frontend
     restart: always
     ports:
-      - "8080:80"
+      - "${FRONTEND_PORT:-8080}:80"
     depends_on:
       - backend
     networks:

@@ -168,3 +168,64 @@ def export_reports_csv():
         as_attachment=True,
         download_name='employees_learning_report.csv'
     )
+
+@admin_bp.route('/admin/system/port', methods=['GET'])
+@admin_required
+def get_system_port():
+    import os
+    env_path = '/app/docker/.env'
+    if not os.path.exists(env_path):
+        env_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../docker/.env'))
+    
+    port = 8080
+    if os.path.exists(env_path):
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if line.strip().startswith('FRONTEND_PORT='):
+                    try:
+                        port = int(line.split('=')[1].strip())
+                    except ValueError:
+                        pass
+    return jsonify({'port': port}), 200
+
+@admin_bp.route('/admin/system/port', methods=['POST'])
+@admin_required
+def save_system_port():
+    import os
+    data = request.get_json() or {}
+    new_port = data.get('port')
+    if not new_port:
+        return jsonify({'message': '端口号为必填项'}), 400
+    try:
+        new_port = int(new_port)
+    except ValueError:
+        return jsonify({'message': '端口号必须为整数'}), 400
+        
+    env_path = '/app/docker/.env'
+    if not os.path.exists(env_path):
+        env_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../docker/.env'))
+        
+    lines = []
+    port_updated = False
+    
+    if os.path.exists(env_path):
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if line.strip().startswith('FRONTEND_PORT='):
+                    lines.append(f"FRONTEND_PORT={new_port}\n")
+                    port_updated = True
+                else:
+                    lines.append(line)
+                    
+    if not port_updated:
+        lines.append(f"FRONTEND_PORT={new_port}\n")
+        
+    # Write back
+    with open(env_path, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+        
+    return jsonify({
+        'message': '端口配置修改成功',
+        'port': new_port,
+        'instructions': f'端口已在配置文件中更新为 {new_port}。由于系统端口绑定受 Docker 容器管理，请在服务器后台终端运行以下命令以重启生效：\ncd modules/language_game/docker\ndocker compose down && docker compose up -d'
+    }), 200

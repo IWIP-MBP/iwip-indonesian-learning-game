@@ -9,12 +9,14 @@ import Reports from '../views/Reports.vue'
 import Leaderboard from '../views/Leaderboard.vue'
 import Admin from '../views/Admin.vue'
 import About from '../views/About.vue'
+import SpecialStudy from '../views/SpecialStudy.vue'
 
 const routes = [
   { path: '/login', name: 'Login', component: Login },
   { path: '/', name: 'Dashboard', component: Dashboard, meta: { requiresAuth: true } },
   { path: '/about', name: 'About', component: About, meta: { requiresAuth: true } },
   { path: '/map', name: 'Map', component: Map, meta: { requiresAuth: true } },
+  { path: '/special-study', name: 'SpecialStudy', component: SpecialStudy, meta: { requiresAuth: true } },
   { path: '/game/:lessonId', name: 'Game', component: Game, meta: { requiresAuth: true } },
   { path: '/reports', name: 'Reports', component: Reports, meta: { requiresAuth: true } },
   { path: '/leaderboard', name: 'Leaderboard', component: Leaderboard, meta: { requiresAuth: true } },

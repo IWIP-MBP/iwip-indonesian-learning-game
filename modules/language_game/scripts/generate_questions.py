@@ -41,11 +41,11 @@ def _filter_vocab(vocab):
 
 def _make_options(correct_text, distractors, shuffle=True):
     opts = [{'text': correct_text, 'is_correct': True}]
-    seen = {correct_text}
+    seen = {correct_text.lower()}
     for d in distractors:
-        if d not in seen:
+        if d.lower() not in seen:
             opts.append({'text': d, 'is_correct': False})
-            seen.add(d)
+            seen.add(d.lower())
         if len(opts) >= 4:
             break
     while len(opts) < 4:
@@ -175,7 +175,12 @@ def generate_dialogue_question(dialogues, dial, qid, lesson_id):
     g = dial.get('dialogue_group', 1)
     same_group = [d for d in dialogues if d.get('dialogue_group', 1) == g]
     idx_in_group = next((i for i, d in enumerate(same_group) if d['indonesian'] == indo), 0)
-    next_idx = (idx_in_group + 1) % len(same_group)
+    
+    # Dialogue turns should not wrap around. If it's the last turn, no dialogue question is generated.
+    if len(same_group) <= 1 or idx_in_group >= len(same_group) - 1:
+        return None
+        
+    next_idx = idx_in_group + 1
     correct = same_group[next_idx]
     correct_cn = correct.get('chinese', '')
     if not re.search(r'[\u4e00-\u9fff]', correct_cn):

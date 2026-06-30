@@ -3,7 +3,7 @@ import json
 import click
 from flask import Flask, jsonify
 from flask_cors import CORS
-from .models import db, Lesson, Vocabulary, Sentence, Dialogue, Grammar, Question, QuestionOption, Employee, Department, LanguageReport
+from .models import db, Lesson, Vocabulary, Sentence, Dialogue, Grammar, Question, QuestionOption, Employee, Department, LanguageReport, SpecialCategory, SpecialWord
 from . import language_game_bp
 
 def create_app(test_config=None):
@@ -213,6 +213,41 @@ def seed_database(app, force=False):
                 print(f"Seeded {len(questions_data)} questions and their options successfully!")
             else:
                 print(f"Warning: Questions JSON file not found at {json_path}")
+                
+        # 4. Seed Special Vocabulary categories and words
+        if force:
+            print("Force flag is set. Clearing existing special vocabulary category and word data...")
+            SpecialWord.query.delete()
+            SpecialCategory.query.delete()
+            db.session.commit()
+
+        if SpecialCategory.query.first() is None or force:
+            special_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database/special_vocab_data.json'))
+            if os.path.exists(special_json_path):
+                print(f"Seeding Special Vocabulary from {special_json_path}...")
+                with open(special_json_path, 'r', encoding='utf-8') as f:
+                    special_data = json.load(f)
+                    
+                for cat_idx, cat_data in enumerate(special_data, 1):
+                    category = SpecialCategory(
+                        id=cat_idx,
+                        name=cat_data['category'],
+                        code=cat_data['code']
+                    )
+                    db.session.add(category)
+                    
+                    for word_data in cat_data.get('words', []):
+                        word = SpecialWord(
+                            category_id=cat_idx,
+                            word=word_data['word'],
+                            translation=word_data['translation'],
+                            audio_path=word_data.get('audio_path')
+                        )
+                        db.session.add(word)
+                db.session.commit()
+                print("Seeded all Special Vocabulary categories and words successfully!")
+            else:
+                print(f"Warning: Special Vocabulary JSON file not found at {special_json_path}")
                 
         print("Database Seeding Finished!")
 
