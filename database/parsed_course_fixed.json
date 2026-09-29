@@ -1,0 +1,7836 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "发音（一） Pelafalan 1",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "EI",
+          "translation": "哎",
+          "phonetic": null
+        },
+        {
+          "word": "K",
+          "translation": "带嗓音",
+          "phonetic": null
+        },
+        {
+          "word": "G",
+          "translation": "鼻音",
+          "phonetic": null
+        },
+        {
+          "word": "NG",
+          "translation": "擦音",
+          "phonetic": null
+        },
+        {
+          "word": "H",
+          "translation": "带嗓音（子音H）",
+          "phonetic": null
+        },
+        {
+          "word": "Z",
+          "translation": "颤音",
+          "phonetic": null
+        },
+        {
+          "word": "R",
+          "translation": "边音",
+          "phonetic": null
+        },
+        {
+          "word": "L",
+          "translation": "半元音",
+          "phonetic": null
+        },
+        {
+          "word": "W",
+          "translation": "塞擦音",
+          "phonetic": null
+        },
+        {
+          "word": "C",
+          "translation": "带嗓音（子音C）",
+          "phonetic": null
+        },
+        {
+          "word": "SY",
+          "translation": "Eng 额",
+          "phonetic": null
+        },
+        {
+          "word": "BE",
+          "translation": "贝",
+          "phonetic": null
+        },
+        {
+          "word": "CE",
+          "translation": "这",
+          "phonetic": null
+        },
+        {
+          "word": "DE",
+          "translation": "的",
+          "phonetic": null
+        },
+        {
+          "word": "EF",
+          "translation": "额服",
+          "phonetic": null
+        },
+        {
+          "word": "GE",
+          "translation": "个",
+          "phonetic": null
+        },
+        {
+          "word": "HA",
+          "translation": "哈",
+          "phonetic": null
+        },
+        {
+          "word": "JE",
+          "translation": "贼",
+          "phonetic": null
+        },
+        {
+          "word": "KA",
+          "translation": "噶",
+          "phonetic": null
+        },
+        {
+          "word": "EL",
+          "translation": "额乐",
+          "phonetic": null
+        },
+        {
+          "word": "EM",
+          "translation": "额么",
+          "phonetic": null
+        },
+        {
+          "word": "EN",
+          "translation": "嗯",
+          "phonetic": null
+        },
+        {
+          "word": "PE",
+          "translation": "贝",
+          "phonetic": null
+        },
+        {
+          "word": "QI",
+          "translation": "给",
+          "phonetic": null
+        },
+        {
+          "word": "ER",
+          "translation": "二",
+          "phonetic": null
+        },
+        {
+          "word": "ES",
+          "translation": "哎思",
+          "phonetic": null
+        },
+        {
+          "word": "TE",
+          "translation": "得",
+          "phonetic": null
+        },
+        {
+          "word": "VE",
+          "translation": "飞",
+          "phonetic": null
+        },
+        {
+          "word": "WE",
+          "translation": "五额",
+          "phonetic": null
+        },
+        {
+          "word": "EKS",
+          "translation": "哎可思",
+          "phonetic": null
+        },
+        {
+          "word": "YE",
+          "translation": "也",
+          "phonetic": null
+        },
+        {
+          "word": "ZET",
+          "translation": "贼特",
+          "phonetic": null
+        },
+        {
+          "word": "AC",
+          "translation": "空调",
+          "phonetic": null
+        },
+        {
+          "word": "antar jemput",
+          "translation": "接送",
+          "phonetic": null
+        },
+        {
+          "word": "ada",
+          "translation": "有",
+          "phonetic": null
+        },
+        {
+          "word": "apa",
+          "translation": "什么",
+          "phonetic": null
+        },
+        {
+          "word": "adalah",
+          "translation": "是",
+          "phonetic": null
+        },
+        {
+          "word": "apakah",
+          "translation": "......吗？",
+          "phonetic": null
+        },
+        {
+          "word": "Agustus",
+          "translation": "八月",
+          "phonetic": null
+        },
+        {
+          "word": "APD",
+          "translation": "劳保（防护用品）",
+          "phonetic": null
+        },
+        {
+          "word": "air mineral",
+          "translation": "矿泉水",
+          "phonetic": null
+        },
+        {
+          "word": "apel",
+          "translation": "苹果",
+          "phonetic": null
+        },
+        {
+          "word": "akhir-akhir ini",
+          "translation": "最近",
+          "phonetic": null
+        },
+        {
+          "word": "aplikasi",
+          "translation": "应用程序",
+          "phonetic": null
+        },
+        {
+          "word": "aku",
+          "translation": "我",
+          "phonetic": null
+        },
+        {
+          "word": "April",
+          "translation": "四月",
+          "phonetic": null
+        },
+        {
+          "word": "alergi",
+          "translation": "过敏",
+          "phonetic": null
+        },
+        {
+          "word": "area",
+          "translation": "区域",
+          "phonetic": null
+        },
+        {
+          "word": "alkohol",
+          "translation": "酒",
+          "phonetic": null
+        },
+        {
+          "word": "asam",
+          "translation": "酸",
+          "phonetic": null
+        },
+        {
+          "word": "aman",
+          "translation": "安全",
+          "phonetic": null
+        },
+        {
+          "word": "asin",
+          "translation": "咸",
+          "phonetic": null
+        },
+        {
+          "word": "ambil",
+          "translation": "拿",
+          "phonetic": null
+        },
+        {
+          "word": "asrama",
+          "translation": "宿舍",
+          "phonetic": null
+        },
+        {
+          "word": "ambil foto",
+          "translation": "拍照",
+          "phonetic": null
+        }
+      ],
+      "sentences": [],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 2,
+      "title": "发音（二） Pelafalan 2",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "Apa",
+          "translation": "什么",
+          "phonetic": null
+        },
+        {
+          "word": "Sana",
+          "translation": "那里",
+          "phonetic": null
+        },
+        {
+          "word": "Ada",
+          "translation": "有",
+          "phonetic": null
+        },
+        {
+          "word": "Sini",
+          "translation": "这里",
+          "phonetic": null
+        },
+        {
+          "word": "Ini",
+          "translation": "这（个）",
+          "phonetic": null
+        },
+        {
+          "word": "Nama",
+          "translation": "名字",
+          "phonetic": null
+        },
+        {
+          "word": "Itu",
+          "translation": "那（个）",
+          "phonetic": null
+        },
+        {
+          "word": "Saya/Aku",
+          "translation": "我",
+          "phonetic": null
+        },
+        {
+          "word": "Di...",
+          "translation": "在",
+          "phonetic": null
+        },
+        {
+          "word": "Kamu",
+          "translation": "你",
+          "phonetic": null
+        },
+        {
+          "word": "atasan",
+          "translation": "上司/领导",
+          "phonetic": null
+        },
+        {
+          "word": "ambil sampel",
+          "translation": "取样",
+          "phonetic": null
+        },
+        {
+          "word": "atau",
+          "translation": "或者",
+          "phonetic": null
+        },
+        {
+          "word": "Anda",
+          "translation": "您",
+          "phonetic": null
+        },
+        {
+          "word": "awas",
+          "translation": "关注，留意",
+          "phonetic": null
+        },
+        {
+          "word": "anggur",
+          "translation": "葡萄",
+          "phonetic": null
+        },
+        {
+          "word": "bagaimana",
+          "translation": "怎么样",
+          "phonetic": null
+        },
+        {
+          "word": "berdansa",
+          "translation": "跳舞",
+          "phonetic": null
+        },
+        {
+          "word": "bagasi",
+          "translation": "行李",
+          "phonetic": null
+        },
+        {
+          "word": "berdarah",
+          "translation": "流血",
+          "phonetic": null
+        },
+        {
+          "word": "bahan kimia",
+          "translation": "化学物",
+          "phonetic": null
+        },
+        {
+          "word": "berdiri",
+          "translation": "站",
+          "phonetic": null
+        },
+        {
+          "word": "bahaya",
+          "translation": "危险",
+          "phonetic": null
+        },
+        {
+          "word": "berenang",
+          "translation": "游泳",
+          "phonetic": null
+        },
+        {
+          "word": "baik",
+          "translation": "好",
+          "phonetic": null
+        },
+        {
+          "word": "berjalan-jalan",
+          "translation": "散步",
+          "phonetic": null
+        },
+        {
+          "word": "baik hati",
+          "translation": "善良",
+          "phonetic": null
+        },
+        {
+          "word": "berlangsung",
+          "translation": "持续",
+          "phonetic": null
+        },
+        {
+          "word": "bakso",
+          "translation": "肉丸",
+          "phonetic": null
+        },
+        {
+          "word": "berlari",
+          "translation": "跑步",
+          "phonetic": null
+        },
+        {
+          "word": "bandara",
+          "translation": "飞机场",
+          "phonetic": null
+        },
+        {
+          "word": "bermain game",
+          "translation": "玩游戏",
+          "phonetic": null
+        },
+        {
+          "word": "bantu",
+          "translation": "帮助",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Saya di sini.",
+          "chinese": "2. Nama saya Tata."
+        },
+        {
+          "indonesian": "Apa ini ?",
+          "chinese": "8. TERJEMAHKAN 翻译"
+        }
+      ],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 3,
+      "title": "发音（三） Pelafalan 3",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "Kami",
+          "translation": "我们（不含对方）",
+          "phonetic": null
+        },
+        {
+          "word": "Maju",
+          "translation": "往前",
+          "phonetic": null
+        },
+        {
+          "word": "Kita",
+          "translation": "咱们（含对方）",
+          "phonetic": null
+        },
+        {
+          "word": "Situ",
+          "translation": "那儿",
+          "phonetic": null
+        },
+        {
+          "word": "Mereka",
+          "translation": "他们",
+          "phonetic": null
+        },
+        {
+          "word": "Mana",
+          "translation": "哪里",
+          "phonetic": null
+        },
+        {
+          "word": "Kanan",
+          "translation": "右",
+          "phonetic": null
+        },
+        {
+          "word": "Kaki",
+          "translation": "脚",
+          "phonetic": null
+        },
+        {
+          "word": "Kiri",
+          "translation": "左",
+          "phonetic": null
+        },
+        {
+          "word": "Jalan",
+          "translation": "走/马路",
+          "phonetic": null
+        },
+        {
+          "word": "bermain",
+          "translation": "玩，打",
+          "phonetic": null
+        },
+        {
+          "word": "barang",
+          "translation": "东西",
+          "phonetic": null
+        },
+        {
+          "word": "bermain bola",
+          "translation": "打球",
+          "phonetic": null
+        },
+        {
+          "word": "barat",
+          "translation": "西",
+          "phonetic": null
+        },
+        {
+          "word": "bermain permainan",
+          "translation": "玩游戏",
+          "phonetic": null
+        },
+        {
+          "word": "basah",
+          "translation": "湿",
+          "phonetic": null
+        },
+        {
+          "word": "bernyanyi",
+          "translation": "唱歌",
+          "phonetic": null
+        },
+        {
+          "word": "batal",
+          "translation": "取消",
+          "phonetic": null
+        },
+        {
+          "word": "bersama",
+          "translation": "一起",
+          "phonetic": null
+        },
+        {
+          "word": "batuk",
+          "translation": "咳嗽",
+          "phonetic": null
+        },
+        {
+          "word": "bersepeda",
+          "translation": "骑自行车",
+          "phonetic": null
+        },
+        {
+          "word": "bawa",
+          "translation": "带",
+          "phonetic": null
+        },
+        {
+          "word": "bersih",
+          "translation": "干净",
+          "phonetic": null
+        },
+        {
+          "word": "bea cukai",
+          "translation": "海关",
+          "phonetic": null
+        },
+        {
+          "word": "berwisata",
+          "translation": "旅游",
+          "phonetic": null
+        },
+        {
+          "word": "begadang",
+          "translation": "熬夜",
+          "phonetic": null
+        },
+        {
+          "word": "besok",
+          "translation": "明天",
+          "phonetic": null
+        },
+        {
+          "word": "bekerja",
+          "translation": "做工作，干活",
+          "phonetic": null
+        },
+        {
+          "word": "betul",
+          "translation": "对",
+          "phonetic": null
+        },
+        {
+          "word": "belakang",
+          "translation": "后面",
+          "phonetic": null
+        },
+        {
+          "word": "biliar",
+          "translation": "台球",
+          "phonetic": null
+        },
+        {
+          "word": "belanja",
+          "translation": "购物",
+          "phonetic": null
+        },
+        {
+          "word": "bis",
+          "translation": "巴士",
+          "phonetic": null
+        }
+      ],
+      "sentences": [],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 4,
+      "title": "发音（四） Pelafalan 4",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "Anda",
+          "translation": "您",
+          "phonetic": null
+        },
+        {
+          "word": "Barang",
+          "translation": "东西",
+          "phonetic": null
+        },
+        {
+          "word": "Kalian",
+          "translation": "你们",
+          "phonetic": null
+        },
+        {
+          "word": "Sudah",
+          "translation": "已经",
+          "phonetic": null
+        },
+        {
+          "word": "Terima kasih",
+          "translation": "谢谢",
+          "phonetic": null
+        },
+        {
+          "word": "Siapa",
+          "translation": "谁",
+          "phonetic": null
+        },
+        {
+          "word": "Sama-sama",
+          "translation": "不客气",
+          "phonetic": null
+        },
+        {
+          "word": "Bantu",
+          "translation": "帮助",
+          "phonetic": null
+        },
+        {
+          "word": "Apakah",
+          "translation": "......吗？",
+          "phonetic": null
+        },
+        {
+          "word": "Milik",
+          "translation": "属于",
+          "phonetic": null
+        },
+        {
+          "word": "beli",
+          "translation": "买",
+          "phonetic": null
+        },
+        {
+          "word": "bisa",
+          "translation": "会/能",
+          "phonetic": null
+        },
+        {
+          "word": "belok",
+          "translation": "拐",
+          "phonetic": null
+        },
+        {
+          "word": "biskuit",
+          "translation": "饼干",
+          "phonetic": null
+        },
+        {
+          "word": "belum",
+          "translation": "还没有，尚未",
+          "phonetic": null
+        },
+        {
+          "word": "bola voli",
+          "translation": "排球",
+          "phonetic": null
+        },
+        {
+          "word": "benar",
+          "translation": "正确",
+          "phonetic": null
+        },
+        {
+          "word": "boleh",
+          "translation": "可以",
+          "phonetic": null
+        },
+        {
+          "word": "berangin",
+          "translation": "刮风",
+          "phonetic": null
+        },
+        {
+          "word": "botol minuman",
+          "translation": "饮料瓶",
+          "phonetic": null
+        },
+        {
+          "word": "berani",
+          "translation": "勇敢",
+          "phonetic": null
+        },
+        {
+          "word": "buah",
+          "translation": "水果",
+          "phonetic": null
+        },
+        {
+          "word": "berantakan",
+          "translation": "乱",
+          "phonetic": null
+        },
+        {
+          "word": "buang",
+          "translation": "扔",
+          "phonetic": null
+        },
+        {
+          "word": "berapa",
+          "translation": "几",
+          "phonetic": null
+        },
+        {
+          "word": "bulan",
+          "translation": "月",
+          "phonetic": null
+        },
+        {
+          "word": "berapa lama",
+          "translation": "多久",
+          "phonetic": null
+        },
+        {
+          "word": "bulu tangkis",
+          "translation": "羽毛球",
+          "phonetic": null
+        },
+        {
+          "word": "berasal dari",
+          "translation": "来自",
+          "phonetic": null
+        },
+        {
+          "word": "bumbu",
+          "translation": "调料",
+          "phonetic": null
+        },
+        {
+          "word": "berawan",
+          "translation": "多云",
+          "phonetic": null
+        },
+        {
+          "word": "bungkus",
+          "translation": "打包",
+          "phonetic": null
+        },
+        {
+          "word": "cabai",
+          "translation": "辣椒",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Barang ini milik siapa?",
+          "chinese": "2. Barang ini milik saya."
+        },
+        {
+          "indonesian": "Terima kasih sudah bantu kami.",
+          "chinese": "9. TERJEMAHKAN 翻译"
+        }
+      ],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 5,
+      "title": "发音（五） Pelafalan 5",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "Karena",
+          "translation": "因为",
+          "phonetic": null
+        },
+        {
+          "word": "Datang",
+          "translation": "来",
+          "phonetic": null
+        },
+        {
+          "word": "Betul/benar",
+          "translation": "对/正确",
+          "phonetic": null
+        },
+        {
+          "word": "Pergi",
+          "translation": "去",
+          "phonetic": null
+        },
+        {
+          "word": "Salah",
+          "translation": "错",
+          "phonetic": null
+        },
+        {
+          "word": "Baik",
+          "translation": "好",
+          "phonetic": null
+        },
+        {
+          "word": "Bisa",
+          "translation": "会/能",
+          "phonetic": null
+        },
+        {
+          "word": "Oke",
+          "translation": "好的",
+          "phonetic": null
+        },
+        {
+          "word": "Tidak",
+          "translation": "不/没",
+          "phonetic": null
+        },
+        {
+          "word": "Mau",
+          "translation": "要",
+          "phonetic": null
+        },
+        {
+          "word": "cuaca",
+          "translation": "天气",
+          "phonetic": null
+        },
+        {
+          "word": "cepat",
+          "translation": "快",
+          "phonetic": null
+        },
+        {
+          "word": "cuci piring",
+          "translation": "洗碗",
+          "phonetic": null
+        },
+        {
+          "word": "daging ayam",
+          "translation": "鸡肉",
+          "phonetic": null
+        },
+        {
+          "word": "Desember",
+          "translation": "十二月",
+          "phonetic": null
+        },
+        {
+          "word": "daging babi",
+          "translation": "猪肉",
+          "phonetic": null
+        },
+        {
+          "word": "deterjen bubuk",
+          "translation": "洗衣粉",
+          "phonetic": null
+        },
+        {
+          "word": "daging ikan",
+          "translation": "鱼肉",
+          "phonetic": null
+        },
+        {
+          "word": "deterjen cair",
+          "translation": "洗衣液",
+          "phonetic": null
+        },
+        {
+          "word": "daging sapi",
+          "translation": "牛肉",
+          "phonetic": null
+        },
+        {
+          "word": "di",
+          "translation": "在",
+          "phonetic": null
+        },
+        {
+          "word": "dalam",
+          "translation": "里面",
+          "phonetic": null
+        },
+        {
+          "word": "diare",
+          "translation": "腹泻",
+          "phonetic": null
+        },
+        {
+          "word": "dan",
+          "translation": "和",
+          "phonetic": null
+        },
+        {
+          "word": "dilarang",
+          "translation": "禁止",
+          "phonetic": null
+        },
+        {
+          "word": "data",
+          "translation": "核对",
+          "phonetic": null
+        },
+        {
+          "word": "diperbaiki",
+          "translation": "（被）维修",
+          "phonetic": null
+        },
+        {
+          "word": "diri",
+          "translation": "自己",
+          "phonetic": null
+        },
+        {
+          "word": "delapan",
+          "translation": "八",
+          "phonetic": null
+        },
+        {
+          "word": "diskon",
+          "translation": "打折",
+          "phonetic": null
+        },
+        {
+          "word": "demam",
+          "translation": "发烧",
+          "phonetic": null
+        },
+        {
+          "word": "dokter",
+          "translation": "医生",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Dia tidak bisa datang.",
+          "chinese": "2. Saya sudah tidak bisa bantu kamu."
+        },
+        {
+          "indonesian": "Karena saya mau bantu dia.",
+          "chinese": "4. Mereka tidak salah."
+        },
+        {
+          "indonesian": "Kamu benar dan saya salah.",
+          "chinese": "6. Kamu mau apa?"
+        }
+      ],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 6,
+      "title": "发音（六） Pelafalan 6",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "Satu",
+          "translation": "一",
+          "phonetic": null
+        },
+        {
+          "word": "Tujuh",
+          "translation": "七",
+          "phonetic": null
+        },
+        {
+          "word": "Dua",
+          "translation": "二",
+          "phonetic": null
+        },
+        {
+          "word": "Delapan",
+          "translation": "八",
+          "phonetic": null
+        },
+        {
+          "word": "Tiga",
+          "translation": "三",
+          "phonetic": null
+        },
+        {
+          "word": "Sembilan",
+          "translation": "九",
+          "phonetic": null
+        },
+        {
+          "word": "Empat",
+          "translation": "四",
+          "phonetic": null
+        },
+        {
+          "word": "Sepuluh",
+          "translation": "十",
+          "phonetic": null
+        },
+        {
+          "word": "Lima",
+          "translation": "五",
+          "phonetic": null
+        },
+        {
+          "word": "Nol/Kosong",
+          "translation": "零",
+          "phonetic": null
+        },
+        {
+          "word": "Enam",
+          "translation": "六",
+          "phonetic": null
+        },
+        {
+          "word": "denda",
+          "translation": "罚款",
+          "phonetic": null
+        },
+        {
+          "word": "depan",
+          "translation": "前面",
+          "phonetic": null
+        },
+        {
+          "word": "dua belas",
+          "translation": "十二",
+          "phonetic": null
+        },
+        {
+          "word": "departemen",
+          "translation": "部门",
+          "phonetic": null
+        },
+        {
+          "word": "dua puluh",
+          "translation": "二十",
+          "phonetic": null
+        },
+        {
+          "word": "desain",
+          "translation": "设计",
+          "phonetic": null
+        },
+        {
+          "word": "duduk",
+          "translation": "坐",
+          "phonetic": null
+        },
+        {
+          "word": "enak",
+          "translation": "好吃",
+          "phonetic": null
+        },
+        {
+          "word": "es krim",
+          "translation": "冰淇淋",
+          "phonetic": null
+        },
+        {
+          "word": "Februari",
+          "translation": "二月",
+          "phonetic": null
+        },
+        {
+          "word": "fotografi",
+          "translation": "摄影",
+          "phonetic": null
+        },
+        {
+          "word": "formulir",
+          "translation": "单子",
+          "phonetic": null
+        },
+        {
+          "word": "gaji",
+          "translation": "工资",
+          "phonetic": null
+        },
+        {
+          "word": "gedung",
+          "translation": "楼栋",
+          "phonetic": null
+        },
+        {
+          "word": "garam",
+          "translation": "盐",
+          "phonetic": null
+        },
+        {
+          "word": "grup",
+          "translation": "组，小队",
+          "phonetic": null
+        },
+        {
+          "word": "habis",
+          "translation": "（卖）完",
+          "phonetic": null
+        },
+        {
+          "word": "hilang",
+          "translation": "丢",
+          "phonetic": null
+        },
+        {
+          "word": "hadir",
+          "translation": "出席",
+          "phonetic": null
+        },
+        {
+          "word": "hobi",
+          "translation": "爱好",
+          "phonetic": null
+        }
+      ],
+      "sentences": [],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 7,
+      "title": "发音（七） Pelafalan 7",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "Sebelas",
+          "translation": "十一",
+          "phonetic": null
+        },
+        {
+          "word": "Dua belas",
+          "translation": "十二",
+          "phonetic": null
+        },
+        {
+          "word": "Ratus ribu",
+          "translation": "十万",
+          "phonetic": null
+        },
+        {
+          "word": "Dua puluh",
+          "translation": "二十",
+          "phonetic": null
+        },
+        {
+          "word": "Juta",
+          "translation": "百万",
+          "phonetic": null
+        },
+        {
+          "word": "Miliar",
+          "translation": "十亿",
+          "phonetic": null
+        },
+        {
+          "word": "hambar",
+          "translation": "淡",
+          "phonetic": null
+        },
+        {
+          "word": "HP",
+          "translation": "手机",
+          "phonetic": null
+        },
+        {
+          "word": "hanya",
+          "translation": "只，仅仅",
+          "phonetic": null
+        },
+        {
+          "word": "hujan",
+          "translation": "下雨",
+          "phonetic": null
+        },
+        {
+          "word": "hari",
+          "translation": "日",
+          "phonetic": null
+        },
+        {
+          "word": "hujan deras",
+          "translation": "下大雨",
+          "phonetic": null
+        },
+        {
+          "word": "hari ini",
+          "translation": "今天",
+          "phonetic": null
+        },
+        {
+          "word": "hujan gerimis",
+          "translation": "下细雨",
+          "phonetic": null
+        },
+        {
+          "word": "harus",
+          "translation": "必须",
+          "phonetic": null
+        },
+        {
+          "word": "humoris",
+          "translation": "幽默",
+          "phonetic": null
+        },
+        {
+          "word": "hemat",
+          "translation": "节俭",
+          "phonetic": null
+        },
+        {
+          "word": "ikut",
+          "translation": "跟随/参与",
+          "phonetic": null
+        },
+        {
+          "word": "istirahat",
+          "translation": "休息",
+          "phonetic": null
+        },
+        {
+          "word": "Indonesia",
+          "translation": "印度尼西亚",
+          "phonetic": null
+        },
+        {
+          "word": "istirahat siang",
+          "translation": "午休",
+          "phonetic": null
+        },
+        {
+          "word": "ini",
+          "translation": "这（个）",
+          "phonetic": null
+        },
+        {
+          "word": "itu",
+          "translation": "那（个）",
+          "phonetic": null
+        },
+        {
+          "word": "inspeksi",
+          "translation": "检查，检视",
+          "phonetic": null
+        },
+        {
+          "word": "izin",
+          "translation": "请假",
+          "phonetic": null
+        },
+        {
+          "word": "isi formulir",
+          "translation": "填写表格",
+          "phonetic": null
+        },
+        {
+          "word": "jabatan",
+          "translation": "职位",
+          "phonetic": null
+        },
+        {
+          "word": "jika",
+          "translation": "如果",
+          "phonetic": null
+        },
+        {
+          "word": "Jakarta",
+          "translation": "雅加达",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "000.000 =",
+          "chinese": "在印尼语中，表达千位以上的数字遵循以下规则："
+        },
+        {
+          "indonesian": "000 = seratus delapan puluh ribu",
+          "chinese": "230.100.000 = dua ratus tiga puluh juta"
+        }
+      ],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 8,
+      "title": "发音（八） Pelafalan 8",
+      "type": "pronunciation",
+      "vocabulary": [
+        {
+          "word": "juga",
+          "translation": "也",
+          "phonetic": null
+        },
+        {
+          "word": "jalan",
+          "translation": "走/马路",
+          "phonetic": null
+        },
+        {
+          "word": "jujur",
+          "translation": "诚实",
+          "phonetic": null
+        },
+        {
+          "word": "jam",
+          "translation": "小时",
+          "phonetic": null
+        },
+        {
+          "word": "Juli",
+          "translation": "七月",
+          "phonetic": null
+        },
+        {
+          "word": "jangan",
+          "translation": "别/不要",
+          "phonetic": null
+        },
+        {
+          "word": "Jumat",
+          "translation": "星期五",
+          "phonetic": null
+        },
+        {
+          "word": "Januari",
+          "translation": "一月",
+          "phonetic": null
+        },
+        {
+          "word": "Juni",
+          "translation": "六月",
+          "phonetic": null
+        },
+        {
+          "word": "jeruk",
+          "translation": "橘子",
+          "phonetic": null
+        },
+        {
+          "word": "juta",
+          "translation": "百万",
+          "phonetic": null
+        },
+        {
+          "word": "kaki",
+          "translation": "脚",
+          "phonetic": null
+        },
+        {
+          "word": "kenapa",
+          "translation": "为什么",
+          "phonetic": null
+        },
+        {
+          "word": "kalau begitu",
+          "translation": "那就这样，那么",
+          "phonetic": null
+        },
+        {
+          "word": "kentang",
+          "translation": "土豆",
+          "phonetic": null
+        },
+        {
+          "word": "kalian",
+          "translation": "你们",
+          "phonetic": null
+        },
+        {
+          "word": "kenyang",
+          "translation": "饱",
+          "phonetic": null
+        },
+        {
+          "word": "kamar",
+          "translation": "房间",
+          "phonetic": null
+        },
+        {
+          "word": "keranjang",
+          "translation": "篮子",
+          "phonetic": null
+        },
+        {
+          "word": "kami",
+          "translation": "我们（不含对方）",
+          "phonetic": null
+        },
+        {
+          "word": "kereta api",
+          "translation": "火车",
+          "phonetic": null
+        },
+        {
+          "word": "Kamis",
+          "translation": "星期四",
+          "phonetic": null
+        },
+        {
+          "word": "kereta cepat",
+          "translation": "高铁",
+          "phonetic": null
+        }
+      ],
+      "sentences": [],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 9,
+      "title": "第九课- 语法 Pelajaran ke-9: Tata Bahasa",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "kerja",
+          "translation": "工作",
+          "phonetic": null
+        },
+        {
+          "word": "kangkung",
+          "translation": "空心菜",
+          "phonetic": null
+        },
+        {
+          "word": "kerjasama",
+          "translation": "合作",
+          "phonetic": null
+        },
+        {
+          "word": "kantin",
+          "translation": "食堂",
+          "phonetic": null
+        },
+        {
+          "word": "kesehatan",
+          "translation": "健康",
+          "phonetic": null
+        },
+        {
+          "word": "kantor",
+          "translation": "办公室",
+          "phonetic": null
+        },
+        {
+          "word": "keselamatan",
+          "translation": "安全",
+          "phonetic": null
+        },
+        {
+          "word": "kantor imigrasi",
+          "translation": "移民局",
+          "phonetic": null
+        },
+        {
+          "word": "kantor polisi",
+          "translation": "警察局",
+          "phonetic": null
+        },
+        {
+          "word": "kirim",
+          "translation": "发送，寄",
+          "phonetic": null
+        },
+        {
+          "word": "kapan",
+          "translation": "什么时候",
+          "phonetic": null
+        },
+        {
+          "word": "kita",
+          "translation": "咱们",
+          "phonetic": null
+        },
+        {
+          "word": "karena",
+          "translation": "因为",
+          "phonetic": null
+        },
+        {
+          "word": "klinik",
+          "translation": "诊所",
+          "phonetic": null
+        },
+        {
+          "word": "kol",
+          "translation": "卷心菜",
+          "phonetic": null
+        },
+        {
+          "word": "kartu karyawan",
+          "translation": "工卡",
+          "phonetic": null
+        }
+      ],
+      "sentences": [],
+      "dialogues": [],
+      "grammar": [
+        {
+          "title": "语法详解",
+          "content": "印尼语基本构句结构\n1. “主+谓”结构\n⇒主语表示句子说的是“什么”或者“谁”。它是谓语陈述的对\n象，通常用名词、代词或者其他词及结构表示。\n⇒谓语说明主语是“什么”或者“怎么样”，通常用动词，名词，\n形容词或者数量词等表示。\n例子\n(1) Itu sepatu.（那是鞋。）\n(2) Ini mobil.（这是汽车。）\n2. “主+谓+宾”结构\n宾语是谓语动词涉及的对象。\n例子\n(1) Mereka bermain bulu tangkis.（他们打羽毛球。）\n(2) Kami makan mi instan.（我们吃方便面）\n(3) Desi membeli apel.（黛西买苹果）\n3. “主+谓+宾+状”结构\n状语限定和修饰谓语或者整个句子。\n例子\n(1) Saya makan mi di kamar. （我在房间吃面。）\n(2) Saya makan mi hari ini. （我今天吃面。）\n(3) Saya makan mi karena saya lapar. （我吃面因为我饿了。）\n(4) Saya makan mi dengan teman. （我跟朋友吃面。）"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "第十课- 我的爱好 Pelajaran ke-10: Hobi Saya",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Hobi",
+          "translation": "爱好",
+          "phonetic": null
+        },
+        {
+          "word": "Tenis meja",
+          "translation": "乒乓球",
+          "phonetic": null
+        },
+        {
+          "word": "(tidak) Suka",
+          "translation": "(不）喜欢",
+          "phonetic": null
+        },
+        {
+          "word": "Sepak bola",
+          "translation": "足球",
+          "phonetic": null
+        },
+        {
+          "word": "Boleh",
+          "translation": "可以",
+          "phonetic": null
+        },
+        {
+          "word": "Membaca buku",
+          "translation": "看书",
+          "phonetic": null
+        },
+        {
+          "word": "Novel",
+          "translation": "小说",
+          "phonetic": null
+        },
+        {
+          "word": "Majalah",
+          "translation": "杂志",
+          "phonetic": null
+        },
+        {
+          "word": "Olahraga",
+          "translation": "运动",
+          "phonetic": null
+        },
+        {
+          "word": "Surat kabar",
+          "translation": "报纸",
+          "phonetic": null
+        },
+        {
+          "word": "Lapangan olahraga",
+          "translation": "运动场",
+          "phonetic": null
+        },
+        {
+          "word": "Lompat tali",
+          "translation": "跳绳",
+          "phonetic": null
+        },
+        {
+          "word": "Pertandingan",
+          "translation": "比赛",
+          "phonetic": null
+        },
+        {
+          "word": "Nonton",
+          "translation": "film/pertandingan",
+          "phonetic": null
+        },
+        {
+          "word": "Bersepeda",
+          "translation": "骑自行车",
+          "phonetic": null
+        },
+        {
+          "word": "Melukis",
+          "translation": "画画",
+          "phonetic": null
+        },
+        {
+          "word": "Bermain",
+          "translation": "玩，打",
+          "phonetic": null
+        },
+        {
+          "word": "Fotografi",
+          "translation": "摄影",
+          "phonetic": null
+        },
+        {
+          "word": "Bermain bola",
+          "translation": "玩球，打球",
+          "phonetic": null
+        },
+        {
+          "word": "Berlari",
+          "translation": "跑步",
+          "phonetic": null
+        },
+        {
+          "word": "Bulu tangkis",
+          "translation": "羽毛球",
+          "phonetic": null
+        },
+        {
+          "word": "Berjalan-jalan",
+          "translation": "散步",
+          "phonetic": null
+        },
+        {
+          "word": "Bola basket",
+          "translation": "篮球",
+          "phonetic": null
+        },
+        {
+          "word": "Berenang",
+          "translation": "游泳",
+          "phonetic": null
+        },
+        {
+          "word": "Bola voli",
+          "translation": "排球",
+          "phonetic": null
+        },
+        {
+          "word": "Biliar",
+          "translation": "台球",
+          "phonetic": null
+        },
+        {
+          "word": "Yoga",
+          "translation": "瑜伽",
+          "phonetic": null
+        },
+        {
+          "word": "Berdansa",
+          "translation": "跳舞",
+          "phonetic": null
+        },
+        {
+          "word": "Belanja",
+          "translation": "购物",
+          "phonetic": null
+        },
+        {
+          "word": "Bernyanyi",
+          "translation": "唱歌",
+          "phonetic": null
+        },
+        {
+          "word": "Berwisata",
+          "translation": "旅游",
+          "phonetic": null
+        },
+        {
+          "word": "Mendaki gunung",
+          "translation": "爬山",
+          "phonetic": null
+        },
+        {
+          "word": "Memancing",
+          "translation": "钓鱼",
+          "phonetic": null
+        },
+        {
+          "word": "Memasak",
+          "translation": "烹调",
+          "phonetic": null
+        },
+        {
+          "word": "Desain",
+          "translation": "设计",
+          "phonetic": null
+        },
+        {
+          "word": "Main catur",
+          "translation": "下棋",
+          "phonetic": null
+        },
+        {
+          "word": "Menyelam",
+          "translation": "潜水",
+          "phonetic": null
+        },
+        {
+          "word": "komunikasi",
+          "translation": "沟通",
+          "phonetic": null
+        },
+        {
+          "word": "karyawan",
+          "translation": "员工",
+          "phonetic": null
+        },
+        {
+          "word": "kondisioner",
+          "translation": "护发素",
+          "phonetic": null
+        },
+        {
+          "word": "kasir",
+          "translation": "收银台",
+          "phonetic": null
+        },
+        {
+          "word": "koordinasi",
+          "translation": "协调",
+          "phonetic": null
+        },
+        {
+          "word": "ke",
+          "translation": "介词（来/去）",
+          "phonetic": null
+        },
+        {
+          "word": "kota",
+          "translation": "城市",
+          "phonetic": null
+        },
+        {
+          "word": "kecelakaan",
+          "translation": "事故",
+          "phonetic": null
+        },
+        {
+          "word": "kehujanan",
+          "translation": "（被雨）淋湿",
+          "phonetic": null
+        },
+        {
+          "word": "KTP",
+          "translation": "身份证",
+          "phonetic": null
+        },
+        {
+          "word": "kelas bisnis",
+          "translation": "商务舱",
+          "phonetic": null
+        },
+        {
+          "word": "keluhan",
+          "translation": "病状",
+          "phonetic": null
+        },
+        {
+          "word": "kemarin",
+          "translation": "昨天",
+          "phonetic": null
+        },
+        {
+          "word": "kurang baik",
+          "translation": "不太好",
+          "phonetic": null
+        },
+        {
+          "word": "kembali",
+          "translation": "回来，回去",
+          "phonetic": null
+        },
+        {
+          "word": "kursi",
+          "translation": "椅子",
+          "phonetic": null
+        },
+        {
+          "word": "kenal",
+          "translation": "认识",
+          "phonetic": null
+        },
+        {
+          "word": "lada bubuk",
+          "translation": "胡椒粉",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Hobi saya adalah membaca novel.",
+          "chinese": "我的爱好是看小说。"
+        },
+        {
+          "indonesian": "Saya bersepeda malam ini.",
+          "chinese": "我今晚骑自行车。"
+        },
+        {
+          "indonesian": "Saya suka bermain game.",
+          "chinese": "我喜欢玩游戏。"
+        },
+        {
+          "indonesian": "Kita nonton film bersama.",
+          "chinese": "咱们一起看电影吧。"
+        },
+        {
+          "indonesian": "Saya suka berlari di lapangan olahraga.",
+          "chinese": "我喜欢在运动场跑步。"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Nina, apa hobi kamu?",
+          "chinese": "Nina，你的爱好是什么？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Hobi saya adalah bermain bola basket. Apa hobi kamu?",
+          "chinese": "我的爱好是打篮球。你的爱好是什么？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Hobi saya juga bermain bola basket. Kamu mau main bersama",
+          "chinese": "malam ini?",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Boleh.",
+          "chinese": "可以啊。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Kalau kamu bisa, kita bermain bola basket di lapangan jam 7",
+          "chinese": "malam?",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Oke.",
+          "chinese": "好的。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 11,
+      "title": "第十一课- 自我介绍 Pelajaran ke-11: Memperkenalkan Diri",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Mandiri",
+          "translation": "Memperkenalkan 介绍",
+          "phonetic": null
+        },
+        {
+          "word": "Diri",
+          "translation": "自己",
+          "phonetic": null
+        },
+        {
+          "word": "Teliti",
+          "translation": "仔细",
+          "phonetic": null
+        },
+        {
+          "word": "Semuanya",
+          "translation": "大家",
+          "phonetic": null
+        },
+        {
+          "word": "Optimis",
+          "translation": "乐观",
+          "phonetic": null
+        },
+        {
+          "word": "Baik hati",
+          "translation": "善良",
+          "phonetic": null
+        },
+        {
+          "word": "Berasal dari",
+          "translation": "来自",
+          "phonetic": null
+        },
+        {
+          "word": "Rajin",
+          "translation": "勤奋",
+          "phonetic": null
+        },
+        {
+          "word": "Umur",
+          "translation": "年龄、年纪",
+          "phonetic": null
+        },
+        {
+          "word": "Setia",
+          "translation": "忠诚",
+          "phonetic": null
+        },
+        {
+          "word": "Humoris",
+          "translation": "幽默",
+          "phonetic": null
+        },
+        {
+          "word": "Senang",
+          "translation": "高兴",
+          "phonetic": null
+        },
+        {
+          "word": "Ramah",
+          "translation": "友善",
+          "phonetic": null
+        },
+        {
+          "word": "Kenal",
+          "translation": "认识",
+          "phonetic": null
+        },
+        {
+          "word": "Pintar",
+          "translation": "聪明",
+          "phonetic": null
+        },
+        {
+          "word": "Indonesia",
+          "translation": "印度尼西亚",
+          "phonetic": null
+        },
+        {
+          "word": "Sabar",
+          "translation": "耐心",
+          "phonetic": null
+        },
+        {
+          "word": "Tiongkok",
+          "translation": "中国",
+          "phonetic": null
+        },
+        {
+          "word": "Jujur",
+          "translation": "诚实",
+          "phonetic": null
+        },
+        {
+          "word": "Jakarta",
+          "translation": "雅加达",
+          "phonetic": null
+        },
+        {
+          "word": "Hemat",
+          "translation": "节俭",
+          "phonetic": null
+        },
+        {
+          "word": "Negara",
+          "translation": "国家",
+          "phonetic": null
+        },
+        {
+          "word": "Berani",
+          "translation": "勇敢",
+          "phonetic": null
+        },
+        {
+          "word": "Percaya diri",
+          "translation": "自信",
+          "phonetic": null
+        },
+        {
+          "word": "Kota",
+          "translation": "城市",
+          "phonetic": null
+        },
+        {
+          "word": "lalu",
+          "translation": "之前，然后",
+          "phonetic": null
+        },
+        {
+          "word": "lantai",
+          "translation": "楼层",
+          "phonetic": null
+        },
+        {
+          "word": "lingkungan",
+          "translation": "环境",
+          "phonetic": null
+        },
+        {
+          "word": "lapangan",
+          "translation": "现场",
+          "phonetic": null
+        },
+        {
+          "word": "loket",
+          "translation": "窗口",
+          "phonetic": null
+        },
+        {
+          "word": "lapangan olahraga",
+          "translation": "运动场",
+          "phonetic": null
+        },
+        {
+          "word": "lompat tali",
+          "translation": "跳绳",
+          "phonetic": null
+        },
+        {
+          "word": "lupa",
+          "translation": "忘记",
+          "phonetic": null
+        },
+        {
+          "word": "laporan kerja",
+          "translation": "工作报告",
+          "phonetic": null
+        },
+        {
+          "word": "lurus",
+          "translation": "直走",
+          "phonetic": null
+        },
+        {
+          "word": "laporkan",
+          "translation": "汇报",
+          "phonetic": null
+        },
+        {
+          "word": "lusa",
+          "translation": "后天",
+          "phonetic": null
+        },
+        {
+          "word": "lemari baju",
+          "translation": "衣柜",
+          "phonetic": null
+        },
+        {
+          "word": "mabuk",
+          "translation": "喝醉的",
+          "phonetic": null
+        },
+        {
+          "word": "mendaftar",
+          "translation": "登记",
+          "phonetic": null
+        },
+        {
+          "word": "mendaki gunung",
+          "translation": "爬山",
+          "phonetic": null
+        },
+        {
+          "word": "main catur",
+          "translation": "下棋",
+          "phonetic": null
+        },
+        {
+          "word": "mendesak",
+          "translation": "着急",
+          "phonetic": null
+        },
+        {
+          "word": "majalah",
+          "translation": "杂志",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Dia adalah orang yang3 humoris.",
+          "chinese": "2. Mereka sangat rajin."
+        },
+        {
+          "indonesian": "Saya tidak percaya diri.",
+          "chinese": "3 Yang：在这里为连接词。"
+        },
+        {
+          "indonesian": "Perkenalan diri 自我介绍",
+          "chinese": "简单的自我介绍"
+        }
+      ],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 12,
+      "title": "第十二课- 日期 Pelajaran ke-12: Tanggal",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Tanggal",
+          "translation": "日期",
+          "phonetic": null
+        },
+        {
+          "word": "Mei",
+          "translation": "五月",
+          "phonetic": null
+        },
+        {
+          "word": "Hari",
+          "translation": "日，星期1",
+          "phonetic": null
+        },
+        {
+          "word": "Juni",
+          "translation": "六月",
+          "phonetic": null
+        },
+        {
+          "word": "Juli",
+          "translation": "七月",
+          "phonetic": null
+        },
+        {
+          "word": "Agustus",
+          "translation": "八月",
+          "phonetic": null
+        },
+        {
+          "word": "Senin",
+          "translation": "星期一",
+          "phonetic": null
+        },
+        {
+          "word": "September",
+          "translation": "九月",
+          "phonetic": null
+        },
+        {
+          "word": "Selasa",
+          "translation": "星期二",
+          "phonetic": null
+        },
+        {
+          "word": "Oktober",
+          "translation": "十月",
+          "phonetic": null
+        },
+        {
+          "word": "Rabu",
+          "translation": "星期三",
+          "phonetic": null
+        },
+        {
+          "word": "November",
+          "translation": "十一月",
+          "phonetic": null
+        },
+        {
+          "word": "Kamis",
+          "translation": "星期四",
+          "phonetic": null
+        },
+        {
+          "word": "Desember",
+          "translation": "十二月",
+          "phonetic": null
+        },
+        {
+          "word": "Jumat",
+          "translation": "星期五",
+          "phonetic": null
+        },
+        {
+          "word": "Hari ini",
+          "translation": "今天",
+          "phonetic": null
+        },
+        {
+          "word": "Sabtu",
+          "translation": "星期六",
+          "phonetic": null
+        },
+        {
+          "word": "Besok",
+          "translation": "明天",
+          "phonetic": null
+        },
+        {
+          "word": "Minggu",
+          "translation": "星期日",
+          "phonetic": null
+        },
+        {
+          "word": "Kemarin",
+          "translation": "昨天",
+          "phonetic": null
+        },
+        {
+          "word": "Januari",
+          "translation": "一月",
+          "phonetic": null
+        },
+        {
+          "word": "Lusa",
+          "translation": "后天",
+          "phonetic": null
+        },
+        {
+          "word": "Februari",
+          "translation": "二月",
+          "phonetic": null
+        },
+        {
+          "word": "Waktu luang",
+          "translation": "空闲时间",
+          "phonetic": null
+        },
+        {
+          "word": "Maret",
+          "translation": "三月",
+          "phonetic": null
+        },
+        {
+          "word": "Jam",
+          "translation": "小时",
+          "phonetic": null
+        },
+        {
+          "word": "April",
+          "translation": "四月",
+          "phonetic": null
+        },
+        {
+          "word": "Sekarang",
+          "translation": "现在",
+          "phonetic": null
+        },
+        {
+          "word": "menghindari",
+          "translation": "避免",
+          "phonetic": null
+        },
+        {
+          "word": "maju",
+          "translation": "往前",
+          "phonetic": null
+        },
+        {
+          "word": "meninggalkan",
+          "translation": "离开，留下",
+          "phonetic": null
+        },
+        {
+          "word": "makan",
+          "translation": "吃饭",
+          "phonetic": null
+        },
+        {
+          "word": "menjaga",
+          "translation": "维持，保护",
+          "phonetic": null
+        },
+        {
+          "word": "makan malam",
+          "translation": "吃晚饭（晚饭）",
+          "phonetic": null
+        },
+        {
+          "word": "menunda",
+          "translation": "推迟",
+          "phonetic": null
+        },
+        {
+          "word": "makan siang",
+          "translation": "吃午饭（午饭）",
+          "phonetic": null
+        },
+        {
+          "word": "makanan",
+          "translation": "食物",
+          "phonetic": null
+        },
+        {
+          "word": "menyelam",
+          "translation": "潜水",
+          "phonetic": null
+        },
+        {
+          "word": "malam",
+          "translation": "晚上",
+          "phonetic": null
+        },
+        {
+          "word": "menyerahkan",
+          "translation": "提交",
+          "phonetic": null
+        },
+        {
+          "word": "mana",
+          "translation": "哪里",
+          "phonetic": null
+        },
+        {
+          "word": "mereka",
+          "translation": "他们",
+          "phonetic": null
+        },
+        {
+          "word": "mandiri",
+          "translation": "独立",
+          "phonetic": null
+        },
+        {
+          "word": "merokok",
+          "translation": "吸烟",
+          "phonetic": null
+        },
+        {
+          "word": "mangkir kerja",
+          "translation": "旷工",
+          "phonetic": null
+        },
+        {
+          "word": "mesin",
+          "translation": "机器",
+          "phonetic": null
+        },
+        {
+          "word": "mi instan",
+          "translation": "方便面",
+          "phonetic": null
+        }
+      ],
+      "sentences": [],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Selamat sore!",
+          "chinese": "下午好！",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Selamat sore!",
+          "chinese": "下午好！",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Hari ini tanggal berapa?",
+          "chinese": "今天几号？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Hari ini tanggal 12 November 2025.",
+          "chinese": "今天2025 年11 月12 号。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Hari apa?",
+          "chinese": "星期几？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Hari Rabu.",
+          "chinese": "星期三。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Apakah kamu ada waktu luang hari ini?",
+          "chinese": "Makan malam bersama",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Hari ini tidak bisa.",
+          "chinese": "今天不行呢。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Kapan kamu ada waktu luang minggu ini?",
+          "chinese": "你这周什么时候有空呢？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Bagaimana hari Jumat?",
+          "chinese": "周五怎么样？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Baik, kita pergi hari Jumat ini.",
+          "chinese": "好，咱们这周五去吧！",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Oke.",
+          "chinese": "好的。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 13,
+      "title": "第十三课- 天气 Pelajaran ke-13: Cuaca",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Cuaca",
+          "translation": "天气",
+          "phonetic": null
+        },
+        {
+          "word": "Jangan",
+          "translation": "别/不要",
+          "phonetic": null
+        },
+        {
+          "word": "Musim",
+          "translation": "季节",
+          "phonetic": null
+        },
+        {
+          "word": "Panas",
+          "translation": "炎热",
+          "phonetic": null
+        },
+        {
+          "word": "Musim semi",
+          "translation": "春季",
+          "phonetic": null
+        },
+        {
+          "word": "Sejuk",
+          "translation": "凉快",
+          "phonetic": null
+        },
+        {
+          "word": "Musim panas",
+          "translation": "夏季",
+          "phonetic": null
+        },
+        {
+          "word": "Berawan",
+          "translation": "多云",
+          "phonetic": null
+        },
+        {
+          "word": "Musim gugur",
+          "translation": "秋季",
+          "phonetic": null
+        },
+        {
+          "word": "Berangin",
+          "translation": "刮风",
+          "phonetic": null
+        },
+        {
+          "word": "Musim dingin",
+          "translation": "冬季",
+          "phonetic": null
+        },
+        {
+          "word": "Pelangi",
+          "translation": "彩虹",
+          "phonetic": null
+        },
+        {
+          "word": "Musim hujan",
+          "translation": "雨季",
+          "phonetic": null
+        },
+        {
+          "word": "Musim kemarau",
+          "translation": "旱季",
+          "phonetic": null
+        },
+        {
+          "word": "Hujan",
+          "translation": "下雨",
+          "phonetic": null
+        },
+        {
+          "word": "Bagaimana",
+          "translation": "怎么样",
+          "phonetic": null
+        },
+        {
+          "word": "Hujan deras",
+          "translation": "下大雨",
+          "phonetic": null
+        },
+        {
+          "word": "Kurang baik",
+          "translation": "不太好",
+          "phonetic": null
+        },
+        {
+          "word": "Hujan gerimis",
+          "translation": "下细雨",
+          "phonetic": null
+        },
+        {
+          "word": "Payung",
+          "translation": "雨伞",
+          "phonetic": null
+        },
+        {
+          "word": "Ketinggalan",
+          "translation": "落（东西，车）",
+          "phonetic": null
+        },
+        {
+          "word": "Kehujanan",
+          "translation": "（被雨）淋湿",
+          "phonetic": null
+        },
+        {
+          "word": "Lupa",
+          "translation": "忘记",
+          "phonetic": null
+        },
+        {
+          "word": "Sering",
+          "translation": "经常",
+          "phonetic": null
+        },
+        {
+          "word": "Bersama",
+          "translation": "一起",
+          "phonetic": null
+        },
+        {
+          "word": "Akhir-akhir ini",
+          "translation": "最近",
+          "phonetic": null
+        },
+        {
+          "word": "Maret",
+          "translation": "三月",
+          "phonetic": null
+        },
+        {
+          "word": "micin",
+          "translation": "味精",
+          "phonetic": null
+        },
+        {
+          "word": "masalah",
+          "translation": "问题",
+          "phonetic": null
+        },
+        {
+          "word": "miliar",
+          "translation": "十亿",
+          "phonetic": null
+        },
+        {
+          "word": "masih",
+          "translation": "还/仍旧",
+          "phonetic": null
+        },
+        {
+          "word": "milik",
+          "translation": "属于",
+          "phonetic": null
+        },
+        {
+          "word": "masker",
+          "translation": "口罩",
+          "phonetic": null
+        },
+        {
+          "word": "Minggu",
+          "translation": "周，星期",
+          "phonetic": null
+        },
+        {
+          "word": "masuk kerja",
+          "translation": "上班",
+          "phonetic": null
+        },
+        {
+          "word": "minum",
+          "translation": "饮用，喝",
+          "phonetic": null
+        },
+        {
+          "word": "mobil",
+          "translation": "汽车",
+          "phonetic": null
+        },
+        {
+          "word": "Mei",
+          "translation": "五月",
+          "phonetic": null
+        },
+        {
+          "word": "motor",
+          "translation": "摩托车",
+          "phonetic": null
+        },
+        {
+          "word": "meja",
+          "translation": "桌子",
+          "phonetic": null
+        },
+        {
+          "word": "muntah",
+          "translation": "呕吐",
+          "phonetic": null
+        },
+        {
+          "word": "meja informasi",
+          "translation": "服务台",
+          "phonetic": null
+        },
+        {
+          "word": "murah",
+          "translation": "便宜",
+          "phonetic": null
+        },
+        {
+          "word": "melanggar",
+          "translation": "违背，违反",
+          "phonetic": null
+        },
+        {
+          "word": "melukis",
+          "translation": "画画",
+          "phonetic": null
+        },
+        {
+          "word": "memancing",
+          "translation": "钓鱼",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Bagaimana cuaca hari ini？",
+          "chinese": "今天天气怎么样？"
+        },
+        {
+          "indonesian": "Cuaca hari ini sangat baik / kurang baik.",
+          "chinese": "今天天气很好/不太好。"
+        },
+        {
+          "indonesian": "Apakah kamu membawa payung?",
+          "chinese": "你有带伞吗？"
+        },
+        {
+          "indonesian": "我淋湿了，因为我忘记带伞",
+          "chinese": "Saya kehujanan karena saya lupa bawa payung."
+        },
+        {
+          "indonesian": "Cuaca akhir-akhir ini sangat panas.",
+          "chinese": "最近天气很热。"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Halo, apa kabar？",
+          "chinese": "哈喽，你好吗？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Halo, kabar baik.",
+          "chinese": "哈喽，挺好。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Bagaimana cuaca di sana?",
+          "chinese": "那边天气怎么样？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Cuaca di sini kurang baik, hujan deras.",
+          "chinese": "这边天气不太好，下大雨呢！",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Jangan lupa bawa payung!",
+          "chinese": "别忘了带雨伞",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Oke.",
+          "chinese": "好的。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Kamu mau pergi ke mana？",
+          "chinese": "你要去哪儿?",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Saya mau pulang ke asrama.",
+          "chinese": "我要回宿舍。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Payung saya ketinggalan di asrama. Apakah saya boleh nebeng",
+          "chinese": "payung kamu?",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Boleh.",
+          "chinese": "可以。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Oke, ayo kita pergi.",
+          "chinese": "好的，咱们走吧。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 14,
+      "title": "第十四课- 超市 Pelajaran ke-14: Swalayan",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Swalayan",
+          "translation": "超市",
+          "phonetic": null
+        },
+        {
+          "word": "Buah",
+          "translation": "水果",
+          "phonetic": null
+        },
+        {
+          "word": "Sebelah",
+          "translation": "旁边",
+          "phonetic": null
+        },
+        {
+          "word": "Apel",
+          "translation": "苹果",
+          "phonetic": null
+        },
+        {
+          "word": "Depan",
+          "translation": "前面",
+          "phonetic": null
+        },
+        {
+          "word": "Jeruk",
+          "translation": "橘子",
+          "phonetic": null
+        },
+        {
+          "word": "Belakang",
+          "translation": "后面",
+          "phonetic": null
+        },
+        {
+          "word": "Anggur",
+          "translation": "葡萄",
+          "phonetic": null
+        },
+        {
+          "word": "Sabun cair",
+          "translation": "沐浴露",
+          "phonetic": null
+        },
+        {
+          "word": "Sampo",
+          "translation": "洗发水",
+          "phonetic": null
+        },
+        {
+          "word": "Total",
+          "translation": "合计/小计",
+          "phonetic": null
+        },
+        {
+          "word": "Habis",
+          "translation": "（卖）完了",
+          "phonetic": null
+        },
+        {
+          "word": "Kasir",
+          "translation": "收银台",
+          "phonetic": null
+        },
+        {
+          "word": "Tisu",
+          "translation": "纸巾",
+          "phonetic": null
+        },
+        {
+          "word": "Stok",
+          "translation": "库存",
+          "phonetic": null
+        },
+        {
+          "word": "Masih",
+          "translation": "还/仍旧",
+          "phonetic": null
+        },
+        {
+          "word": "Sikat gigi",
+          "translation": "牙刷",
+          "phonetic": null
+        },
+        {
+          "word": "Air mineral",
+          "translation": "矿泉水",
+          "phonetic": null
+        },
+        {
+          "word": "Odol",
+          "translation": "牙膏",
+          "phonetic": null
+        },
+        {
+          "word": "Mi instan",
+          "translation": "方便面",
+          "phonetic": null
+        },
+        {
+          "word": "Keranjang",
+          "translation": "篮子",
+          "phonetic": null
+        },
+        {
+          "word": "Murah",
+          "translation": "便宜",
+          "phonetic": null
+        },
+        {
+          "word": "Tanggal",
+          "translation": "kedaluwarsa",
+          "phonetic": null
+        },
+        {
+          "word": "Deterjen",
+          "translation": "(cair/bubuk)",
+          "phonetic": null
+        },
+        {
+          "word": "Diskon",
+          "translation": "打折",
+          "phonetic": null
+        },
+        {
+          "word": "Botol minuman",
+          "translation": "饮料瓶",
+          "phonetic": null
+        },
+        {
+          "word": "Es krim",
+          "translation": "冰淇淋",
+          "phonetic": null
+        },
+        {
+          "word": "Kondisioner",
+          "translation": "护发素",
+          "phonetic": null
+        },
+        {
+          "word": "Sosis",
+          "translation": "香肠",
+          "phonetic": null
+        },
+        {
+          "word": "Biskuit",
+          "translation": "饼干",
+          "phonetic": null
+        },
+        {
+          "word": "musim gugur",
+          "translation": "秋季",
+          "phonetic": null
+        },
+        {
+          "word": "memasak",
+          "translation": "烹调",
+          "phonetic": null
+        },
+        {
+          "word": "musim hujan",
+          "translation": "雨季",
+          "phonetic": null
+        },
+        {
+          "word": "membaca buku",
+          "translation": "看书",
+          "phonetic": null
+        },
+        {
+          "word": "musim kemarau",
+          "translation": "旱季",
+          "phonetic": null
+        },
+        {
+          "word": "membersihkan",
+          "translation": "打扫/收拾",
+          "phonetic": null
+        },
+        {
+          "word": "musim panas",
+          "translation": "夏季",
+          "phonetic": null
+        },
+        {
+          "word": "memperkenalkan",
+          "translation": "介绍",
+          "phonetic": null
+        },
+        {
+          "word": "musim semi",
+          "translation": "春季",
+          "phonetic": null
+        },
+        {
+          "word": "nama",
+          "translation": "名字",
+          "phonetic": null
+        },
+        {
+          "word": "nomor",
+          "translation": "号码",
+          "phonetic": null
+        },
+        {
+          "word": "nonton film",
+          "translation": "看电影",
+          "phonetic": null
+        },
+        {
+          "word": "nasi campur",
+          "translation": "盖饭",
+          "phonetic": null
+        },
+        {
+          "word": "nonton pertandingan",
+          "translation": "看比赛",
+          "phonetic": null
+        },
+        {
+          "word": "novel",
+          "translation": "小说",
+          "phonetic": null
+        },
+        {
+          "word": "negara",
+          "translation": "国家",
+          "phonetic": null
+        },
+        {
+          "word": "November",
+          "translation": "十一月",
+          "phonetic": null
+        },
+        {
+          "word": "olahraga",
+          "translation": "运动",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Saya mau beli mi instan dan air mineral.",
+          "chinese": "我要买方便面和矿泉水。"
+        },
+        {
+          "indonesian": "Apakah barang ini masih ada?",
+          "chinese": "这个东西还有吗?"
+        },
+        {
+          "indonesian": "Stok barang ini habis.",
+          "chinese": "这个东西卖完了。"
+        },
+        {
+          "indonesian": "Sabun cair di sini sangat mahal.",
+          "chinese": "这里的沐浴露很贵。"
+        },
+        {
+          "indonesian": "Silakan letakkan kartu di sini.",
+          "chinese": "请把卡放在这里。"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Nina, apakah kamu mau pergi ke swalayan?",
+          "chinese": "Nina，你要去超市吗？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Iya, saya mau ke swalayan. Saya mau beli sampo dan buah.",
+          "chinese": "是的，我要去超市，我要买洗发水和水果。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Saya juga mau beli sampo. Kamu mau beli buah apa?",
+          "chinese": "我也要买洗发水。你要买什么水果？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Saya mau beli pir.",
+          "chinese": "我要买梨。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Apakah barang ini masih ada?",
+          "chinese": "这个东西还有吗？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Barang ini masih ada di belakang. Kamu mau beli berapa?",
+          "chinese": "这个东西在后面还有。你要买几个？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Saya mau beli 3, berapa totalnya?",
+          "chinese": "我要买三个，合计多少（钱）？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Totalnya 90.000",
+          "chinese": "一共9 万。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 15,
+      "title": "第十五课- 食堂 Pelajaran ke-15: Kantin",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Kantin",
+          "translation": "食堂",
+          "phonetic": null
+        },
+        {
+          "word": "Bumbu",
+          "translation": "调料",
+          "phonetic": null
+        },
+        {
+          "word": "Makan",
+          "translation": "吃饭",
+          "phonetic": null
+        },
+        {
+          "word": "Enak",
+          "translation": "好吃",
+          "phonetic": null
+        },
+        {
+          "word": "Sarapan",
+          "translation": "吃早饭",
+          "phonetic": null
+        },
+        {
+          "word": "Makan siang",
+          "translation": "吃午饭（午饭）",
+          "phonetic": null
+        },
+        {
+          "word": "Makan malam",
+          "translation": "吃晚饭（晚饭）",
+          "phonetic": null
+        },
+        {
+          "word": "Makanan",
+          "translation": "食物",
+          "phonetic": null
+        },
+        {
+          "word": "Area",
+          "translation": "区域",
+          "phonetic": null
+        },
+        {
+          "word": "Mi",
+          "translation": "面条",
+          "phonetic": null
+        },
+        {
+          "word": "Nasi",
+          "translation": "米饭",
+          "phonetic": null
+        },
+        {
+          "word": "Nasi campur",
+          "translation": "盖饭",
+          "phonetic": null
+        },
+        {
+          "word": "Prasmanan",
+          "translation": "自助餐",
+          "phonetic": null
+        },
+        {
+          "word": "Peralatan makan",
+          "translation": "餐具",
+          "phonetic": null
+        },
+        {
+          "word": "Piring",
+          "translation": "盘子",
+          "phonetic": null
+        },
+        {
+          "word": "Sisa makanan",
+          "translation": "剩饭",
+          "phonetic": null
+        },
+        {
+          "word": "Sumpit",
+          "translation": "筷子",
+          "phonetic": null
+        },
+        {
+          "word": "Sendok",
+          "translation": "勺子",
+          "phonetic": null
+        },
+        {
+          "word": "Bungkus",
+          "translation": "打包",
+          "phonetic": null
+        },
+        {
+          "word": "Cuci piring",
+          "translation": "洗碗",
+          "phonetic": null
+        },
+        {
+          "word": "Tempat sampah",
+          "translation": "垃圾桶",
+          "phonetic": null
+        },
+        {
+          "word": "Daging Ikan",
+          "translation": "鱼肉",
+          "phonetic": null
+        },
+        {
+          "word": "Telur",
+          "translation": "鸡蛋",
+          "phonetic": null
+        },
+        {
+          "word": "Daging Ayam",
+          "translation": "鸡肉",
+          "phonetic": null
+        },
+        {
+          "word": "Daging Sapi",
+          "translation": "牛肉",
+          "phonetic": null
+        },
+        {
+          "word": "Susu kedelai",
+          "translation": "豆浆",
+          "phonetic": null
+        },
+        {
+          "word": "Daging Babi",
+          "translation": "猪肉",
+          "phonetic": null
+        },
+        {
+          "word": "Cabai",
+          "translation": "辣椒",
+          "phonetic": null
+        },
+        {
+          "word": "Rasa",
+          "translation": "味，味道，口味",
+          "phonetic": null
+        },
+        {
+          "word": "Bakso",
+          "translation": "肉丸",
+          "phonetic": null
+        },
+        {
+          "word": "Sawi putih",
+          "translation": "白菜",
+          "phonetic": null
+        },
+        {
+          "word": "Kol",
+          "translation": "卷心菜",
+          "phonetic": null
+        },
+        {
+          "word": "Kangkung",
+          "translation": "空心菜",
+          "phonetic": null
+        },
+        {
+          "word": "Kentang",
+          "translation": "土豆",
+          "phonetic": null
+        },
+        {
+          "word": "Ubi",
+          "translation": "红薯",
+          "phonetic": null
+        },
+        {
+          "word": "Micin",
+          "translation": "味精",
+          "phonetic": null
+        },
+        {
+          "word": "Wortel",
+          "translation": "胡萝卜",
+          "phonetic": null
+        },
+        {
+          "word": "Lada bubuk",
+          "translation": "胡椒粉",
+          "phonetic": null
+        },
+        {
+          "word": "odol",
+          "translation": "牙膏",
+          "phonetic": null
+        },
+        {
+          "word": "optimis",
+          "translation": "乐观",
+          "phonetic": null
+        },
+        {
+          "word": "oke",
+          "translation": "好的",
+          "phonetic": null
+        },
+        {
+          "word": "Oktober",
+          "translation": "十月",
+          "phonetic": null
+        },
+        {
+          "word": "pagi",
+          "translation": "早上",
+          "phonetic": null
+        },
+        {
+          "word": "perlindungan",
+          "translation": "保护，安全措施",
+          "phonetic": null
+        },
+        {
+          "word": "perlu",
+          "translation": "需要",
+          "phonetic": null
+        },
+        {
+          "word": "perpanjang",
+          "translation": "延长/续期",
+          "phonetic": null
+        },
+        {
+          "word": "panas",
+          "translation": "炎热",
+          "phonetic": null
+        },
+        {
+          "word": "pertandingan",
+          "translation": "比赛",
+          "phonetic": null
+        },
+        {
+          "word": "paspor",
+          "translation": "护照",
+          "phonetic": null
+        },
+        {
+          "word": "pesawat",
+          "translation": "飞机",
+          "phonetic": null
+        },
+        {
+          "word": "patah tulang",
+          "translation": "骨折",
+          "phonetic": null
+        },
+        {
+          "word": "peserta",
+          "translation": "参加人员",
+          "phonetic": null
+        },
+        {
+          "word": "patuhi",
+          "translation": "服从",
+          "phonetic": null
+        },
+        {
+          "word": "petugas",
+          "translation": "工作人员",
+          "phonetic": null
+        },
+        {
+          "word": "payung",
+          "translation": "雨伞",
+          "phonetic": null
+        },
+        {
+          "word": "pilek",
+          "translation": "感冒",
+          "phonetic": null
+        },
+        {
+          "word": "pintar",
+          "translation": "聪明",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Saya mau sarapan di kantin.",
+          "chinese": "我要在食堂吃早餐。"
+        },
+        {
+          "indonesian": "Dia mau makan prasmanan.",
+          "chinese": "他要吃自助餐。"
+        },
+        {
+          "indonesian": "Sumpit sudah habis.",
+          "chinese": "筷子已经没有了。"
+        },
+        {
+          "indonesian": "Kita makan mi instan hari ini.",
+          "chinese": "今天咱们吃方便面。"
+        },
+        {
+          "indonesian": "Saya tidak suka makanan pedas.",
+          "chinese": "我不喜欢辣的食物。"
+        },
+        {
+          "indonesian": "Mi ini kurang bumbu (sangat hambar).",
+          "chinese": "这面缺少调料（太淡了）。"
+        },
+        {
+          "indonesian": "Peralatan makan diletakkan di area cuci piring.",
+          "chinese": "餐具放在洗碗区。"
+        },
+        {
+          "indonesian": "Saya mau bungkus nasi.",
+          "chinese": "我要打包米饭。"
+        },
+        {
+          "indonesian": "Sisa makanan buang ke tempat sampah.",
+          "chinese": "剩饭扔到垃圾桶。"
+        },
+        {
+          "indonesian": "Aku sudah kenyang, makanan hari ini enak.",
+          "chinese": "我已吃饱了，今天的菜好吃。"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "Rudi",
+          "indonesian": "Halo Andi, apakah kamu mau makan siang di kantin?",
+          "chinese": "Andi 你好，你要在食堂吃午饭吗？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Andi",
+          "indonesian": "Ya, ayo kita pergi bersama.",
+          "chinese": "是的，咱们一起去吧。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Rudi",
+          "indonesian": "Kamu mau makan apa?",
+          "chinese": "你要吃什么？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Andi",
+          "indonesian": "Aku mau makan nasi campur, kamu mau makan apa?",
+          "chinese": "我要吃盖饭，你要吃什么？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Rudi",
+          "indonesian": "Aku mau makan mi.",
+          "chinese": "我要吃面条。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Andi",
+          "indonesian": "Mau duduk di mana?",
+          "chinese": "要坐在哪里呢？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Rudi",
+          "indonesian": "Duduk di sini saja.",
+          "chinese": "坐在这里吧。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Andi",
+          "indonesian": "Bagaimana rasanya?",
+          "chinese": "味道怎么样？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "Rudi",
+          "indonesian": "Kurang asin, saya pergi tambah garam.",
+          "chinese": "不太咸（太淡了），我去加盐。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 16,
+      "title": "第十六课- 宿舍 Pelajaran ke-16: Asrama",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Asrama",
+          "translation": "宿舍",
+          "phonetic": null
+        },
+        {
+          "word": "Gedung",
+          "translation": "楼栋",
+          "phonetic": null
+        },
+        {
+          "word": "Lantai",
+          "translation": "楼层",
+          "phonetic": null
+        },
+        {
+          "word": "Istirahat",
+          "translation": "休息",
+          "phonetic": null
+        },
+        {
+          "word": "Kamar",
+          "translation": "房间",
+          "phonetic": null
+        },
+        {
+          "word": "Tidur",
+          "translation": "睡觉",
+          "phonetic": null
+        },
+        {
+          "word": "Teman",
+          "translation": "朋友",
+          "phonetic": null
+        },
+        {
+          "word": "Teman sekamar",
+          "translation": "室友",
+          "phonetic": null
+        },
+        {
+          "word": "Isi formulir",
+          "translation": "填表格",
+          "phonetic": null
+        },
+        {
+          "word": "Naik",
+          "translation": "上，乘坐",
+          "phonetic": null
+        },
+        {
+          "word": "Aplikasi",
+          "translation": "应用程序（App）",
+          "phonetic": null
+        },
+        {
+          "word": "Diperbaiki",
+          "translation": "（被）维修",
+          "phonetic": null
+        },
+        {
+          "word": "Dalam",
+          "translation": "里面",
+          "phonetic": null
+        },
+        {
+          "word": "Perbaiki",
+          "translation": "修理",
+          "phonetic": null
+        },
+        {
+          "word": "Membersihkan",
+          "translation": "打扫/收拾",
+          "phonetic": null
+        },
+        {
+          "word": "Lemari baju",
+          "translation": "衣柜",
+          "phonetic": null
+        },
+        {
+          "word": "Kursi",
+          "translation": "椅子",
+          "phonetic": null
+        },
+        {
+          "word": "Bersih",
+          "translation": "干净",
+          "phonetic": null
+        },
+        {
+          "word": "Meja",
+          "translation": "桌子",
+          "phonetic": null
+        },
+        {
+          "word": "Tangga",
+          "translation": "梯子/楼梯",
+          "phonetic": null
+        },
+        {
+          "word": "Nomor",
+          "translation": "号码",
+          "phonetic": null
+        },
+        {
+          "word": "AC",
+          "translation": "空调",
+          "phonetic": null
+        },
+        {
+          "word": "pelangi",
+          "translation": "彩虹",
+          "phonetic": null
+        },
+        {
+          "word": "pemeriksaan",
+          "translation": "检查",
+          "phonetic": null
+        },
+        {
+          "word": "piring",
+          "translation": "盘子",
+          "phonetic": null
+        },
+        {
+          "word": "pengajuan",
+          "translation": "申请",
+          "phonetic": null
+        },
+        {
+          "word": "ponsel",
+          "translation": "手机",
+          "phonetic": null
+        },
+        {
+          "word": "peralatan",
+          "translation": "设备",
+          "phonetic": null
+        },
+        {
+          "word": "posisi",
+          "translation": "位置",
+          "phonetic": null
+        },
+        {
+          "word": "peralatan makan",
+          "translation": "餐具",
+          "phonetic": null
+        },
+        {
+          "word": "prasmanan",
+          "translation": "自助",
+          "phonetic": null
+        },
+        {
+          "word": "perawat",
+          "translation": "护士",
+          "phonetic": null
+        },
+        {
+          "word": "percaya diri",
+          "translation": "自信",
+          "phonetic": null
+        },
+        {
+          "word": "pulang kerja",
+          "translation": "下班",
+          "phonetic": null
+        },
+        {
+          "word": "pulang pergi",
+          "translation": "往返",
+          "phonetic": null
+        },
+        {
+          "word": "perhatikan",
+          "translation": "注意，留意",
+          "phonetic": null
+        },
+        {
+          "word": "periksa",
+          "translation": "查对，核对",
+          "phonetic": null
+        },
+        {
+          "word": "pusing",
+          "translation": "头晕",
+          "phonetic": null
+        },
+        {
+          "word": "Rabu",
+          "translation": "星期三",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Saya tinggal di asrama Tanjung Ulie.",
+          "chinese": "我住在丹江坞的宿舍。"
+        },
+        {
+          "indonesian": "Dia tinggal di gedung 5 lantai 2.",
+          "chinese": "他住在5 栋2 楼。"
+        },
+        {
+          "indonesian": "Saya membersihkan kamar setiap hari.",
+          "chinese": "我每天打扫房间。"
+        },
+        {
+          "indonesian": "Di kamar ada AC.",
+          "chinese": "房间里有空调。"
+        },
+        {
+          "indonesian": "Ini lemari baju saya, itu lemari baju teman sekamar saya.",
+          "chinese": "这是我的衣柜，那是我室友的衣柜。"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Halo, kamu tinggal di gedung berapa?",
+          "chinese": "哈喽，你住在几栋？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Saya tinggal di gedung 2. Kalau kamu?",
+          "chinese": "我住在2 栋。那你呢？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Saya tinggal di gedung 6 lantai 2. Bagaimana kamarmu?",
+          "chinese": "我住在6 栋2 楼，你的房间怎么样？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Kamar saya sangat bersih, kami membersihkan kamar setiap hari.",
+          "chinese": "我的房间很干净，我们每天打扫房间。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Wah! Kalian sangat rajin.",
+          "chinese": "哇！你们真勤快。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Terima kasih!",
+          "chinese": "谢谢！",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Halo, AC di kamar kami rusak, perlu diperbaiki.",
+          "chinese": "你好，我们房间的空调坏了，需要维修。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Baik, kamar nomor berapa?",
+          "chinese": "好的，几号房间？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Kamar nomor 502，gedung 3.",
+          "chinese": "3 栋502 号房间。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Silakan isi formulir perbaikan di aplikasi(App).",
+          "chinese": "请在app 上填报修单。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Oke, kapan akan diperbaiki？",
+          "chinese": "好的，什么时候来修？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Mereka datang malam ini.",
+          "chinese": "他们今晚来修。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 17,
+      "title": "第十七课- 生病 Pelajaran ke-17: Sakit",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Loket",
+          "translation": "窗口",
+          "phonetic": null
+        },
+        {
+          "word": "Demam",
+          "translation": "发烧",
+          "phonetic": null
+        },
+        {
+          "word": "Tanda tangan",
+          "translation": "签字",
+          "phonetic": null
+        },
+        {
+          "word": "Pilek",
+          "translation": "感冒",
+          "phonetic": null
+        },
+        {
+          "word": "Rumah sakit",
+          "translation": "医院",
+          "phonetic": null
+        },
+        {
+          "word": "Diare",
+          "translation": "腹泻",
+          "phonetic": null
+        },
+        {
+          "word": "Klinik",
+          "translation": "诊所",
+          "phonetic": null
+        },
+        {
+          "word": "Batuk",
+          "translation": "咳嗽",
+          "phonetic": null
+        },
+        {
+          "word": "Izin",
+          "translation": "请假",
+          "phonetic": null
+        },
+        {
+          "word": "Patah tulang",
+          "translation": "骨折",
+          "phonetic": null
+        },
+        {
+          "word": "Dokter",
+          "translation": "医生",
+          "phonetic": null
+        },
+        {
+          "word": "Sakit mata",
+          "translation": "眼睛痛",
+          "phonetic": null
+        },
+        {
+          "word": "Perawat",
+          "translation": "护士",
+          "phonetic": null
+        },
+        {
+          "word": "Sakit perut",
+          "translation": "肚子痛",
+          "phonetic": null
+        },
+        {
+          "word": "Berlangsung",
+          "translation": "持续",
+          "phonetic": null
+        },
+        {
+          "word": "Sakit kepala",
+          "translation": "头痛",
+          "phonetic": null
+        },
+        {
+          "word": "Keluhan",
+          "translation": "病状",
+          "phonetic": null
+        },
+        {
+          "word": "Sakit tenggorokan",
+          "translation": "喉咙痛",
+          "phonetic": null
+        },
+        {
+          "word": "Sembuh",
+          "translation": "痊愈",
+          "phonetic": null
+        },
+        {
+          "word": "Berdarah",
+          "translation": "流血",
+          "phonetic": null
+        },
+        {
+          "word": "Tidak enak badan",
+          "translation": "身体不舒服",
+          "phonetic": null
+        },
+        {
+          "word": "Pusing",
+          "translation": "头晕",
+          "phonetic": null
+        },
+        {
+          "word": "Berapa lama",
+          "translation": "多久",
+          "phonetic": null
+        },
+        {
+          "word": "Alergi",
+          "translation": "过敏",
+          "phonetic": null
+        },
+        {
+          "word": "Semoga",
+          "translation": "希望/祝愿",
+          "phonetic": null
+        },
+        {
+          "word": "Muntah",
+          "translation": "呕吐",
+          "phonetic": null
+        },
+        {
+          "word": "Radang",
+          "translation": "发炎",
+          "phonetic": null
+        },
+        {
+          "word": "Kembali",
+          "translation": "回来,回去,返回",
+          "phonetic": null
+        },
+        {
+          "word": "ratus ribu",
+          "translation": "十万",
+          "phonetic": null
+        },
+        {
+          "word": "rajin",
+          "translation": "勤奋",
+          "phonetic": null
+        },
+        {
+          "word": "rekan kerja",
+          "translation": "同事",
+          "phonetic": null
+        },
+        {
+          "word": "ramah",
+          "translation": "友善",
+          "phonetic": null
+        },
+        {
+          "word": "rapat",
+          "translation": "会议",
+          "phonetic": null
+        },
+        {
+          "word": "rapat bulanan",
+          "translation": "月会",
+          "phonetic": null
+        },
+        {
+          "word": "ruang rapat",
+          "translation": "会议室",
+          "phonetic": null
+        },
+        {
+          "word": "rapat mingguan",
+          "translation": "周会",
+          "phonetic": null
+        },
+        {
+          "word": "rapat tahunan",
+          "translation": "年会",
+          "phonetic": null
+        },
+        {
+          "word": "rapi",
+          "translation": "整齐",
+          "phonetic": null
+        },
+        {
+          "word": "rutin",
+          "translation": "常规，例行",
+          "phonetic": null
+        },
+        {
+          "word": "rasa",
+          "translation": "味，味道，口味滋味。",
+          "phonetic": null
+        },
+        {
+          "word": "saat",
+          "translation": "时刻，时候",
+          "phonetic": null
+        },
+        {
+          "word": "sabar",
+          "translation": "耐心",
+          "phonetic": null
+        },
+        {
+          "word": "Sabtu",
+          "translation": "星期六",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Hari ini saya izin, karena saya sakit.",
+          "chinese": "我今天请假，因为我生病了。"
+        },
+        {
+          "indonesian": "Keluhan saya sudah berlangsung selama dua hari.",
+          "chinese": "我的症状已经持续两天了。"
+        },
+        {
+          "indonesian": "Semoga kamu cepat sembuh.",
+          "chinese": "愿你早日康复。（希望你快点痊愈。）"
+        },
+        {
+          "indonesian": "Dia izin pergi ke dokter.",
+          "chinese": "他请假去看医生。"
+        },
+        {
+          "indonesian": "Silakan isi formulir dan tanda tangan.",
+          "chinese": "请填写表格还有签字。"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Kamu ada keluhan apa?",
+          "chinese": "你有什么病状？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Saya batuk dan sakit kepala.",
+          "chinese": "我咳嗽和头痛。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Keluhan ini sudah berlangsung berapa lama?",
+          "chinese": "这个病状持续多久了？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Saya sudah batuk satu minggu.",
+          "chinese": "我已经咳嗽一周了。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Ini obat untuk satu minggu, minum4 dua kali5 sehari,",
+          "chinese": "这是一个星期的药，一日两次服用。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Baik, dokter Li.",
+          "chinese": "好的，李医生。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Kalau masih sakit, kamu perlu kembali lagi6.",
+          "chinese": "如果还在生病，你需要再来（检查）。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Oke, dokter. Di mana saya bisa ambil obat?",
+          "chinese": "好的，医生。我可以在哪里拿药？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Ambil obat di loket 2B.",
+          "chinese": "在2B 窗口取药。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Terima kasih.",
+          "chinese": "谢谢。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Sama-sama.",
+          "chinese": "不客气。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 18,
+      "title": "第十八课- 续签与休假 Pelajaran ke-18: Visa dan Cuti",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Paspor",
+          "translation": "护照",
+          "phonetic": null
+        },
+        {
+          "word": "Kereta cepat",
+          "translation": "高铁",
+          "phonetic": null
+        },
+        {
+          "word": "KTP",
+          "translation": "身份证",
+          "phonetic": null
+        },
+        {
+          "word": "Formulir",
+          "translation": "单子",
+          "phonetic": null
+        },
+        {
+          "word": "Mobil",
+          "translation": "汽车",
+          "phonetic": null
+        },
+        {
+          "word": "Perpanjang",
+          "translation": "延长/续期",
+          "phonetic": null
+        },
+        {
+          "word": "Motor",
+          "translation": "摩托车",
+          "phonetic": null
+        },
+        {
+          "word": "Visa",
+          "translation": "签证",
+          "phonetic": null
+        },
+        {
+          "word": "Ponsel",
+          "translation": "手机",
+          "phonetic": null
+        },
+        {
+          "word": "Menunda",
+          "translation": "推迟",
+          "phonetic": null
+        },
+        {
+          "word": "Bis",
+          "translation": "巴士",
+          "phonetic": null
+        },
+        {
+          "word": "Batal",
+          "translation": "取消",
+          "phonetic": null
+        },
+        {
+          "word": "Kereta api",
+          "translation": "火车",
+          "phonetic": null
+        },
+        {
+          "word": "Menyerahkan",
+          "translation": "提交",
+          "phonetic": null
+        },
+        {
+          "word": "Kelas bisnis",
+          "translation": "商务舱",
+          "phonetic": null
+        },
+        {
+          "word": "Pengajuan",
+          "translation": "申请",
+          "phonetic": null
+        },
+        {
+          "word": "Meja informasi",
+          "translation": "服务台",
+          "phonetic": null
+        },
+        {
+          "word": "Perlu",
+          "translation": "需要",
+          "phonetic": null
+        },
+        {
+          "word": "Kantor imigrasi",
+          "translation": "移民局",
+          "phonetic": null
+        },
+        {
+          "word": "Bandara",
+          "translation": "飞机场",
+          "phonetic": null
+        },
+        {
+          "word": "Kantor polisi",
+          "translation": "警察局",
+          "phonetic": null
+        },
+        {
+          "word": "Terminal bis",
+          "translation": "客运站",
+          "phonetic": null
+        },
+        {
+          "word": "Bea cukai",
+          "translation": "海关",
+          "phonetic": null
+        },
+        {
+          "word": "Tempat parkir",
+          "translation": "停车场",
+          "phonetic": null
+        },
+        {
+          "word": "Denda",
+          "translation": "罚款",
+          "phonetic": null
+        },
+        {
+          "word": "Stasiun kereta api",
+          "translation": "火车站",
+          "phonetic": null
+        },
+        {
+          "word": "Bagasi",
+          "translation": "行李",
+          "phonetic": null
+        },
+        {
+          "word": "Pesawat",
+          "translation": "飞机",
+          "phonetic": null
+        },
+        {
+          "word": "Hilang",
+          "translation": "丢（不见了）",
+          "phonetic": null
+        },
+        {
+          "word": "Lurus",
+          "translation": "直(走)",
+          "phonetic": null
+        },
+        {
+          "word": "Tengah",
+          "translation": "中间",
+          "phonetic": null
+        },
+        {
+          "word": "Antar jemput",
+          "translation": "接送",
+          "phonetic": null
+        },
+        {
+          "word": "Tujuan",
+          "translation": "目的地",
+          "phonetic": null
+        },
+        {
+          "word": "Pulang pergi",
+          "translation": "往返",
+          "phonetic": null
+        },
+        {
+          "word": "semoga",
+          "translation": "希望/祝愿",
+          "phonetic": null
+        },
+        {
+          "word": "sabun cair",
+          "translation": "沐浴露",
+          "phonetic": null
+        },
+        {
+          "word": "semuanya",
+          "translation": "大家",
+          "phonetic": null
+        },
+        {
+          "word": "scan wajah",
+          "translation": "扫脸",
+          "phonetic": null
+        },
+        {
+          "word": "senang",
+          "translation": "高兴",
+          "phonetic": null
+        },
+        {
+          "word": "sakit kepala",
+          "translation": "头痛",
+          "phonetic": null
+        },
+        {
+          "word": "sendok",
+          "translation": "勺子",
+          "phonetic": null
+        },
+        {
+          "word": "sakit mata",
+          "translation": "眼睛痛",
+          "phonetic": null
+        },
+        {
+          "word": "Senin",
+          "translation": "星期一",
+          "phonetic": null
+        },
+        {
+          "word": "sakit perut",
+          "translation": "肚子痛",
+          "phonetic": null
+        },
+        {
+          "word": "sepak bola",
+          "translation": "足球",
+          "phonetic": null
+        },
+        {
+          "word": "sakit tenggorokan",
+          "translation": "喉咙痛",
+          "phonetic": null
+        },
+        {
+          "word": "September",
+          "translation": "九月",
+          "phonetic": null
+        },
+        {
+          "word": "sering",
+          "translation": "经常",
+          "phonetic": null
+        },
+        {
+          "word": "sama-sama",
+          "translation": "不客气",
+          "phonetic": null
+        },
+        {
+          "word": "setia",
+          "translation": "忠诚",
+          "phonetic": null
+        },
+        {
+          "word": "sampah",
+          "translation": "垃圾",
+          "phonetic": null
+        },
+        {
+          "word": "sampo",
+          "translation": "洗发水",
+          "phonetic": null
+        },
+        {
+          "word": "siang",
+          "translation": "中午",
+          "phonetic": null
+        },
+        {
+          "word": "sana",
+          "translation": "那边",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Saya cuti bulan depan.",
+          "chinese": "我下个月休假。"
+        },
+        {
+          "indonesian": "Saya perpanjang visa di kantor imigrasi.",
+          "chinese": "我在移民局续签。"
+        },
+        {
+          "indonesian": "Dia menunda cuti karena ada tugas mendesak.",
+          "chinese": "因为有紧急任务所以他推迟休假了。"
+        },
+        {
+          "indonesian": "Formulir cuti harus diserahkan seminggu sebelum cuti.",
+          "chinese": "休假单必须在休假前一周提交。"
+        },
+        {
+          "indonesian": "Bagasi melebihi8 15 kg akan didenda.",
+          "chinese": "行李超过15 公斤将被罚款。"
+        },
+        {
+          "indonesian": "Kami tunggu bis di terminal.",
+          "chinese": "我们在客运站等巴士。"
+        },
+        {
+          "indonesian": "Saya mau menyerahkan formulir batal cuti besok.",
+          "chinese": "我明天要提交放弃休假单。"
+        },
+        {
+          "indonesian": "Mereka ke bandara naik mobil itu.",
+          "chinese": "他们坐那辆车去机场。"
+        },
+        {
+          "indonesian": "Dia isi formulir batal cuti minggu lalu.",
+          "chinese": "他上个星期填写放弃休假单。"
+        },
+        {
+          "indonesian": "Jika ada pertanyaan9, silakan tanyakan10 ke meja informasi!",
+          "chinese": "如果有问题，请到服务台询问！"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Saya mau perpanjang visa minggu depan. Apa yang perlu dibawa?",
+          "chinese": "下周我要续签。需要带什么？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Kamu harus membawa paspor, foto, KITAS dan lain-lain.",
+          "chinese": "你要带护照、照片、临时居留证等。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Saya bisa perpanjang visa di mana?",
+          "chinese": "我在哪儿能续签？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Kamu bisa perpanjang visa di kantor imigrasi.",
+          "chinese": "你能在移民局续签。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Terima kasih.",
+          "chinese": "谢谢。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Sama-sama.",
+          "chinese": "不客气。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 19,
+      "title": "第十九课- 安全与健康 Pelajaran ke-19: Keselamatan dan Kesehatan",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Kesehatan(sehat)",
+          "translation": "健康",
+          "phonetic": null
+        },
+        {
+          "word": "Mabuk",
+          "translation": "喝醉的",
+          "phonetic": null
+        },
+        {
+          "word": "Keselamatan/aman",
+          "translation": "安全",
+          "phonetic": null
+        },
+        {
+          "word": "Jika",
+          "translation": "如果",
+          "phonetic": null
+        },
+        {
+          "word": "Patuhi",
+          "translation": "服从，遵守",
+          "phonetic": null
+        },
+        {
+          "word": "Pakai",
+          "translation": "穿，戴",
+          "phonetic": null
+        },
+        {
+          "word": "SOP",
+          "translation": "标准作业流程",
+          "phonetic": null
+        },
+        {
+          "word": "Masker",
+          "translation": "口罩",
+          "phonetic": null
+        },
+        {
+          "word": "Untuk",
+          "translation": "对，为了",
+          "phonetic": null
+        },
+        {
+          "word": "Utama",
+          "translation": "主要",
+          "phonetic": null
+        },
+        {
+          "word": "Menghindari",
+          "translation": "避免，躲避",
+          "phonetic": null
+        },
+        {
+          "word": "Bahaya",
+          "translation": "危险",
+          "phonetic": null
+        },
+        {
+          "word": "Kecelakaan",
+          "translation": "事故",
+          "phonetic": null
+        },
+        {
+          "word": "Bahan kimia",
+          "translation": "化学物",
+          "phonetic": null
+        },
+        {
+          "word": "Vitamin",
+          "translation": "维生素",
+          "phonetic": null
+        },
+        {
+          "word": "APD",
+          "translation": "劳保",
+          "phonetic": null
+        },
+        {
+          "word": "Menjaga",
+          "translation": "维持，保护",
+          "phonetic": null
+        },
+        {
+          "word": "Merokok",
+          "translation": "吸烟",
+          "phonetic": null
+        },
+        {
+          "word": "Melanggar",
+          "translation": "违背，违反",
+          "phonetic": null
+        },
+        {
+          "word": "Berdiri",
+          "translation": "站立",
+          "phonetic": null
+        },
+        {
+          "word": "Saat",
+          "translation": "时刻，时候",
+          "phonetic": null
+        },
+        {
+          "word": "Sampah",
+          "translation": "垃圾",
+          "phonetic": null
+        },
+        {
+          "word": "Bekerja",
+          "translation": "做工作，干活",
+          "phonetic": null
+        },
+        {
+          "word": "Awas",
+          "translation": "关注，留意",
+          "phonetic": null
+        },
+        {
+          "word": "Begadang",
+          "translation": "熬夜",
+          "phonetic": null
+        },
+        {
+          "word": "Tegangan tinggi",
+          "translation": "高压",
+          "phonetic": null
+        },
+        {
+          "word": "Dilarang",
+          "translation": "禁止",
+          "phonetic": null
+        },
+        {
+          "word": "Petugas",
+          "translation": "工作人员",
+          "phonetic": null
+        },
+        {
+          "word": "Minum",
+          "translation": "喝，服用",
+          "phonetic": null
+        },
+        {
+          "word": "Hanya",
+          "translation": "只，仅仅",
+          "phonetic": null
+        },
+        {
+          "word": "sikat gigi",
+          "translation": "牙刷",
+          "phonetic": null
+        },
+        {
+          "word": "sarapan",
+          "translation": "吃早饭",
+          "phonetic": null
+        },
+        {
+          "word": "sini",
+          "translation": "这边",
+          "phonetic": null
+        },
+        {
+          "word": "sisa makanan",
+          "translation": "剩饭",
+          "phonetic": null
+        },
+        {
+          "word": "sawi putih",
+          "translation": "白菜",
+          "phonetic": null
+        },
+        {
+          "word": "situ",
+          "translation": "那儿",
+          "phonetic": null
+        },
+        {
+          "word": "sebelah",
+          "translation": "旁边",
+          "phonetic": null
+        },
+        {
+          "word": "sore",
+          "translation": "下午",
+          "phonetic": null
+        },
+        {
+          "word": "sebelas",
+          "translation": "十一",
+          "phonetic": null
+        },
+        {
+          "word": "sosis",
+          "translation": "香肠",
+          "phonetic": null
+        },
+        {
+          "word": "sebelum",
+          "translation": "之前",
+          "phonetic": null
+        },
+        {
+          "word": "stasiun kereta api",
+          "translation": "火车站",
+          "phonetic": null
+        },
+        {
+          "word": "sedang",
+          "translation": "正在",
+          "phonetic": null
+        },
+        {
+          "word": "stok",
+          "translation": "库存",
+          "phonetic": null
+        },
+        {
+          "word": "segera",
+          "translation": "立即",
+          "phonetic": null
+        },
+        {
+          "word": "sudah",
+          "translation": "已经",
+          "phonetic": null
+        },
+        {
+          "word": "sejuk",
+          "translation": "凉快",
+          "phonetic": null
+        },
+        {
+          "word": "suka",
+          "translation": "喜欢",
+          "phonetic": null
+        },
+        {
+          "word": "sekarang",
+          "translation": "现在",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Patuhi SOP untuk menghindari kecelakaan kerja.",
+          "chinese": "为避免工作事故请遵守标准作业流程"
+        },
+        {
+          "indonesian": "Vitamin bisa membantu menjaga kesehatan.",
+          "chinese": "维生素可以帮助维持健康。"
+        },
+        {
+          "indonesian": "Tidak boleh melanggar SOP saat bekerja.",
+          "chinese": "在工作时不允许违反标准作业流程。"
+        },
+        {
+          "indonesian": "Sering begadang tidak baik untuk kesehatan.",
+          "chinese": "经常熬夜对健康不好。"
+        },
+        {
+          "indonesian": "Dilarang minum minuman alkohol saat jam kerja.",
+          "chinese": "工作时间禁止喝酒。"
+        },
+        {
+          "indonesian": "Dilarang bekerja saat mabuk.",
+          "chinese": "喝醉不能工作。"
+        },
+        {
+          "indonesian": "Saat pilek dan batuk tolong pakai masker.",
+          "chinese": "感冒和咳嗽的时候请戴上口罩。"
+        }
+      ],
+      "dialogues": [],
+      "grammar": []
+    },
+    {
+      "id": 20,
+      "title": "第二十课- 工作环境（办公室） Pelajaran ke-20: Lingkungan Kerja (Kantor)",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Lingkungan",
+          "translation": "环境",
+          "phonetic": null
+        },
+        {
+          "word": "(tidak) Hadir",
+          "translation": "（缺）出席",
+          "phonetic": null
+        },
+        {
+          "word": "Masuk kerja",
+          "translation": "上班",
+          "phonetic": null
+        },
+        {
+          "word": "Harus",
+          "translation": "必须",
+          "phonetic": null
+        },
+        {
+          "word": "Pulang kerja",
+          "translation": "下班",
+          "phonetic": null
+        },
+        {
+          "word": "Rapat",
+          "translation": "会议",
+          "phonetic": null
+        },
+        {
+          "word": "Kartu karyawan",
+          "translation": "工卡",
+          "phonetic": null
+        },
+        {
+          "word": "Ruang rapat",
+          "translation": "会议室",
+          "phonetic": null
+        },
+        {
+          "word": "Scan wajah",
+          "translation": "刷脸",
+          "phonetic": null
+        },
+        {
+          "word": "Tugas",
+          "translation": "任务",
+          "phonetic": null
+        },
+        {
+          "word": "Istirahat siang",
+          "translation": "午休",
+          "phonetic": null
+        },
+        {
+          "word": "Komunikasi",
+          "translation": "沟通",
+          "phonetic": null
+        },
+        {
+          "word": "Terlambat",
+          "translation": "迟到",
+          "phonetic": null
+        },
+        {
+          "word": "Peserta",
+          "translation": "参加人员",
+          "phonetic": null
+        },
+        {
+          "word": "Mangkir kerja",
+          "translation": "旷工",
+          "phonetic": null
+        },
+        {
+          "word": "Mendesak",
+          "translation": "着急",
+          "phonetic": null
+        },
+        {
+          "word": "Kantor",
+          "translation": "办公室",
+          "phonetic": null
+        },
+        {
+          "word": "Rapat mingguan",
+          "translation": "（开）周会",
+          "phonetic": null
+        },
+        {
+          "word": "Departemen",
+          "translation": "部门",
+          "phonetic": null
+        },
+        {
+          "word": "Rapat bulanan",
+          "translation": "（开）月会",
+          "phonetic": null
+        },
+        {
+          "word": "Rekan kerja",
+          "translation": "同事",
+          "phonetic": null
+        },
+        {
+          "word": "Rapat tahunan",
+          "translation": "（开）年会",
+          "phonetic": null
+        },
+        {
+          "word": "Jabatan",
+          "translation": "职位",
+          "phonetic": null
+        },
+        {
+          "word": "Gaji",
+          "translation": "工资",
+          "phonetic": null
+        },
+        {
+          "word": "Atasan",
+          "translation": "上司/领导",
+          "phonetic": null
+        },
+        {
+          "word": "Tahu",
+          "translation": "知道",
+          "phonetic": null
+        },
+        {
+          "word": "Laporan kerja",
+          "translation": "工作报告",
+          "phonetic": null
+        },
+        {
+          "word": "Mesin",
+          "translation": "cetak/printer",
+          "phonetic": null
+        },
+        {
+          "word": "Kalau begitu",
+          "translation": "那样的话，那么",
+          "phonetic": null
+        },
+        {
+          "word": "sumpit",
+          "translation": "筷子",
+          "phonetic": null
+        },
+        {
+          "word": "selamat",
+          "translation": "问候/平安",
+          "phonetic": null
+        },
+        {
+          "word": "Selasa",
+          "translation": "星期二",
+          "phonetic": null
+        },
+        {
+          "word": "surat kabar",
+          "translation": "报纸",
+          "phonetic": null
+        },
+        {
+          "word": "susu kedelai",
+          "translation": "豆浆",
+          "phonetic": null
+        },
+        {
+          "word": "selesai",
+          "translation": "完成",
+          "phonetic": null
+        },
+        {
+          "word": "swalayan",
+          "translation": "超市",
+          "phonetic": null
+        },
+        {
+          "word": "terminal bis",
+          "translation": "车站",
+          "phonetic": null
+        },
+        {
+          "word": "tidak",
+          "translation": "不/没",
+          "phonetic": null
+        },
+        {
+          "word": "tanda tangan",
+          "translation": "签字",
+          "phonetic": null
+        },
+        {
+          "word": "tidak enak badan",
+          "translation": "身体不舒服",
+          "phonetic": null
+        },
+        {
+          "word": "tangga",
+          "translation": "梯子/楼梯",
+          "phonetic": null
+        },
+        {
+          "word": "tidur",
+          "translation": "睡觉",
+          "phonetic": null
+        },
+        {
+          "word": "tanggal",
+          "translation": "日期",
+          "phonetic": null
+        },
+        {
+          "word": "tanggal kedaluwarsa",
+          "translation": "有效日期",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Kita harus scan wajah setiap hari.",
+          "chinese": "咱们每天必须刷脸。"
+        },
+        {
+          "indonesian": "Hari Kamis ada rapat mingguan.",
+          "chinese": "星期四有周会。"
+        },
+        {
+          "indonesian": "Dia tidak hadir rapat kemarin.",
+          "chinese": "昨天的会议他缺席了。"
+        },
+        {
+          "indonesian": "Printer di lantai 4 rusak.",
+          "chinese": "四楼的打印机坏了。"
+        },
+        {
+          "indonesian": "Saya lupa membawa kartu karyawan saya.",
+          "chinese": "我忘记带我的工卡了。"
+        },
+        {
+          "indonesian": "Mereka ke kantor berjalan kaki.",
+          "chinese": "他们走路去办公室。"
+        }
+      ],
+      "dialogues": [
+        {
+          "speaker": "A",
+          "indonesian": "Halo, Apakah kamu tahu Hani di mana?",
+          "chinese": "你好，你知道Hani 在哪里吗？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Sekarang Hani ada rapat, apa yang bisa saya bantu??",
+          "chinese": "Hani 正在开会，我可以帮你什么？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Saya mau tanya gaji saya.",
+          "chinese": "我想问我的工资。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Oh, kamu perlu tunggu 1 jam.",
+          "chinese": "哦，那你需要等1 个小时。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "A",
+          "indonesian": "Kalau begitu, saya datang lagi besok. Kapan kalian masuk kerja?",
+          "chinese": "那我明天再来吧。你们什么时候上班？",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Jam 8 pagi.",
+          "chinese": "早上8 点。",
+          "dialogue_group": 1
+        },
+        {
+          "speaker": "B",
+          "indonesian": "Sama-sama",
+          "chinese": "不客气。",
+          "dialogue_group": 1
+        }
+      ],
+      "grammar": []
+    },
+    {
+      "id": 21,
+      "title": "第二十一课- 工作环境（现场） Pelajaran ke-21: Lingkungan Kerja (Lapangan)",
+      "type": "regular",
+      "vocabulary": [
+        {
+          "word": "Lapangan",
+          "translation": "现场7",
+          "phonetic": null
+        },
+        {
+          "word": "Sedang",
+          "translation": "正在",
+          "phonetic": null
+        },
+        {
+          "word": "Karyawan",
+          "translation": "员工",
+          "phonetic": null
+        },
+        {
+          "word": "Ambil sampel",
+          "translation": "取样",
+          "phonetic": null
+        },
+        {
+          "word": "Perhatikan",
+          "translation": "注意，留意",
+          "phonetic": null
+        },
+        {
+          "word": "Ambil foto",
+          "translation": "拍照",
+          "phonetic": null
+        },
+        {
+          "word": "Inspeksi",
+          "translation": "检查，检视",
+          "phonetic": null
+        },
+        {
+          "word": "Kirim",
+          "translation": "发送，寄",
+          "phonetic": null
+        },
+        {
+          "word": "Rutin",
+          "translation": "常规，例行",
+          "phonetic": null
+        },
+        {
+          "word": "Lalu",
+          "translation": "之前，然后",
+          "phonetic": null
+        },
+        {
+          "word": "Mendaftar",
+          "translation": "登记",
+          "phonetic": null
+        },
+        {
+          "word": "Grup",
+          "translation": "组，小队，一群",
+          "phonetic": null
+        },
+        {
+          "word": "Sebelum",
+          "translation": "之前",
+          "phonetic": null
+        },
+        {
+          "word": "Ikut",
+          "translation": "跟随，参加",
+          "phonetic": null
+        },
+        {
+          "word": "Meninggalkan",
+          "translation": "离开，留下",
+          "phonetic": null
+        },
+        {
+          "word": "HP",
+          "translation": "手机",
+          "phonetic": null
+        },
+        {
+          "word": "Posisi",
+          "translation": "位置",
+          "phonetic": null
+        },
+        {
+          "word": "Rapi",
+          "translation": "整齐",
+          "phonetic": null
+        },
+        {
+          "word": "Masalah",
+          "translation": "问题",
+          "phonetic": null
+        },
+        {
+          "word": "Segera",
+          "translation": "立即",
+          "phonetic": null
+        },
+        {
+          "word": "Pemeriksaan",
+          "translation": "检查",
+          "phonetic": null
+        },
+        {
+          "word": "Laporkan",
+          "translation": "汇报",
+          "phonetic": null
+        },
+        {
+          "word": "Peralatan",
+          "translation": "设备",
+          "phonetic": null
+        },
+        {
+          "word": "Selesai",
+          "translation": "完成",
+          "phonetic": null
+        },
+        {
+          "word": "Perlindungan",
+          "translation": "保护，安全措施",
+          "phonetic": null
+        },
+        {
+          "word": "Data",
+          "translation": "数据",
+          "phonetic": null
+        },
+        {
+          "word": "Koordinasi",
+          "translation": "协调",
+          "phonetic": null
+        },
+        {
+          "word": "Periksa",
+          "translation": "查对，核对",
+          "phonetic": null
+        },
+        {
+          "word": "Kerjasama",
+          "translation": "合作",
+          "phonetic": null
+        },
+        {
+          "word": "Belum",
+          "translation": "还没有，尚未",
+          "phonetic": null
+        },
+        {
+          "word": "tegangan tinggi",
+          "translation": "高压",
+          "phonetic": null
+        },
+        {
+          "word": "teliti",
+          "translation": "仔细",
+          "phonetic": null
+        },
+        {
+          "word": "Tiongkok",
+          "translation": "中国",
+          "phonetic": null
+        },
+        {
+          "word": "telur",
+          "translation": "鸡蛋",
+          "phonetic": null
+        },
+        {
+          "word": "tisu",
+          "translation": "纸巾",
+          "phonetic": null
+        },
+        {
+          "word": "teman",
+          "translation": "朋友",
+          "phonetic": null
+        },
+        {
+          "word": "total",
+          "translation": "合计/小计",
+          "phonetic": null
+        },
+        {
+          "word": "teman sekamar",
+          "translation": "室友",
+          "phonetic": null
+        },
+        {
+          "word": "tempat pakir",
+          "translation": "停车场",
+          "phonetic": null
+        },
+        {
+          "word": "tugas",
+          "translation": "任务",
+          "phonetic": null
+        },
+        {
+          "word": "tempat sampah",
+          "translation": "垃圾桶",
+          "phonetic": null
+        },
+        {
+          "word": "tujuan",
+          "translation": "目的地",
+          "phonetic": null
+        },
+        {
+          "word": "tengah",
+          "translation": "中间",
+          "phonetic": null
+        },
+        {
+          "word": "tenis meja",
+          "translation": "乒乓球",
+          "phonetic": null
+        },
+        {
+          "word": "terima kasih",
+          "translation": "谢谢",
+          "phonetic": null
+        },
+        {
+          "word": "ubi",
+          "translation": "红薯",
+          "phonetic": null
+        },
+        {
+          "word": "untuk",
+          "translation": "为，为了",
+          "phonetic": null
+        },
+        {
+          "word": "utama",
+          "translation": "主要",
+          "phonetic": null
+        },
+        {
+          "word": "umur",
+          "translation": "年龄、年纪",
+          "phonetic": null
+        },
+        {
+          "word": "visa",
+          "translation": "签证",
+          "phonetic": null
+        },
+        {
+          "word": "vitamin",
+          "translation": "维生素",
+          "phonetic": null
+        },
+        {
+          "word": "waktu luang",
+          "translation": "空闲时间",
+          "phonetic": null
+        },
+        {
+          "word": "wortel",
+          "translation": "胡萝卜",
+          "phonetic": null
+        },
+        {
+          "word": "yoga",
+          "translation": "瑜伽",
+          "phonetic": null
+        }
+      ],
+      "sentences": [
+        {
+          "indonesian": "Nina pergi kemana? Dia sedang apa?",
+          "chinese": "Nina 去哪儿了？他正在（做）什么？"
+        },
+        {
+          "indonesian": "Apa yang belum bisa?",
+          "chinese": "哪些还不会？"
+        },
+        {
+          "indonesian": "Di lapangan sangat bahaya.",
+          "chinese": "在现场非常危险。"
+        },
+        {
+          "indonesian": "Tolong ambil contoh dan foto, lalu kirim ke grup.",
+          "chinese": "请取样和拍照，然后发到群里。"
+        },
+        {
+          "indonesian": "Ikut saya pergi kerja bersama.",
+          "chinese": "跟我一起去工作。"
+        },
+        {
+          "indonesian": "Saat kerja tidak boleh main HP dan tidak boleh tidur.",
+          "chinese": "上班不可以玩手机，不可以睡觉。"
+        },
+        {
+          "indonesian": "Jangan terlambat masuk kerja.",
+          "chinese": "上班不要迟到。"
+        },
+        {
+          "indonesian": "Pakai APD yang rapi.",
+          "chinese": "劳保穿戴整齐。"
+        },
+        {
+          "indonesian": "Jika ada masalah, segera laporkan.",
+          "chinese": "如果发现问题及时汇报。"
+        },
+        {
+          "indonesian": "Apakah tugas rutin sudah selesai?",
+          "chinese": "例行工作做完了吗？"
+        },
+        {
+          "indonesian": "Data sudah diperiksa atau belum?",
+          "chinese": "数据核对了没有？"
+        }
+      ],
+      "dialogues": [],
+      "grammar": []
+    }
+  ],
+  "global_vocabulary": [
+    {
+      "word": "AC",
+      "translation": "空调",
+      "phonetic": null
+    },
+    {
+      "word": "antar jemput",
+      "translation": "接送",
+      "phonetic": null
+    },
+    {
+      "word": "ada",
+      "translation": "有",
+      "phonetic": null
+    },
+    {
+      "word": "apa",
+      "translation": "什么",
+      "phonetic": null
+    },
+    {
+      "word": "adalah",
+      "translation": "是",
+      "phonetic": null
+    },
+    {
+      "word": "apakah",
+      "translation": "......吗？",
+      "phonetic": null
+    },
+    {
+      "word": "Agustus",
+      "translation": "八月",
+      "phonetic": null
+    },
+    {
+      "word": "APD",
+      "translation": "劳保",
+      "phonetic": null
+    },
+    {
+      "word": "air mineral",
+      "translation": "矿泉水",
+      "phonetic": null
+    },
+    {
+      "word": "apel",
+      "translation": "苹果",
+      "phonetic": null
+    },
+    {
+      "word": "akhir-akhir ini",
+      "translation": "最近",
+      "phonetic": null
+    },
+    {
+      "word": "aplikasi",
+      "translation": "应用程序（App）",
+      "phonetic": null
+    },
+    {
+      "word": "aku",
+      "translation": "我",
+      "phonetic": null
+    },
+    {
+      "word": "April",
+      "translation": "四月",
+      "phonetic": null
+    },
+    {
+      "word": "alergi",
+      "translation": "过敏",
+      "phonetic": null
+    },
+    {
+      "word": "area",
+      "translation": "区域",
+      "phonetic": null
+    },
+    {
+      "word": "alkohol",
+      "translation": "酒",
+      "phonetic": null
+    },
+    {
+      "word": "asam",
+      "translation": "酸",
+      "phonetic": null
+    },
+    {
+      "word": "aman",
+      "translation": "安全",
+      "phonetic": null
+    },
+    {
+      "word": "asin",
+      "translation": "咸",
+      "phonetic": null
+    },
+    {
+      "word": "ambil",
+      "translation": "拿",
+      "phonetic": null
+    },
+    {
+      "word": "asrama",
+      "translation": "宿舍",
+      "phonetic": null
+    },
+    {
+      "word": "ambil foto",
+      "translation": "拍照",
+      "phonetic": null
+    },
+    {
+      "word": "atasan",
+      "translation": "上司/领导",
+      "phonetic": null
+    },
+    {
+      "word": "ambil sampel",
+      "translation": "取样",
+      "phonetic": null
+    },
+    {
+      "word": "atau",
+      "translation": "或者",
+      "phonetic": null
+    },
+    {
+      "word": "Anda",
+      "translation": "您",
+      "phonetic": null
+    },
+    {
+      "word": "awas",
+      "translation": "关注，留意",
+      "phonetic": null
+    },
+    {
+      "word": "anggur",
+      "translation": "葡萄",
+      "phonetic": null
+    },
+    {
+      "word": "bagaimana",
+      "translation": "怎么样",
+      "phonetic": null
+    },
+    {
+      "word": "berdansa",
+      "translation": "跳舞",
+      "phonetic": null
+    },
+    {
+      "word": "bagasi",
+      "translation": "行李",
+      "phonetic": null
+    },
+    {
+      "word": "berdarah",
+      "translation": "流血",
+      "phonetic": null
+    },
+    {
+      "word": "bahan kimia",
+      "translation": "化学物",
+      "phonetic": null
+    },
+    {
+      "word": "berdiri",
+      "translation": "站",
+      "phonetic": null
+    },
+    {
+      "word": "bahaya",
+      "translation": "危险",
+      "phonetic": null
+    },
+    {
+      "word": "berenang",
+      "translation": "游泳",
+      "phonetic": null
+    },
+    {
+      "word": "baik",
+      "translation": "好",
+      "phonetic": null
+    },
+    {
+      "word": "berjalan-jalan",
+      "translation": "散步",
+      "phonetic": null
+    },
+    {
+      "word": "baik hati",
+      "translation": "善良",
+      "phonetic": null
+    },
+    {
+      "word": "berlangsung",
+      "translation": "持续",
+      "phonetic": null
+    },
+    {
+      "word": "bakso",
+      "translation": "肉丸",
+      "phonetic": null
+    },
+    {
+      "word": "berlari",
+      "translation": "跑步",
+      "phonetic": null
+    },
+    {
+      "word": "bandara",
+      "translation": "飞机场",
+      "phonetic": null
+    },
+    {
+      "word": "bermain game",
+      "translation": "玩/打游戏",
+      "phonetic": null
+    },
+    {
+      "word": "bantu",
+      "translation": "帮助",
+      "phonetic": null
+    },
+    {
+      "word": "bermain",
+      "translation": "玩，打",
+      "phonetic": null
+    },
+    {
+      "word": "barang",
+      "translation": "东西",
+      "phonetic": null
+    },
+    {
+      "word": "bermain bola",
+      "translation": "打球",
+      "phonetic": null
+    },
+    {
+      "word": "barat",
+      "translation": "西",
+      "phonetic": null
+    },
+    {
+      "word": "bermain permainan",
+      "translation": "玩/打游戏",
+      "phonetic": null
+    },
+    {
+      "word": "basah",
+      "translation": "湿",
+      "phonetic": null
+    },
+    {
+      "word": "bernyanyi",
+      "translation": "唱歌",
+      "phonetic": null
+    },
+    {
+      "word": "batal",
+      "translation": "取消",
+      "phonetic": null
+    },
+    {
+      "word": "bersama",
+      "translation": "一起",
+      "phonetic": null
+    },
+    {
+      "word": "batuk",
+      "translation": "咳嗽",
+      "phonetic": null
+    },
+    {
+      "word": "bersepeda",
+      "translation": "骑自行车",
+      "phonetic": null
+    },
+    {
+      "word": "bawa",
+      "translation": "带",
+      "phonetic": null
+    },
+    {
+      "word": "bersih",
+      "translation": "干净",
+      "phonetic": null
+    },
+    {
+      "word": "bea cukai",
+      "translation": "海关",
+      "phonetic": null
+    },
+    {
+      "word": "berwisata",
+      "translation": "旅游",
+      "phonetic": null
+    },
+    {
+      "word": "begadang",
+      "translation": "熬夜",
+      "phonetic": null
+    },
+    {
+      "word": "besok",
+      "translation": "明天",
+      "phonetic": null
+    },
+    {
+      "word": "bekerja",
+      "translation": "做工作，干活",
+      "phonetic": null
+    },
+    {
+      "word": "betul",
+      "translation": "对",
+      "phonetic": null
+    },
+    {
+      "word": "belakang",
+      "translation": "后面",
+      "phonetic": null
+    },
+    {
+      "word": "biliar",
+      "translation": "台球",
+      "phonetic": null
+    },
+    {
+      "word": "belanja",
+      "translation": "购物",
+      "phonetic": null
+    },
+    {
+      "word": "bis",
+      "translation": "巴士",
+      "phonetic": null
+    },
+    {
+      "word": "beli",
+      "translation": "买",
+      "phonetic": null
+    },
+    {
+      "word": "bisa",
+      "translation": "会/能",
+      "phonetic": null
+    },
+    {
+      "word": "belok",
+      "translation": "拐",
+      "phonetic": null
+    },
+    {
+      "word": "biskuit",
+      "translation": "饼干",
+      "phonetic": null
+    },
+    {
+      "word": "belum",
+      "translation": "还没有，尚未",
+      "phonetic": null
+    },
+    {
+      "word": "bola voli",
+      "translation": "排球",
+      "phonetic": null
+    },
+    {
+      "word": "benar",
+      "translation": "正确",
+      "phonetic": null
+    },
+    {
+      "word": "boleh",
+      "translation": "可以",
+      "phonetic": null
+    },
+    {
+      "word": "berangin",
+      "translation": "刮风",
+      "phonetic": null
+    },
+    {
+      "word": "botol minuman",
+      "translation": "饮料瓶",
+      "phonetic": null
+    },
+    {
+      "word": "berani",
+      "translation": "勇敢",
+      "phonetic": null
+    },
+    {
+      "word": "buah",
+      "translation": "水果",
+      "phonetic": null
+    },
+    {
+      "word": "berantakan",
+      "translation": "乱",
+      "phonetic": null
+    },
+    {
+      "word": "buang",
+      "translation": "扔",
+      "phonetic": null
+    },
+    {
+      "word": "berapa",
+      "translation": "几",
+      "phonetic": null
+    },
+    {
+      "word": "bulan",
+      "translation": "月",
+      "phonetic": null
+    },
+    {
+      "word": "berapa lama",
+      "translation": "多久",
+      "phonetic": null
+    },
+    {
+      "word": "bulu tangkis",
+      "translation": "羽毛球",
+      "phonetic": null
+    },
+    {
+      "word": "berasal dari",
+      "translation": "来自",
+      "phonetic": null
+    },
+    {
+      "word": "bumbu",
+      "translation": "调料",
+      "phonetic": null
+    },
+    {
+      "word": "berawan",
+      "translation": "多云",
+      "phonetic": null
+    },
+    {
+      "word": "bungkus",
+      "translation": "打包",
+      "phonetic": null
+    },
+    {
+      "word": "cabai",
+      "translation": "辣椒",
+      "phonetic": null
+    },
+    {
+      "word": "cuaca",
+      "translation": "天气",
+      "phonetic": null
+    },
+    {
+      "word": "cepat",
+      "translation": "快",
+      "phonetic": null
+    },
+    {
+      "word": "cuci piring",
+      "translation": "洗碗",
+      "phonetic": null
+    },
+    {
+      "word": "daging ayam",
+      "translation": "鸡肉",
+      "phonetic": null
+    },
+    {
+      "word": "Desember",
+      "translation": "十二月",
+      "phonetic": null
+    },
+    {
+      "word": "daging babi",
+      "translation": "猪肉",
+      "phonetic": null
+    },
+    {
+      "word": "deterjen bubuk",
+      "translation": "洗衣粉",
+      "phonetic": null
+    },
+    {
+      "word": "daging ikan",
+      "translation": "鱼肉",
+      "phonetic": null
+    },
+    {
+      "word": "deterjen cair",
+      "translation": "洗衣液",
+      "phonetic": null
+    },
+    {
+      "word": "daging sapi",
+      "translation": "牛肉",
+      "phonetic": null
+    },
+    {
+      "word": "di",
+      "translation": "在",
+      "phonetic": null
+    },
+    {
+      "word": "dalam",
+      "translation": "里面",
+      "phonetic": null
+    },
+    {
+      "word": "diare",
+      "translation": "腹泻",
+      "phonetic": null
+    },
+    {
+      "word": "dan",
+      "translation": "和",
+      "phonetic": null
+    },
+    {
+      "word": "dilarang",
+      "translation": "禁止",
+      "phonetic": null
+    },
+    {
+      "word": "data",
+      "translation": "核对",
+      "phonetic": null
+    },
+    {
+      "word": "diperbaiki",
+      "translation": "（被）维修",
+      "phonetic": null
+    },
+    {
+      "word": "datang",
+      "translation": "来",
+      "phonetic": null
+    },
+    {
+      "word": "diri",
+      "translation": "自己",
+      "phonetic": null
+    },
+    {
+      "word": "delapan",
+      "translation": "八",
+      "phonetic": null
+    },
+    {
+      "word": "diskon",
+      "translation": "打折",
+      "phonetic": null
+    },
+    {
+      "word": "demam",
+      "translation": "发烧",
+      "phonetic": null
+    },
+    {
+      "word": "dokter",
+      "translation": "医生",
+      "phonetic": null
+    },
+    {
+      "word": "denda",
+      "translation": "罚款",
+      "phonetic": null
+    },
+    {
+      "word": "dua",
+      "translation": "二",
+      "phonetic": null
+    },
+    {
+      "word": "depan",
+      "translation": "前面",
+      "phonetic": null
+    },
+    {
+      "word": "dua belas",
+      "translation": "十二",
+      "phonetic": null
+    },
+    {
+      "word": "departemen",
+      "translation": "部门",
+      "phonetic": null
+    },
+    {
+      "word": "dua puluh",
+      "translation": "二十",
+      "phonetic": null
+    },
+    {
+      "word": "desain",
+      "translation": "设计",
+      "phonetic": null
+    },
+    {
+      "word": "duduk",
+      "translation": "坐",
+      "phonetic": null
+    },
+    {
+      "word": "empat",
+      "translation": "四",
+      "phonetic": null
+    },
+    {
+      "word": "enam",
+      "translation": "六",
+      "phonetic": null
+    },
+    {
+      "word": "enak",
+      "translation": "好吃",
+      "phonetic": null
+    },
+    {
+      "word": "es krim",
+      "translation": "冰淇淋",
+      "phonetic": null
+    },
+    {
+      "word": "Februari",
+      "translation": "二月",
+      "phonetic": null
+    },
+    {
+      "word": "fotografi",
+      "translation": "摄影",
+      "phonetic": null
+    },
+    {
+      "word": "formulir",
+      "translation": "单子",
+      "phonetic": null
+    },
+    {
+      "word": "gaji",
+      "translation": "工资",
+      "phonetic": null
+    },
+    {
+      "word": "gedung",
+      "translation": "楼栋",
+      "phonetic": null
+    },
+    {
+      "word": "garam",
+      "translation": "盐",
+      "phonetic": null
+    },
+    {
+      "word": "grup",
+      "translation": "组，小队",
+      "phonetic": null
+    },
+    {
+      "word": "habis",
+      "translation": "表示事情结束",
+      "phonetic": null
+    },
+    {
+      "word": "hilang",
+      "translation": "丢",
+      "phonetic": null
+    },
+    {
+      "word": "hadir",
+      "translation": "出席",
+      "phonetic": null
+    },
+    {
+      "word": "hobi",
+      "translation": "爱好",
+      "phonetic": null
+    },
+    {
+      "word": "hambar",
+      "translation": "淡",
+      "phonetic": null
+    },
+    {
+      "word": "HP",
+      "translation": "手机",
+      "phonetic": null
+    },
+    {
+      "word": "hanya",
+      "translation": "只，仅仅",
+      "phonetic": null
+    },
+    {
+      "word": "hujan",
+      "translation": "下雨",
+      "phonetic": null
+    },
+    {
+      "word": "hari",
+      "translation": "日",
+      "phonetic": null
+    },
+    {
+      "word": "hujan deras",
+      "translation": "下大雨",
+      "phonetic": null
+    },
+    {
+      "word": "hari ini",
+      "translation": "今天",
+      "phonetic": null
+    },
+    {
+      "word": "hujan gerimis",
+      "translation": "下细雨",
+      "phonetic": null
+    },
+    {
+      "word": "harus",
+      "translation": "必须",
+      "phonetic": null
+    },
+    {
+      "word": "humoris",
+      "translation": "幽默",
+      "phonetic": null
+    },
+    {
+      "word": "hemat",
+      "translation": "节俭",
+      "phonetic": null
+    },
+    {
+      "word": "ikut",
+      "translation": "跟随/参与",
+      "phonetic": null
+    },
+    {
+      "word": "istirahat",
+      "translation": "休息",
+      "phonetic": null
+    },
+    {
+      "word": "Indonesia",
+      "translation": "印度尼西亚",
+      "phonetic": null
+    },
+    {
+      "word": "istirahat siang",
+      "translation": "午休",
+      "phonetic": null
+    },
+    {
+      "word": "ini",
+      "translation": "这（个）",
+      "phonetic": null
+    },
+    {
+      "word": "itu",
+      "translation": "那（个）",
+      "phonetic": null
+    },
+    {
+      "word": "inspeksi",
+      "translation": "检查，检视",
+      "phonetic": null
+    },
+    {
+      "word": "izin",
+      "translation": "请假",
+      "phonetic": null
+    },
+    {
+      "word": "isi formulir",
+      "translation": "填写表格",
+      "phonetic": null
+    },
+    {
+      "word": "jabatan",
+      "translation": "职位",
+      "phonetic": null
+    },
+    {
+      "word": "jika",
+      "translation": "如果",
+      "phonetic": null
+    },
+    {
+      "word": "Jakarta",
+      "translation": "雅加达",
+      "phonetic": null
+    },
+    {
+      "word": "juga",
+      "translation": "也",
+      "phonetic": null
+    },
+    {
+      "word": "jalan",
+      "translation": "走/马路",
+      "phonetic": null
+    },
+    {
+      "word": "jujur",
+      "translation": "诚实",
+      "phonetic": null
+    },
+    {
+      "word": "jam",
+      "translation": "小时",
+      "phonetic": null
+    },
+    {
+      "word": "Juli",
+      "translation": "七月",
+      "phonetic": null
+    },
+    {
+      "word": "jangan",
+      "translation": "别/不要",
+      "phonetic": null
+    },
+    {
+      "word": "Jumat",
+      "translation": "星期五",
+      "phonetic": null
+    },
+    {
+      "word": "Januari",
+      "translation": "一月",
+      "phonetic": null
+    },
+    {
+      "word": "Juni",
+      "translation": "六月",
+      "phonetic": null
+    },
+    {
+      "word": "jeruk",
+      "translation": "橘子",
+      "phonetic": null
+    },
+    {
+      "word": "juta",
+      "translation": "百万",
+      "phonetic": null
+    },
+    {
+      "word": "kaki",
+      "translation": "脚",
+      "phonetic": null
+    },
+    {
+      "word": "kenapa",
+      "translation": "为什么",
+      "phonetic": null
+    },
+    {
+      "word": "kalau begitu",
+      "translation": "那就这样，那么",
+      "phonetic": null
+    },
+    {
+      "word": "kentang",
+      "translation": "土豆",
+      "phonetic": null
+    },
+    {
+      "word": "kalian",
+      "translation": "你们",
+      "phonetic": null
+    },
+    {
+      "word": "kenyang",
+      "translation": "饱",
+      "phonetic": null
+    },
+    {
+      "word": "kamar",
+      "translation": "房间",
+      "phonetic": null
+    },
+    {
+      "word": "keranjang",
+      "translation": "篮子",
+      "phonetic": null
+    },
+    {
+      "word": "kami",
+      "translation": "我们",
+      "phonetic": null
+    },
+    {
+      "word": "kereta api",
+      "translation": "火车",
+      "phonetic": null
+    },
+    {
+      "word": "Kamis",
+      "translation": "星期四",
+      "phonetic": null
+    },
+    {
+      "word": "kereta cepat",
+      "translation": "高铁",
+      "phonetic": null
+    },
+    {
+      "word": "kamu",
+      "translation": "你",
+      "phonetic": null
+    },
+    {
+      "word": "kering",
+      "translation": "干",
+      "phonetic": null
+    },
+    {
+      "word": "kanan",
+      "translation": "右",
+      "phonetic": null
+    },
+    {
+      "word": "kerja",
+      "translation": "工作",
+      "phonetic": null
+    },
+    {
+      "word": "kangkung",
+      "translation": "空心菜",
+      "phonetic": null
+    },
+    {
+      "word": "kerjasama",
+      "translation": "合作",
+      "phonetic": null
+    },
+    {
+      "word": "kantin",
+      "translation": "食堂",
+      "phonetic": null
+    },
+    {
+      "word": "kesehatan",
+      "translation": "健康",
+      "phonetic": null
+    },
+    {
+      "word": "kantor",
+      "translation": "办公室",
+      "phonetic": null
+    },
+    {
+      "word": "keselamatan",
+      "translation": "安全",
+      "phonetic": null
+    },
+    {
+      "word": "kantor imigrasi",
+      "translation": "移民局",
+      "phonetic": null
+    },
+    {
+      "word": "ketinggalan",
+      "translation": "落",
+      "phonetic": null
+    },
+    {
+      "word": "kantor polisi",
+      "translation": "警察局",
+      "phonetic": null
+    },
+    {
+      "word": "kiri",
+      "translation": "左",
+      "phonetic": null
+    },
+    {
+      "word": "kapal",
+      "translation": "船",
+      "phonetic": null
+    },
+    {
+      "word": "kirim",
+      "translation": "发送，寄",
+      "phonetic": null
+    },
+    {
+      "word": "kapan",
+      "translation": "什么时候",
+      "phonetic": null
+    },
+    {
+      "word": "kita",
+      "translation": "咱们",
+      "phonetic": null
+    },
+    {
+      "word": "karena",
+      "translation": "因为",
+      "phonetic": null
+    },
+    {
+      "word": "klinik",
+      "translation": "诊所",
+      "phonetic": null
+    },
+    {
+      "word": "kartu",
+      "translation": "卡",
+      "phonetic": null
+    },
+    {
+      "word": "kol",
+      "translation": "卷心菜",
+      "phonetic": null
+    },
+    {
+      "word": "kartu karyawan",
+      "translation": "工卡",
+      "phonetic": null
+    },
+    {
+      "word": "komunikasi",
+      "translation": "沟通",
+      "phonetic": null
+    },
+    {
+      "word": "karyawan",
+      "translation": "员工",
+      "phonetic": null
+    },
+    {
+      "word": "kondisioner",
+      "translation": "护发素",
+      "phonetic": null
+    },
+    {
+      "word": "kasir",
+      "translation": "收银台",
+      "phonetic": null
+    },
+    {
+      "word": "koordinasi",
+      "translation": "协调",
+      "phonetic": null
+    },
+    {
+      "word": "kasur",
+      "translation": "床",
+      "phonetic": null
+    },
+    {
+      "word": "kosong",
+      "translation": "零",
+      "phonetic": null
+    },
+    {
+      "word": "ke",
+      "translation": "介词（来/去）",
+      "phonetic": null
+    },
+    {
+      "word": "kota",
+      "translation": "城市",
+      "phonetic": null
+    },
+    {
+      "word": "kecelakaan",
+      "translation": "事故",
+      "phonetic": null
+    },
+    {
+      "word": "kotor",
+      "translation": "脏",
+      "phonetic": null
+    },
+    {
+      "word": "kehujanan",
+      "translation": "（被雨）淋湿",
+      "phonetic": null
+    },
+    {
+      "word": "KTP",
+      "translation": "身份证",
+      "phonetic": null
+    },
+    {
+      "word": "kelas bisnis",
+      "translation": "商务舱",
+      "phonetic": null
+    },
+    {
+      "word": "kuah",
+      "translation": "汤",
+      "phonetic": null
+    },
+    {
+      "word": "keluhan",
+      "translation": "病状",
+      "phonetic": null
+    },
+    {
+      "word": "kurang",
+      "translation": "少",
+      "phonetic": null
+    },
+    {
+      "word": "kemarin",
+      "translation": "昨天",
+      "phonetic": null
+    },
+    {
+      "word": "kurang baik",
+      "translation": "不太好",
+      "phonetic": null
+    },
+    {
+      "word": "kembali",
+      "translation": "回来，回去",
+      "phonetic": null
+    },
+    {
+      "word": "kursi",
+      "translation": "椅子",
+      "phonetic": null
+    },
+    {
+      "word": "kenal",
+      "translation": "认识",
+      "phonetic": null
+    },
+    {
+      "word": "lada bubuk",
+      "translation": "胡椒粉",
+      "phonetic": null
+    },
+    {
+      "word": "letakkan",
+      "translation": "放",
+      "phonetic": null
+    },
+    {
+      "word": "lalu",
+      "translation": "之前，然后",
+      "phonetic": null
+    },
+    {
+      "word": "lima",
+      "translation": "五",
+      "phonetic": null
+    },
+    {
+      "word": "lantai",
+      "translation": "楼层",
+      "phonetic": null
+    },
+    {
+      "word": "lingkungan",
+      "translation": "环境",
+      "phonetic": null
+    },
+    {
+      "word": "lapangan",
+      "translation": "现场",
+      "phonetic": null
+    },
+    {
+      "word": "loket",
+      "translation": "窗口",
+      "phonetic": null
+    },
+    {
+      "word": "lapangan olahraga",
+      "translation": "运动场",
+      "phonetic": null
+    },
+    {
+      "word": "lompat tali",
+      "translation": "跳绳",
+      "phonetic": null
+    },
+    {
+      "word": "lapar",
+      "translation": "饿",
+      "phonetic": null
+    },
+    {
+      "word": "lupa",
+      "translation": "忘记",
+      "phonetic": null
+    },
+    {
+      "word": "laporan kerja",
+      "translation": "工作报告",
+      "phonetic": null
+    },
+    {
+      "word": "lurus",
+      "translation": "直走",
+      "phonetic": null
+    },
+    {
+      "word": "laporkan",
+      "translation": "汇报",
+      "phonetic": null
+    },
+    {
+      "word": "lusa",
+      "translation": "后天",
+      "phonetic": null
+    },
+    {
+      "word": "lemari baju",
+      "translation": "衣柜",
+      "phonetic": null
+    },
+    {
+      "word": "mabuk",
+      "translation": "喝醉的",
+      "phonetic": null
+    },
+    {
+      "word": "mendaftar",
+      "translation": "登记",
+      "phonetic": null
+    },
+    {
+      "word": "mahal",
+      "translation": "贵",
+      "phonetic": null
+    },
+    {
+      "word": "mendaki gunung",
+      "translation": "爬山",
+      "phonetic": null
+    },
+    {
+      "word": "main catur",
+      "translation": "下棋",
+      "phonetic": null
+    },
+    {
+      "word": "mendesak",
+      "translation": "着急",
+      "phonetic": null
+    },
+    {
+      "word": "majalah",
+      "translation": "杂志",
+      "phonetic": null
+    },
+    {
+      "word": "menghindari",
+      "translation": "避免",
+      "phonetic": null
+    },
+    {
+      "word": "maju",
+      "translation": "往前",
+      "phonetic": null
+    },
+    {
+      "word": "meninggalkan",
+      "translation": "离开，留下",
+      "phonetic": null
+    },
+    {
+      "word": "makan",
+      "translation": "吃饭",
+      "phonetic": null
+    },
+    {
+      "word": "menjaga",
+      "translation": "维持，保护",
+      "phonetic": null
+    },
+    {
+      "word": "makan malam",
+      "translation": "吃晚饭（晚饭）",
+      "phonetic": null
+    },
+    {
+      "word": "menunda",
+      "translation": "推迟",
+      "phonetic": null
+    },
+    {
+      "word": "makan siang",
+      "translation": "吃午饭（午饭）",
+      "phonetic": null
+    },
+    {
+      "word": "menyapu",
+      "translation": "扫",
+      "phonetic": null
+    },
+    {
+      "word": "makanan",
+      "translation": "食物",
+      "phonetic": null
+    },
+    {
+      "word": "menyelam",
+      "translation": "潜水",
+      "phonetic": null
+    },
+    {
+      "word": "malam",
+      "translation": "晚上",
+      "phonetic": null
+    },
+    {
+      "word": "menyerahkan",
+      "translation": "提交",
+      "phonetic": null
+    },
+    {
+      "word": "mana",
+      "translation": "哪里",
+      "phonetic": null
+    },
+    {
+      "word": "mereka",
+      "translation": "他们",
+      "phonetic": null
+    },
+    {
+      "word": "mandiri",
+      "translation": "独立",
+      "phonetic": null
+    },
+    {
+      "word": "merokok",
+      "translation": "吸烟",
+      "phonetic": null
+    },
+    {
+      "word": "mangkir kerja",
+      "translation": "旷工",
+      "phonetic": null
+    },
+    {
+      "word": "mesin",
+      "translation": "机器",
+      "phonetic": null
+    },
+    {
+      "word": "mangkuk",
+      "translation": "碗",
+      "phonetic": null
+    },
+    {
+      "word": "mi",
+      "translation": "面",
+      "phonetic": null
+    },
+    {
+      "word": "manis",
+      "translation": "甜",
+      "phonetic": null
+    },
+    {
+      "word": "mi instan",
+      "translation": "方便面",
+      "phonetic": null
+    },
+    {
+      "word": "Maret",
+      "translation": "三月",
+      "phonetic": null
+    },
+    {
+      "word": "micin",
+      "translation": "味精",
+      "phonetic": null
+    },
+    {
+      "word": "masalah",
+      "translation": "问题",
+      "phonetic": null
+    },
+    {
+      "word": "miliar",
+      "translation": "十亿",
+      "phonetic": null
+    },
+    {
+      "word": "masih",
+      "translation": "还/仍旧",
+      "phonetic": null
+    },
+    {
+      "word": "milik",
+      "translation": "属于",
+      "phonetic": null
+    },
+    {
+      "word": "masker",
+      "translation": "口罩",
+      "phonetic": null
+    },
+    {
+      "word": "Minggu",
+      "translation": "周，星期",
+      "phonetic": null
+    },
+    {
+      "word": "masuk kerja",
+      "translation": "上班",
+      "phonetic": null
+    },
+    {
+      "word": "minum",
+      "translation": "饮用，喝",
+      "phonetic": null
+    },
+    {
+      "word": "mau",
+      "translation": "要",
+      "phonetic": null
+    },
+    {
+      "word": "mobil",
+      "translation": "汽车",
+      "phonetic": null
+    },
+    {
+      "word": "Mei",
+      "translation": "五月",
+      "phonetic": null
+    },
+    {
+      "word": "motor",
+      "translation": "摩托车",
+      "phonetic": null
+    },
+    {
+      "word": "meja",
+      "translation": "桌子",
+      "phonetic": null
+    },
+    {
+      "word": "muntah",
+      "translation": "呕吐",
+      "phonetic": null
+    },
+    {
+      "word": "meja informasi",
+      "translation": "服务台",
+      "phonetic": null
+    },
+    {
+      "word": "murah",
+      "translation": "便宜",
+      "phonetic": null
+    },
+    {
+      "word": "melanggar",
+      "translation": "违背，违反",
+      "phonetic": null
+    },
+    {
+      "word": "musim",
+      "translation": "季节",
+      "phonetic": null
+    },
+    {
+      "word": "melukis",
+      "translation": "画画",
+      "phonetic": null
+    },
+    {
+      "word": "musim dingin",
+      "translation": "冬季",
+      "phonetic": null
+    },
+    {
+      "word": "memancing",
+      "translation": "钓鱼",
+      "phonetic": null
+    },
+    {
+      "word": "musim gugur",
+      "translation": "秋季",
+      "phonetic": null
+    },
+    {
+      "word": "memasak",
+      "translation": "烹调",
+      "phonetic": null
+    },
+    {
+      "word": "musim hujan",
+      "translation": "雨季",
+      "phonetic": null
+    },
+    {
+      "word": "membaca buku",
+      "translation": "看书",
+      "phonetic": null
+    },
+    {
+      "word": "musim kemarau",
+      "translation": "旱季",
+      "phonetic": null
+    },
+    {
+      "word": "membersihkan",
+      "translation": "打扫/收拾",
+      "phonetic": null
+    },
+    {
+      "word": "musim panas",
+      "translation": "夏季",
+      "phonetic": null
+    },
+    {
+      "word": "memperkenalkan",
+      "translation": "介绍",
+      "phonetic": null
+    },
+    {
+      "word": "musim semi",
+      "translation": "春季",
+      "phonetic": null
+    },
+    {
+      "word": "naik",
+      "translation": "上",
+      "phonetic": null
+    },
+    {
+      "word": "nol",
+      "translation": "零",
+      "phonetic": null
+    },
+    {
+      "word": "nama",
+      "translation": "名字",
+      "phonetic": null
+    },
+    {
+      "word": "nomor",
+      "translation": "号码",
+      "phonetic": null
+    },
+    {
+      "word": "nasi",
+      "translation": "饭",
+      "phonetic": null
+    },
+    {
+      "word": "nonton film",
+      "translation": "看电影",
+      "phonetic": null
+    },
+    {
+      "word": "nasi campur",
+      "translation": "盖饭",
+      "phonetic": null
+    },
+    {
+      "word": "nonton pertandingan",
+      "translation": "看比赛",
+      "phonetic": null
+    },
+    {
+      "word": "nebeng",
+      "translation": "搭",
+      "phonetic": null
+    },
+    {
+      "word": "novel",
+      "translation": "小说",
+      "phonetic": null
+    },
+    {
+      "word": "negara",
+      "translation": "国家",
+      "phonetic": null
+    },
+    {
+      "word": "November",
+      "translation": "十一月",
+      "phonetic": null
+    },
+    {
+      "word": "obat",
+      "translation": "药",
+      "phonetic": null
+    },
+    {
+      "word": "olahraga",
+      "translation": "运动",
+      "phonetic": null
+    },
+    {
+      "word": "odol",
+      "translation": "牙膏",
+      "phonetic": null
+    },
+    {
+      "word": "optimis",
+      "translation": "乐观",
+      "phonetic": null
+    },
+    {
+      "word": "oke",
+      "translation": "好的",
+      "phonetic": null
+    },
+    {
+      "word": "orang",
+      "translation": "人",
+      "phonetic": null
+    },
+    {
+      "word": "Oktober",
+      "translation": "十月",
+      "phonetic": null
+    },
+    {
+      "word": "pagi",
+      "translation": "早上",
+      "phonetic": null
+    },
+    {
+      "word": "perlindungan",
+      "translation": "保护，安全措施",
+      "phonetic": null
+    },
+    {
+      "word": "pahit",
+      "translation": "苦",
+      "phonetic": null
+    },
+    {
+      "word": "perlu",
+      "translation": "需要",
+      "phonetic": null
+    },
+    {
+      "word": "pakai",
+      "translation": "穿",
+      "phonetic": null
+    },
+    {
+      "word": "perpanjang",
+      "translation": "延长/续期",
+      "phonetic": null
+    },
+    {
+      "word": "panas",
+      "translation": "炎热",
+      "phonetic": null
+    },
+    {
+      "word": "pertandingan",
+      "translation": "比赛",
+      "phonetic": null
+    },
+    {
+      "word": "paspor",
+      "translation": "护照",
+      "phonetic": null
+    },
+    {
+      "word": "pesawat",
+      "translation": "飞机",
+      "phonetic": null
+    },
+    {
+      "word": "patah tulang",
+      "translation": "骨折",
+      "phonetic": null
+    },
+    {
+      "word": "peserta",
+      "translation": "参加人员",
+      "phonetic": null
+    },
+    {
+      "word": "patuhi",
+      "translation": "服从",
+      "phonetic": null
+    },
+    {
+      "word": "petugas",
+      "translation": "工作人员",
+      "phonetic": null
+    },
+    {
+      "word": "payung",
+      "translation": "雨伞",
+      "phonetic": null
+    },
+    {
+      "word": "pilek",
+      "translation": "感冒",
+      "phonetic": null
+    },
+    {
+      "word": "pedas",
+      "translation": "辣",
+      "phonetic": null
+    },
+    {
+      "word": "pintar",
+      "translation": "聪明",
+      "phonetic": null
+    },
+    {
+      "word": "pelangi",
+      "translation": "彩虹",
+      "phonetic": null
+    },
+    {
+      "word": "pir",
+      "translation": "梨",
+      "phonetic": null
+    },
+    {
+      "word": "pemeriksaan",
+      "translation": "检查",
+      "phonetic": null
+    },
+    {
+      "word": "piring",
+      "translation": "盘子",
+      "phonetic": null
+    },
+    {
+      "word": "pengajuan",
+      "translation": "申请",
+      "phonetic": null
+    },
+    {
+      "word": "ponsel",
+      "translation": "手机",
+      "phonetic": null
+    },
+    {
+      "word": "peralatan",
+      "translation": "设备",
+      "phonetic": null
+    },
+    {
+      "word": "posisi",
+      "translation": "位置",
+      "phonetic": null
+    },
+    {
+      "word": "peralatan makan",
+      "translation": "餐具",
+      "phonetic": null
+    },
+    {
+      "word": "prasmanan",
+      "translation": "自助",
+      "phonetic": null
+    },
+    {
+      "word": "perawat",
+      "translation": "护士",
+      "phonetic": null
+    },
+    {
+      "word": "provinsi",
+      "translation": "省",
+      "phonetic": null
+    },
+    {
+      "word": "perbaiki",
+      "translation": "修理",
+      "phonetic": null
+    },
+    {
+      "word": "pulang",
+      "translation": "回",
+      "phonetic": null
+    },
+    {
+      "word": "percaya diri",
+      "translation": "自信",
+      "phonetic": null
+    },
+    {
+      "word": "pulang kerja",
+      "translation": "下班",
+      "phonetic": null
+    },
+    {
+      "word": "pergi",
+      "translation": "去",
+      "phonetic": null
+    },
+    {
+      "word": "pulang pergi",
+      "translation": "往返",
+      "phonetic": null
+    },
+    {
+      "word": "perhatikan",
+      "translation": "注意，留意",
+      "phonetic": null
+    },
+    {
+      "word": "puluh ribu",
+      "translation": "万",
+      "phonetic": null
+    },
+    {
+      "word": "periksa",
+      "translation": "查对，核对",
+      "phonetic": null
+    },
+    {
+      "word": "pusing",
+      "translation": "头晕",
+      "phonetic": null
+    },
+    {
+      "word": "Rabu",
+      "translation": "星期三",
+      "phonetic": null
+    },
+    {
+      "word": "ratus",
+      "translation": "百",
+      "phonetic": null
+    },
+    {
+      "word": "radang",
+      "translation": "发炎",
+      "phonetic": null
+    },
+    {
+      "word": "ratus ribu",
+      "translation": "十万",
+      "phonetic": null
+    },
+    {
+      "word": "rajin",
+      "translation": "勤奋",
+      "phonetic": null
+    },
+    {
+      "word": "rekan kerja",
+      "translation": "同事",
+      "phonetic": null
+    },
+    {
+      "word": "ramah",
+      "translation": "友善",
+      "phonetic": null
+    },
+    {
+      "word": "ribu",
+      "translation": "千",
+      "phonetic": null
+    },
+    {
+      "word": "rapat",
+      "translation": "会议",
+      "phonetic": null
+    },
+    {
+      "word": "rokok",
+      "translation": "烟",
+      "phonetic": null
+    },
+    {
+      "word": "rapat bulanan",
+      "translation": "月会",
+      "phonetic": null
+    },
+    {
+      "word": "ruang rapat",
+      "translation": "会议室",
+      "phonetic": null
+    },
+    {
+      "word": "rapat mingguan",
+      "translation": "周会",
+      "phonetic": null
+    },
+    {
+      "word": "rumah sakit",
+      "translation": "医院",
+      "phonetic": null
+    },
+    {
+      "word": "rapat tahunan",
+      "translation": "年会",
+      "phonetic": null
+    },
+    {
+      "word": "rusak",
+      "translation": "坏",
+      "phonetic": null
+    },
+    {
+      "word": "rapi",
+      "translation": "整齐",
+      "phonetic": null
+    },
+    {
+      "word": "rutin",
+      "translation": "常规，例行",
+      "phonetic": null
+    },
+    {
+      "word": "rasa",
+      "translation": "味，味道，口味滋味。",
+      "phonetic": null
+    },
+    {
+      "word": "saat",
+      "translation": "时刻，时候",
+      "phonetic": null
+    },
+    {
+      "word": "sembilan",
+      "translation": "九",
+      "phonetic": null
+    },
+    {
+      "word": "sabar",
+      "translation": "耐心",
+      "phonetic": null
+    },
+    {
+      "word": "sembuh",
+      "translation": "痊愈",
+      "phonetic": null
+    },
+    {
+      "word": "Sabtu",
+      "translation": "星期六",
+      "phonetic": null
+    },
+    {
+      "word": "semoga",
+      "translation": "希望/祝愿",
+      "phonetic": null
+    },
+    {
+      "word": "sabun cair",
+      "translation": "沐浴露",
+      "phonetic": null
+    },
+    {
+      "word": "semuanya",
+      "translation": "大家",
+      "phonetic": null
+    },
+    {
+      "word": "scan wajah",
+      "translation": "扫脸",
+      "phonetic": null
+    },
+    {
+      "word": "senang",
+      "translation": "高兴",
+      "phonetic": null
+    },
+    {
+      "word": "sakit kepala",
+      "translation": "头痛",
+      "phonetic": null
+    },
+    {
+      "word": "sendok",
+      "translation": "勺子",
+      "phonetic": null
+    },
+    {
+      "word": "sakit mata",
+      "translation": "眼睛痛",
+      "phonetic": null
+    },
+    {
+      "word": "Senin",
+      "translation": "星期一",
+      "phonetic": null
+    },
+    {
+      "word": "sakit perut",
+      "translation": "肚子痛",
+      "phonetic": null
+    },
+    {
+      "word": "sepak bola",
+      "translation": "足球",
+      "phonetic": null
+    },
+    {
+      "word": "sakit tenggorokan",
+      "translation": "喉咙痛",
+      "phonetic": null
+    },
+    {
+      "word": "September",
+      "translation": "九月",
+      "phonetic": null
+    },
+    {
+      "word": "salah",
+      "translation": "错",
+      "phonetic": null
+    },
+    {
+      "word": "sering",
+      "translation": "经常",
+      "phonetic": null
+    },
+    {
+      "word": "sama-sama",
+      "translation": "不客气",
+      "phonetic": null
+    },
+    {
+      "word": "setia",
+      "translation": "忠诚",
+      "phonetic": null
+    },
+    {
+      "word": "sampah",
+      "translation": "垃圾",
+      "phonetic": null
+    },
+    {
+      "word": "setiap",
+      "translation": "每",
+      "phonetic": null
+    },
+    {
+      "word": "sampo",
+      "translation": "洗发水",
+      "phonetic": null
+    },
+    {
+      "word": "siang",
+      "translation": "中午",
+      "phonetic": null
+    },
+    {
+      "word": "sana",
+      "translation": "那边",
+      "phonetic": null
+    },
+    {
+      "word": "siapa",
+      "translation": "谁",
+      "phonetic": null
+    },
+    {
+      "word": "sangat",
+      "translation": "很",
+      "phonetic": null
+    },
+    {
+      "word": "sikat gigi",
+      "translation": "牙刷",
+      "phonetic": null
+    },
+    {
+      "word": "sarapan",
+      "translation": "吃早饭",
+      "phonetic": null
+    },
+    {
+      "word": "sini",
+      "translation": "这边",
+      "phonetic": null
+    },
+    {
+      "word": "satu",
+      "translation": "一",
+      "phonetic": null
+    },
+    {
+      "word": "sisa makanan",
+      "translation": "剩饭",
+      "phonetic": null
+    },
+    {
+      "word": "sawi putih",
+      "translation": "白菜",
+      "phonetic": null
+    },
+    {
+      "word": "situ",
+      "translation": "那儿",
+      "phonetic": null
+    },
+    {
+      "word": "saya",
+      "translation": "我",
+      "phonetic": null
+    },
+    {
+      "word": "SOP",
+      "translation": "标准作业流程",
+      "phonetic": null
+    },
+    {
+      "word": "sebelah",
+      "translation": "旁边",
+      "phonetic": null
+    },
+    {
+      "word": "sore",
+      "translation": "下午",
+      "phonetic": null
+    },
+    {
+      "word": "sebelas",
+      "translation": "十一",
+      "phonetic": null
+    },
+    {
+      "word": "sosis",
+      "translation": "香肠",
+      "phonetic": null
+    },
+    {
+      "word": "sebelum",
+      "translation": "之前",
+      "phonetic": null
+    },
+    {
+      "word": "stasiun kereta api",
+      "translation": "火车站",
+      "phonetic": null
+    },
+    {
+      "word": "sedang",
+      "translation": "正在",
+      "phonetic": null
+    },
+    {
+      "word": "stok",
+      "translation": "库存",
+      "phonetic": null
+    },
+    {
+      "word": "segera",
+      "translation": "立即",
+      "phonetic": null
+    },
+    {
+      "word": "sudah",
+      "translation": "已经",
+      "phonetic": null
+    },
+    {
+      "word": "sejuk",
+      "translation": "凉快",
+      "phonetic": null
+    },
+    {
+      "word": "suka",
+      "translation": "喜欢",
+      "phonetic": null
+    },
+    {
+      "word": "sekarang",
+      "translation": "现在",
+      "phonetic": null
+    },
+    {
+      "word": "sumpit",
+      "translation": "筷子",
+      "phonetic": null
+    },
+    {
+      "word": "selamat",
+      "translation": "问候/平安",
+      "phonetic": null
+    },
+    {
+      "word": "sup",
+      "translation": "汤",
+      "phonetic": null
+    },
+    {
+      "word": "Selasa",
+      "translation": "星期二",
+      "phonetic": null
+    },
+    {
+      "word": "surat kabar",
+      "translation": "报纸",
+      "phonetic": null
+    },
+    {
+      "word": "selatan",
+      "translation": "南",
+      "phonetic": null
+    },
+    {
+      "word": "susu kedelai",
+      "translation": "豆浆",
+      "phonetic": null
+    },
+    {
+      "word": "selesai",
+      "translation": "完成",
+      "phonetic": null
+    },
+    {
+      "word": "swalayan",
+      "translation": "超市",
+      "phonetic": null
+    },
+    {
+      "word": "tahu",
+      "translation": "知道",
+      "phonetic": null
+    },
+    {
+      "word": "terlambat",
+      "translation": "迟到",
+      "phonetic": null
+    },
+    {
+      "word": "tahun",
+      "translation": "年",
+      "phonetic": null
+    },
+    {
+      "word": "terminal bis",
+      "translation": "车站",
+      "phonetic": null
+    },
+    {
+      "word": "tambah",
+      "translation": "加",
+      "phonetic": null
+    },
+    {
+      "word": "tidak",
+      "translation": "不/没",
+      "phonetic": null
+    },
+    {
+      "word": "tanda tangan",
+      "translation": "签字",
+      "phonetic": null
+    },
+    {
+      "word": "tidak enak badan",
+      "translation": "身体不舒服",
+      "phonetic": null
+    },
+    {
+      "word": "tangga",
+      "translation": "梯子/楼梯",
+      "phonetic": null
+    },
+    {
+      "word": "tidur",
+      "translation": "睡觉",
+      "phonetic": null
+    },
+    {
+      "word": "tanggal",
+      "translation": "日期",
+      "phonetic": null
+    },
+    {
+      "word": "tiga",
+      "translation": "三",
+      "phonetic": null
+    },
+    {
+      "word": "tanggal kedaluwarsa",
+      "translation": "有效日期",
+      "phonetic": null
+    },
+    {
+      "word": "timur",
+      "translation": "东",
+      "phonetic": null
+    },
+    {
+      "word": "tegangan tinggi",
+      "translation": "高压",
+      "phonetic": null
+    },
+    {
+      "word": "tinggal",
+      "translation": "住",
+      "phonetic": null
+    },
+    {
+      "word": "teliti",
+      "translation": "仔细",
+      "phonetic": null
+    },
+    {
+      "word": "Tiongkok",
+      "translation": "中国",
+      "phonetic": null
+    },
+    {
+      "word": "telur",
+      "translation": "鸡蛋",
+      "phonetic": null
+    },
+    {
+      "word": "tisu",
+      "translation": "纸巾",
+      "phonetic": null
+    },
+    {
+      "word": "teman",
+      "translation": "朋友",
+      "phonetic": null
+    },
+    {
+      "word": "total",
+      "translation": "合计/小计",
+      "phonetic": null
+    },
+    {
+      "word": "teman sekamar",
+      "translation": "室友",
+      "phonetic": null
+    },
+    {
+      "word": "triliun",
+      "translation": "兆",
+      "phonetic": null
+    },
+    {
+      "word": "tempat pakir",
+      "translation": "停车场",
+      "phonetic": null
+    },
+    {
+      "word": "tugas",
+      "translation": "任务",
+      "phonetic": null
+    },
+    {
+      "word": "tempat sampah",
+      "translation": "垃圾桶",
+      "phonetic": null
+    },
+    {
+      "word": "tujuan",
+      "translation": "目的地",
+      "phonetic": null
+    },
+    {
+      "word": "tengah",
+      "translation": "中间",
+      "phonetic": null
+    },
+    {
+      "word": "tujuh",
+      "translation": "七",
+      "phonetic": null
+    },
+    {
+      "word": "tenis meja",
+      "translation": "乒乓球",
+      "phonetic": null
+    },
+    {
+      "word": "tunggu",
+      "translation": "等",
+      "phonetic": null
+    },
+    {
+      "word": "terima kasih",
+      "translation": "谢谢",
+      "phonetic": null
+    },
+    {
+      "word": "ubi",
+      "translation": "红薯",
+      "phonetic": null
+    },
+    {
+      "word": "untuk",
+      "translation": "为，为了",
+      "phonetic": null
+    },
+    {
+      "word": "udang",
+      "translation": "虾",
+      "phonetic": null
+    },
+    {
+      "word": "utama",
+      "translation": "主要",
+      "phonetic": null
+    },
+    {
+      "word": "umur",
+      "translation": "年龄、年纪",
+      "phonetic": null
+    },
+    {
+      "word": "utara",
+      "translation": "北",
+      "phonetic": null
+    },
+    {
+      "word": "visa",
+      "translation": "签证",
+      "phonetic": null
+    },
+    {
+      "word": "vitamin",
+      "translation": "维生素",
+      "phonetic": null
+    },
+    {
+      "word": "waktu luang",
+      "translation": "空闲时间",
+      "phonetic": null
+    },
+    {
+      "word": "wortel",
+      "translation": "胡萝卜",
+      "phonetic": null
+    },
+    {
+      "word": "yoga",
+      "translation": "瑜伽",
+      "phonetic": null
+    }
+  ]
+}

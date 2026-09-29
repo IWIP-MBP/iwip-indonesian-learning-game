@@ -1,0 +1,715 @@
+[
+  {
+    "type": "vocab_choice",
+    "content": "Terima kasih 是什么意思？",
+    "options": [
+      {
+        "text": "谢谢",
+        "is_correct": true
+      },
+      {
+        "text": "对不起",
+        "is_correct": false
+      },
+      {
+        "text": "不客气",
+        "is_correct": false
+      },
+      {
+        "text": "你好",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Terima kasih 是印尼语谢谢，非常常用的礼貌用语。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Sama-sama 是什么意思？",
+    "options": [
+      {
+        "text": "不客气",
+        "is_correct": true
+      },
+      {
+        "text": "谢谢",
+        "is_correct": false
+      },
+      {
+        "text": "对不起",
+        "is_correct": false
+      },
+      {
+        "text": "你好",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Sama-sama 是回应感谢的用语，意为不客气，相当于英语 You are welcome。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Siapa 是什么意思？",
+    "options": [
+      {
+        "text": "谁",
+        "is_correct": true
+      },
+      {
+        "text": "什么",
+        "is_correct": false
+      },
+      {
+        "text": "哪里",
+        "is_correct": false
+      },
+      {
+        "text": "什么时候",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Siapa 是印尼语谁，如 Siapa nama kamu?（你叫什么名字？）"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Sudah 是什么意思？",
+    "options": [
+      {
+        "text": "已经",
+        "is_correct": true
+      },
+      {
+        "text": "还没有",
+        "is_correct": false
+      },
+      {
+        "text": "刚才",
+        "is_correct": false
+      },
+      {
+        "text": "将要",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Sudah 意为已经，表示某事已发生，与 belum（还没）相对。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Kalian 是什么意思？",
+    "options": [
+      {
+        "text": "你们",
+        "is_correct": true
+      },
+      {
+        "text": "咱们",
+        "is_correct": false
+      },
+      {
+        "text": "他们",
+        "is_correct": false
+      },
+      {
+        "text": "我们",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Kalian 意为你们（第二人称复数），比 Anda 更口语。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Apakah ini barang kamu? 的意思是？",
+    "options": [
+      {
+        "text": "这是你的东西吗？",
+        "is_correct": true
+      },
+      {
+        "text": "这是什么东西？",
+        "is_correct": false
+      },
+      {
+        "text": "你的东西在哪里？",
+        "is_correct": false
+      },
+      {
+        "text": "谁的东西是这个？",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Apakah ini barang kamu? = 这（ini）+ 是（=）+ 你的（kamu）+ 东西（barang）吗（apakah）？"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Barang ini milik siapa? 的意思是？",
+    "options": [
+      {
+        "text": "这个东西是谁的？",
+        "is_correct": true
+      },
+      {
+        "text": "这是什么东西？",
+        "is_correct": false
+      },
+      {
+        "text": "东西在哪里？",
+        "is_correct": false
+      },
+      {
+        "text": "谁买了这个东西？",
+        "is_correct": false
+      }
+    ],
+    "explanation": "milik 表示属于，Barang ini milik siapa? 意为这个东西是谁的？"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "milik 是什么意思？",
+    "options": [
+      {
+        "text": "属于",
+        "is_correct": true
+      },
+      {
+        "text": "买",
+        "is_correct": false
+      },
+      {
+        "text": "拿",
+        "is_correct": false
+      },
+      {
+        "text": "送",
+        "is_correct": false
+      }
+    ],
+    "explanation": "milik 意为属于/所有，如 ini milik saya（这是我的）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "Terima kasih sudah bantu kami. 的意思是？",
+    "options": [
+      {
+        "text": "谢谢你帮助了我们",
+        "is_correct": true
+      },
+      {
+        "text": "我们需要你的帮助",
+        "is_correct": false
+      },
+      {
+        "text": "你已经帮过我们",
+        "is_correct": false
+      },
+      {
+        "text": "感谢你来看我们",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Terima kasih + sudah（已经）+ bantu（帮助）+ kami（我们），意为谢谢你帮助了我们。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "beli 是什么意思？",
+    "options": [
+      {
+        "text": "买",
+        "is_correct": true
+      },
+      {
+        "text": "卖",
+        "is_correct": false
+      },
+      {
+        "text": "拿",
+        "is_correct": false
+      },
+      {
+        "text": "用",
+        "is_correct": false
+      }
+    ],
+    "explanation": "beli 意为买，menjual 意为卖。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "bisa 是什么意思？",
+    "options": [
+      {
+        "text": "会/能（有能力）",
+        "is_correct": true
+      },
+      {
+        "text": "可以（被允许）",
+        "is_correct": false
+      },
+      {
+        "text": "必须",
+        "is_correct": false
+      },
+      {
+        "text": "想要",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bisa 意为会/能（有能力做）；boleh 意为可以（被允许）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "belok 是什么意思？",
+    "options": [
+      {
+        "text": "拐",
+        "is_correct": true
+      },
+      {
+        "text": "直走",
+        "is_correct": false
+      },
+      {
+        "text": "停止",
+        "is_correct": false
+      },
+      {
+        "text": "返回",
+        "is_correct": false
+      }
+    ],
+    "explanation": "belok 意为拐/转弯，如 belok kanan（右转）。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "bisKuit 是什么意思？",
+    "options": [
+      {
+        "text": "饼干",
+        "is_correct": true
+      },
+      {
+        "text": "蛋糕",
+        "is_correct": false
+      },
+      {
+        "text": "面包",
+        "is_correct": false
+      },
+      {
+        "text": "糖果",
+        "is_correct": false
+      }
+    ],
+    "explanation": "biskuit 是饼干，源自英语 biscuit。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "bola voli 是什么意思？",
+    "options": [
+      {
+        "text": "排球",
+        "is_correct": true
+      },
+      {
+        "text": "足球",
+        "is_correct": false
+      },
+      {
+        "text": "篮球",
+        "is_correct": false
+      },
+      {
+        "text": "羽毛球",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bola voli 是排球，bola 是球，voli 是排球运动。"
+  },
+  {
+    "type": "vocab_choice",
+    "content": "benar 是什么意思？",
+    "options": [
+      {
+        "text": "正确",
+        "is_correct": true
+      },
+      {
+        "text": "错误",
+        "is_correct": false
+      },
+      {
+        "text": "好",
+        "is_correct": false
+      },
+      {
+        "text": "坏",
+        "is_correct": false
+      }
+    ],
+    "explanation": "benar 意为正确/对，与 betul 同义，与 salah（错）相对。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文谢谢对应的印尼语是？",
+    "options": [
+      {
+        "text": "Terima kasih",
+        "is_correct": true
+      },
+      {
+        "text": "Sama-sama",
+        "is_correct": false
+      },
+      {
+        "text": "Maaf",
+        "is_correct": false
+      },
+      {
+        "text": "Permisi",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Terima kasih 是谢谢。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文不客气对应的印尼语是？",
+    "options": [
+      {
+        "text": "Sama-sama",
+        "is_correct": true
+      },
+      {
+        "text": "Terima kasih",
+        "is_correct": false
+      },
+      {
+        "text": "Maaf",
+        "is_correct": false
+      },
+      {
+        "text": "Baik",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Sama-sama 是不客气，回应谢谢的标准用法。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文谁对应的印尼语疑问词是？",
+    "options": [
+      {
+        "text": "siapa",
+        "is_correct": true
+      },
+      {
+        "text": "apa",
+        "is_correct": false
+      },
+      {
+        "text": "mana",
+        "is_correct": false
+      },
+      {
+        "text": "kapan",
+        "is_correct": false
+      }
+    ],
+    "explanation": "siapa 意为谁。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文已经对应的印尼语是？",
+    "options": [
+      {
+        "text": "sudah",
+        "is_correct": true
+      },
+      {
+        "text": "belum",
+        "is_correct": false
+      },
+      {
+        "text": "akan",
+        "is_correct": false
+      },
+      {
+        "text": "sedang",
+        "is_correct": false
+      }
+    ],
+    "explanation": "sudah 意为已经，与 belum（还没有）相对。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文属于对应的印尼语是？",
+    "options": [
+      {
+        "text": "milik",
+        "is_correct": true
+      },
+      {
+        "text": "minta",
+        "is_correct": false
+      },
+      {
+        "text": "makan",
+        "is_correct": false
+      },
+      {
+        "text": "maju",
+        "is_correct": false
+      }
+    ],
+    "explanation": "milik 意为属于/所有，如 ini milik saya（这是我的）。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文买对应的印尼语是？",
+    "options": [
+      {
+        "text": "beli",
+        "is_correct": true
+      },
+      {
+        "text": "bayar",
+        "is_correct": false
+      },
+      {
+        "text": "bantu",
+        "is_correct": false
+      },
+      {
+        "text": "bawa",
+        "is_correct": false
+      }
+    ],
+    "explanation": "beli 意为买。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文正确对应的印尼语是？",
+    "options": [
+      {
+        "text": "benar",
+        "is_correct": true
+      },
+      {
+        "text": "baik",
+        "is_correct": false
+      },
+      {
+        "text": "betul",
+        "is_correct": false
+      },
+      {
+        "text": "salah",
+        "is_correct": false
+      }
+    ],
+    "explanation": "benar 意为正确，与 betul 同义。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文可以（有能力）对应的印尼语是？",
+    "options": [
+      {
+        "text": "bisa",
+        "is_correct": true
+      },
+      {
+        "text": "boleh",
+        "is_correct": false
+      },
+      {
+        "text": "harus",
+        "is_correct": false
+      },
+      {
+        "text": "mau",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bisa 意为能/会（有能力），boleh 意为可以（被允许）。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文排球对应的印尼语是？",
+    "options": [
+      {
+        "text": "bola voli",
+        "is_correct": true
+      },
+      {
+        "text": "bola basket",
+        "is_correct": false
+      },
+      {
+        "text": "bulu tangkis",
+        "is_correct": false
+      },
+      {
+        "text": "sepak bola",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bola voli 是排球。"
+  },
+  {
+    "type": "cn_to_indo",
+    "content": "中文饼干对应的印尼语是？",
+    "options": [
+      {
+        "text": "biskuit",
+        "is_correct": true
+      },
+      {
+        "text": "roti",
+        "is_correct": false
+      },
+      {
+        "text": "kue",
+        "is_correct": false
+      },
+      {
+        "text": "coklat",
+        "is_correct": false
+      }
+    ],
+    "explanation": "biskuit 是饼干（源自英语 biscuit）。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 Terima kasih 】",
+    "options": [
+      {
+        "text": "谢谢",
+        "is_correct": true
+      },
+      {
+        "text": "对不起",
+        "is_correct": false
+      },
+      {
+        "text": "不客气",
+        "is_correct": false
+      },
+      {
+        "text": "你好",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Terima kasih 意为谢谢。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 Sama-sama 】",
+    "options": [
+      {
+        "text": "不客气",
+        "is_correct": true
+      },
+      {
+        "text": "谢谢",
+        "is_correct": false
+      },
+      {
+        "text": "对不起",
+        "is_correct": false
+      },
+      {
+        "text": "再见",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Sama-sama 意为不客气。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 milik 】",
+    "options": [
+      {
+        "text": "属于",
+        "is_correct": true
+      },
+      {
+        "text": "买",
+        "is_correct": false
+      },
+      {
+        "text": "拿",
+        "is_correct": false
+      },
+      {
+        "text": "给",
+        "is_correct": false
+      }
+    ],
+    "explanation": "milik 意为属于/所有。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 sudah 】",
+    "options": [
+      {
+        "text": "已经",
+        "is_correct": true
+      },
+      {
+        "text": "还没有",
+        "is_correct": false
+      },
+      {
+        "text": "刚才",
+        "is_correct": false
+      },
+      {
+        "text": "将要",
+        "is_correct": false
+      }
+    ],
+    "explanation": "sudah 意为已经。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 siapa 】",
+    "options": [
+      {
+        "text": "谁",
+        "is_correct": true
+      },
+      {
+        "text": "什么",
+        "is_correct": false
+      },
+      {
+        "text": "哪里",
+        "is_correct": false
+      },
+      {
+        "text": "多少",
+        "is_correct": false
+      }
+    ],
+    "explanation": "siapa 意为谁。"
+  },
+  {
+    "type": "indo_to_cn",
+    "content": "选择正确的中文翻译：\n【 bisa 】",
+    "options": [
+      {
+        "text": "会/能（有能力）",
+        "is_correct": true
+      },
+      {
+        "text": "可以（被允许）",
+        "is_correct": false
+      },
+      {
+        "text": "必须",
+        "is_correct": false
+      },
+      {
+        "text": "想要",
+        "is_correct": false
+      }
+    ],
+    "explanation": "bisa 意为能/会（有能力），boleh 意为可以（被允许）。"
+  }
+]

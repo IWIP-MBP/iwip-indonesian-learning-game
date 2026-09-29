@@ -1,0 +1,2708 @@
+[
+  {
+    "category": "字母",
+    "code": "alphabet",
+    "words": [
+      {
+        "word": "A",
+        "translation": "啊 (a)"
+      },
+      {
+        "word": "B",
+        "translation": "贝 (be)"
+      },
+      {
+        "word": "C",
+        "translation": "这 (ce)"
+      },
+      {
+        "word": "D",
+        "translation": "的 (de)"
+      },
+      {
+        "word": "E",
+        "translation": "额 (e)"
+      },
+      {
+        "word": "F",
+        "translation": "额服 (ef)"
+      },
+      {
+        "word": "G",
+        "translation": "个 (ge)"
+      },
+      {
+        "word": "H",
+        "translation": "哈 (ha)"
+      },
+      {
+        "word": "I",
+        "translation": "衣 (i)"
+      },
+      {
+        "word": "J",
+        "translation": "贼 (je)"
+      },
+      {
+        "word": "K",
+        "translation": "噶 (ka)"
+      },
+      {
+        "word": "L",
+        "translation": "额乐 (el)"
+      },
+      {
+        "word": "M",
+        "translation": "额么 (em)"
+      },
+      {
+        "word": "N",
+        "translation": "嗯 (en)"
+      },
+      {
+        "word": "O",
+        "translation": "哦 (o)"
+      },
+      {
+        "word": "P",
+        "translation": "呗 (pe)"
+      }
+    ]
+  },
+  {
+    "category": "数字",
+    "code": "numbers",
+    "words": [
+      {
+        "word": "nol",
+        "translation": "零"
+      },
+      {
+        "word": "satu",
+        "translation": "一"
+      },
+      {
+        "word": "dua",
+        "translation": "二"
+      },
+      {
+        "word": "tiga",
+        "translation": "三"
+      },
+      {
+        "word": "empat",
+        "translation": "四"
+      },
+      {
+        "word": "lima",
+        "translation": "五"
+      },
+      {
+        "word": "enam",
+        "translation": "六"
+      },
+      {
+        "word": "tujuh",
+        "translation": "七"
+      },
+      {
+        "word": "delapan",
+        "translation": "八"
+      },
+      {
+        "word": "sembilan",
+        "translation": "九"
+      },
+      {
+        "word": "sepuluh",
+        "translation": "十"
+      },
+      {
+        "word": "belas",
+        "translation": "十几 (用于11-19)"
+      },
+      {
+        "word": "puluh",
+        "translation": "十 (用于整十)"
+      },
+      {
+        "word": "ratus",
+        "translation": "百"
+      },
+      {
+        "word": "ribu",
+        "translation": "千"
+      },
+      {
+        "word": "juta",
+        "translation": "百万"
+      }
+    ]
+  },
+  {
+    "category": "代词",
+    "code": "pronouns",
+    "words": [
+      {
+        "word": "saya",
+        "translation": "我 (正式)"
+      },
+      {
+        "word": "kamu",
+        "translation": "你"
+      },
+      {
+        "word": "dia",
+        "translation": "他/她"
+      },
+      {
+        "word": "kami",
+        "translation": "我们 (不含听者)"
+      },
+      {
+        "word": "kita",
+        "translation": "咱们 (包含听者)"
+      },
+      {
+        "word": "kalian",
+        "translation": "你们"
+      },
+      {
+        "word": "mereka",
+        "translation": "他们"
+      },
+      {
+        "word": "ini",
+        "translation": "这/这个"
+      },
+      {
+        "word": "itu",
+        "translation": "那/那个"
+      },
+      {
+        "word": "siapa",
+        "translation": "谁"
+      },
+      {
+        "word": "apa",
+        "translation": "什么"
+      },
+      {
+        "word": "mana",
+        "translation": "哪里"
+      },
+      {
+        "word": "sendiri",
+        "translation": "自己"
+      }
+    ]
+  },
+  {
+    "category": "颜色",
+    "code": "colors",
+    "words": [
+      {
+        "word": "merah",
+        "translation": "红色"
+      },
+      {
+        "word": "biru",
+        "translation": "蓝色"
+      },
+      {
+        "word": "kuning",
+        "translation": "黄色"
+      },
+      {
+        "word": "hijau",
+        "translation": "绿色"
+      },
+      {
+        "word": "putih",
+        "translation": "白色"
+      },
+      {
+        "word": "hitam",
+        "translation": "黑色"
+      },
+      {
+        "word": "cokelat",
+        "translation": "棕色/褐色"
+      },
+      {
+        "word": "abu-abu",
+        "translation": "灰色"
+      },
+      {
+        "word": "ungu",
+        "translation": "紫色"
+      },
+      {
+        "word": "jingga",
+        "translation": "橙色"
+      },
+      {
+        "word": "merah muda",
+        "translation": "粉红色"
+      },
+      {
+        "word": "emas",
+        "translation": "金色"
+      }
+    ]
+  },
+  {
+    "category": "问候",
+    "code": "greetings",
+    "words": [
+      {
+        "word": "halo",
+        "translation": "你好"
+      },
+      {
+        "word": "selamat pagi",
+        "translation": "早上好"
+      },
+      {
+        "word": "selamat siang",
+        "translation": "中午好"
+      },
+      {
+        "word": "selamat sore",
+        "translation": "下午好"
+      },
+      {
+        "word": "selamat malam",
+        "translation": "晚上好"
+      },
+      {
+        "word": "terima kasih",
+        "translation": "谢谢"
+      },
+      {
+        "word": "sama-sama",
+        "translation": "不客气"
+      },
+      {
+        "word": "maaf",
+        "translation": "对不起"
+      },
+      {
+        "word": "permisi",
+        "translation": "打扰了/借光"
+      },
+      {
+        "word": "sampai jumpa",
+        "translation": "再见"
+      },
+      {
+        "word": "apa kabar",
+        "translation": "你好吗/身体好吗"
+      },
+      {
+        "word": "kabar baik",
+        "translation": "我很好"
+      },
+      {
+        "word": "silakan",
+        "translation": "请 (一般动作)"
+      },
+      {
+        "word": "tolong",
+        "translation": "请 (要求帮助)"
+      }
+    ]
+  },
+  {
+    "category": "星期",
+    "code": "week",
+    "words": [
+      {
+        "word": "senin",
+        "translation": "星期一"
+      },
+      {
+        "word": "selasa",
+        "translation": "星期二"
+      },
+      {
+        "word": "rabu",
+        "translation": "星期三"
+      },
+      {
+        "word": "kamis",
+        "translation": "星期四"
+      },
+      {
+        "word": "jumat",
+        "translation": "星期五"
+      },
+      {
+        "word": "sabtu",
+        "translation": "星期六"
+      },
+      {
+        "word": "minggu",
+        "translation": "星期日"
+      },
+      {
+        "word": "hari ini",
+        "translation": "今天"
+      },
+      {
+        "word": "besok",
+        "translation": "明天"
+      },
+      {
+        "word": "kemarin",
+        "translation": "昨天"
+      },
+      {
+        "word": "akhir pekan",
+        "translation": "周末"
+      }
+    ]
+  },
+  {
+    "category": "月",
+    "code": "month",
+    "words": [
+      {
+        "word": "Januari",
+        "translation": "一月"
+      },
+      {
+        "word": "Februari",
+        "translation": "二月"
+      },
+      {
+        "word": "Maret",
+        "translation": "三月"
+      },
+      {
+        "word": "April",
+        "translation": "四月"
+      },
+      {
+        "word": "Mei",
+        "translation": "五月"
+      },
+      {
+        "word": "Juni",
+        "translation": "六月"
+      },
+      {
+        "word": "Juli",
+        "translation": "七月"
+      },
+      {
+        "word": "Agustus",
+        "translation": "八月"
+      },
+      {
+        "word": "September",
+        "translation": "九月"
+      },
+      {
+        "word": "Oktober",
+        "translation": "十月"
+      },
+      {
+        "word": "November",
+        "translation": "十一月"
+      },
+      {
+        "word": "Desember",
+        "translation": "十二月"
+      },
+      {
+        "word": "bulan",
+        "translation": "月份/月亮"
+      },
+      {
+        "word": "bulan depan",
+        "translation": "下个月"
+      },
+      {
+        "word": "bulan lalu",
+        "translation": "上个月"
+      }
+    ]
+  },
+  {
+    "category": "四季",
+    "code": "seasons",
+    "words": [
+      {
+        "word": "musim hujan",
+        "translation": "雨季"
+      },
+      {
+        "word": "musim kemarau",
+        "translation": "旱季"
+      },
+      {
+        "word": "musim panas",
+        "translation": "夏季"
+      },
+      {
+        "word": "musim dingin",
+        "translation": "冬季"
+      },
+      {
+        "word": "musim semi",
+        "translation": "春季"
+      },
+      {
+        "word": "musim gugur",
+        "translation": "秋季"
+      },
+      {
+        "word": "iklim",
+        "translation": "气候"
+      },
+      {
+        "word": "suhu",
+        "translation": "温度"
+      },
+      {
+        "word": "derajat",
+        "translation": "度 (温度单位)"
+      }
+    ]
+  },
+  {
+    "category": "时间",
+    "code": "time",
+    "words": [
+      {
+        "word": "waktu",
+        "translation": "时间"
+      },
+      {
+        "word": "jam",
+        "translation": "小时/点/钟"
+      },
+      {
+        "word": "menit",
+        "translation": "分钟"
+      },
+      {
+        "word": "detik",
+        "translation": "秒"
+      },
+      {
+        "word": "sekarang",
+        "translation": "现在"
+      },
+      {
+        "word": "nanti",
+        "translation": "等一下/稍后"
+      },
+      {
+        "word": "sebelum",
+        "translation": "在...之前"
+      },
+      {
+        "word": "sesudah",
+        "translation": "在...之后"
+      },
+      {
+        "word": "awal",
+        "translation": "早/初期"
+      },
+      {
+        "word": "akhir",
+        "translation": "晚/结束"
+      },
+      {
+        "word": "selalu",
+        "translation": "总是"
+      },
+      {
+        "word": "sering",
+        "translation": "经常"
+      },
+      {
+        "word": "kadang-kadang",
+        "translation": "偶尔/有时"
+      },
+      {
+        "word": "jarang",
+        "translation": "很少/罕见"
+      }
+    ]
+  },
+  {
+    "category": "地点",
+    "code": "locations",
+    "words": [
+      {
+        "word": "utara",
+        "translation": "北"
+      },
+      {
+        "word": "selatan",
+        "translation": "南"
+      },
+      {
+        "word": "timur",
+        "translation": "东"
+      },
+      {
+        "word": "barat",
+        "translation": "西"
+      },
+      {
+        "word": "tengah",
+        "translation": "中/中央"
+      },
+      {
+        "word": "depan",
+        "translation": "前面"
+      },
+      {
+        "word": "belakang",
+        "translation": "后面"
+      },
+      {
+        "word": "kiri",
+        "translation": "左边"
+      },
+      {
+        "word": "kanan",
+        "translation": "右边"
+      },
+      {
+        "word": "dalam",
+        "translation": "里面"
+      },
+      {
+        "word": "luar",
+        "translation": "外面"
+      },
+      {
+        "word": "sebelah",
+        "translation": "旁边/在...侧"
+      },
+      {
+        "word": "atas",
+        "translation": "上面"
+      },
+      {
+        "word": "bawah",
+        "translation": "下面"
+      }
+    ]
+  },
+  {
+    "category": "身体",
+    "code": "body",
+    "words": [
+      {
+        "word": "kepala",
+        "translation": "头"
+      },
+      {
+        "word": "rambut",
+        "translation": "头发"
+      },
+      {
+        "word": "mata",
+        "translation": "眼睛"
+      },
+      {
+        "word": "telinga",
+        "translation": "耳朵"
+      },
+      {
+        "word": "hidung",
+        "translation": "鼻子"
+      },
+      {
+        "word": "mulut",
+        "translation": "嘴巴"
+      },
+      {
+        "word": "gigi",
+        "translation": "牙齿"
+      },
+      {
+        "word": "leher",
+        "translation": "脖子/颈部"
+      },
+      {
+        "word": "bahu",
+        "translation": "肩膀"
+      },
+      {
+        "word": "tangan",
+        "translation": "手/手臂"
+      },
+      {
+        "word": "kaki",
+        "translation": "脚/腿"
+      },
+      {
+        "word": "dada",
+        "translation": "胸部"
+      },
+      {
+        "word": "perut",
+        "translation": "肚子/胃"
+      },
+      {
+        "word": "punggung",
+        "translation": "背部"
+      },
+      {
+        "word": "tubuh",
+        "translation": "身体"
+      }
+    ]
+  },
+  {
+    "category": "情感",
+    "code": "emotions",
+    "words": [
+      {
+        "word": "senang",
+        "translation": "高兴/快乐"
+      },
+      {
+        "word": "sedih",
+        "translation": "悲伤/难过"
+      },
+      {
+        "word": "marah",
+        "translation": "生气/愤怒"
+      },
+      {
+        "word": "takut",
+        "translation": "害怕"
+      },
+      {
+        "word": "terkejut",
+        "translation": "惊讶/吃惊"
+      },
+      {
+        "word": "bingung",
+        "translation": "困惑/迷茫"
+      },
+      {
+        "word": "cinta",
+        "translation": "爱"
+      },
+      {
+        "word": "benci",
+        "translation": "讨厌/恨"
+      },
+      {
+        "word": "khawatir",
+        "translation": "担忧/担心"
+      },
+      {
+        "word": "bosan",
+        "translation": "无聊/厌烦"
+      },
+      {
+        "word": "lelah",
+        "translation": "疲惫/累"
+      },
+      {
+        "word": "malu",
+        "translation": "害羞/惭愧"
+      },
+      {
+        "word": "semangat",
+        "translation": "激情/有活力"
+      }
+    ]
+  },
+  {
+    "category": "形容词",
+    "code": "adjectives",
+    "words": [
+      {
+        "word": "besar",
+        "translation": "大"
+      },
+      {
+        "word": "kecil",
+        "translation": "小"
+      },
+      {
+        "word": "tinggi",
+        "translation": "高"
+      },
+      {
+        "word": "pendek",
+        "translation": "矮/短"
+      },
+      {
+        "word": "panjang",
+        "translation": "长"
+      },
+      {
+        "word": "baru",
+        "translation": "新"
+      },
+      {
+        "word": "lama",
+        "translation": "旧/老"
+      },
+      {
+        "word": "panas",
+        "translation": "热/炎热"
+      },
+      {
+        "word": "dingin",
+        "translation": "冷/寒冷"
+      },
+      {
+        "word": "bersih",
+        "translation": "干净"
+      },
+      {
+        "word": "kotor",
+        "translation": "脏"
+      },
+      {
+        "word": "cepat",
+        "translation": "快"
+      },
+      {
+        "word": "lambat",
+        "translation": "慢"
+      },
+      {
+        "word": "bagus",
+        "translation": "好的/棒的"
+      },
+      {
+        "word": "jelek",
+        "translation": "坏的/丑的"
+      },
+      {
+        "word": "mahal",
+        "translation": "贵"
+      },
+      {
+        "word": "murah",
+        "translation": "便宜"
+      }
+    ]
+  },
+  {
+    "category": "动词",
+    "code": "verbs",
+    "words": [
+      {
+        "word": "makan",
+        "translation": "吃"
+      },
+      {
+        "word": "minum",
+        "translation": "喝"
+      },
+      {
+        "word": "tidur",
+        "translation": "睡觉"
+      },
+      {
+        "word": "pergi",
+        "translation": "去"
+      },
+      {
+        "word": "datang",
+        "translation": "来"
+      },
+      {
+        "word": "bekerja",
+        "translation": "工作"
+      },
+      {
+        "word": "belajar",
+        "translation": "学习"
+      },
+      {
+        "word": "menulis",
+        "translation": "写"
+      },
+      {
+        "word": "membaca",
+        "translation": "读"
+      },
+      {
+        "word": "berbicara",
+        "translation": "说话"
+      },
+      {
+        "word": "mendengar",
+        "translation": "听"
+      },
+      {
+        "word": "melihat",
+        "translation": "看"
+      },
+      {
+        "word": "membuat",
+        "translation": "做/制造"
+      },
+      {
+        "word": "mengambil",
+        "translation": "拿/取"
+      },
+      {
+        "word": "membawa",
+        "translation": "带/携带"
+      }
+    ]
+  },
+  {
+    "category": "天气",
+    "code": "weather",
+    "words": [
+      {
+        "word": "cuaca",
+        "translation": "天气"
+      },
+      {
+        "word": "cerah",
+        "translation": "晴天/晴朗"
+      },
+      {
+        "word": "berawan",
+        "translation": "多云"
+      },
+      {
+        "word": "hujan",
+        "translation": "下雨"
+      },
+      {
+        "word": "berangin",
+        "translation": "刮风"
+      },
+      {
+        "word": "salju",
+        "translation": "雪"
+      },
+      {
+        "word": "badai",
+        "translation": "风暴/暴风雨"
+      },
+      {
+        "word": "petir",
+        "translation": "闪电/打雷"
+      },
+      {
+        "word": "kabut",
+        "translation": "雾/大雾"
+      },
+      {
+        "word": "hujan deras",
+        "translation": "暴雨/大雨"
+      },
+      {
+        "word": "lembap",
+        "translation": "潮湿"
+      },
+      {
+        "word": "kering",
+        "translation": "干燥"
+      }
+    ]
+  },
+  {
+    "category": "孩子们",
+    "code": "children",
+    "words": [
+      {
+        "word": "anak laki-laki",
+        "translation": "男孩"
+      },
+      {
+        "word": "anak perempuan",
+        "translation": "女孩"
+      },
+      {
+        "word": "bayi",
+        "translation": "婴儿/宝宝"
+      },
+      {
+        "word": "mainan",
+        "translation": "玩具"
+      },
+      {
+        "word": "taman bermain",
+        "translation": "游乐场"
+      },
+      {
+        "word": "susu bubuk",
+        "translation": "奶粉"
+      },
+      {
+        "word": "popok",
+        "translation": "尿不湿"
+      },
+      {
+        "word": "TK (Taman Kanak-kanak)",
+        "translation": "幼儿园"
+      },
+      {
+        "word": "dongeng",
+        "translation": "童话故事"
+      },
+      {
+        "word": "menggambar",
+        "translation": "画画"
+      }
+    ]
+  },
+  {
+    "category": "动物",
+    "code": "animals",
+    "words": [
+      {
+        "word": "hewan",
+        "translation": "动物"
+      },
+      {
+        "word": "kucing",
+        "translation": "猫"
+      },
+      {
+        "word": "anjing",
+        "translation": "狗"
+      },
+      {
+        "word": "burung",
+        "translation": "鸟"
+      },
+      {
+        "word": "kuda",
+        "translation": "马"
+      },
+      {
+        "word": "sapi",
+        "translation": "牛"
+      },
+      {
+        "word": "kambing",
+        "translation": "山羊/绵羊"
+      },
+      {
+        "word": "gajah",
+        "translation": "大象"
+      },
+      {
+        "word": "singa",
+        "translation": "狮子"
+      },
+      {
+        "word": "harimau",
+        "translation": "老虎"
+      },
+      {
+        "word": "monyet",
+        "translation": "猴子"
+      },
+      {
+        "word": "kelinci",
+        "translation": "兔子"
+      },
+      {
+        "word": "ular",
+        "translation": "蛇"
+      },
+      {
+        "word": "ayam",
+        "translation": "鸡"
+      },
+      {
+        "word": "bebek",
+        "translation": "鸭"
+      }
+    ]
+  },
+  {
+    "category": "水生动物",
+    "code": "aquatic_animals",
+    "words": [
+      {
+        "word": "ikan",
+        "translation": "鱼"
+      },
+      {
+        "word": "udang",
+        "translation": "虾"
+      },
+      {
+        "word": "kepiting",
+        "translation": "螃蟹"
+      },
+      {
+        "word": "cumi-cumi",
+        "translation": "鱿鱼/乌贼"
+      },
+      {
+        "word": "gurita",
+        "translation": "章鱼"
+      },
+      {
+        "word": "lumba-lumba",
+        "translation": "海豚"
+      },
+      {
+        "word": "hiu",
+        "translation": "鲨鱼"
+      },
+      {
+        "word": "paus",
+        "translation": "鲸鱼"
+      },
+      {
+        "word": "kura-kura laut",
+        "translation": "海龟"
+      },
+      {
+        "word": "ubur-ubur",
+        "translation": "水母"
+      }
+    ]
+  },
+  {
+    "category": "自然",
+    "code": "nature",
+    "words": [
+      {
+        "word": "alam",
+        "translation": "自然/大自然"
+      },
+      {
+        "word": "matahari",
+        "translation": "太阳"
+      },
+      {
+        "word": "bulan",
+        "translation": "月亮/月份"
+      },
+      {
+        "word": "bintang",
+        "translation": "星星"
+      },
+      {
+        "word": "langit",
+        "translation": "天空"
+      },
+      {
+        "word": "awan",
+        "translation": "云彩"
+      },
+      {
+        "word": "gunung",
+        "translation": "山脉/山"
+      },
+      {
+        "word": "laut",
+        "translation": "海洋/大海"
+      },
+      {
+        "word": "sungai",
+        "translation": "河流"
+      },
+      {
+        "word": "pohon",
+        "translation": "树木"
+      },
+      {
+        "word": "bunga",
+        "translation": "花朵"
+      },
+      {
+        "word": "daun",
+        "translation": "树叶"
+      },
+      {
+        "word": "hutan",
+        "translation": "森林"
+      },
+      {
+        "word": "tanah",
+        "translation": "土地/泥土"
+      }
+    ]
+  },
+  {
+    "category": "材料",
+    "code": "materials",
+    "words": [
+      {
+        "word": "bahan",
+        "translation": "材料/原料"
+      },
+      {
+        "word": "kayu",
+        "translation": "木头"
+      },
+      {
+        "word": "besi",
+        "translation": "铁"
+      },
+      {
+        "word": "baja",
+        "translation": "钢/钢铁"
+      },
+      {
+        "word": "plastik",
+        "translation": "塑料"
+      },
+      {
+        "word": "kaca",
+        "translation": "玻璃"
+      },
+      {
+        "word": "kertas",
+        "translation": "纸"
+      },
+      {
+        "word": "karet",
+        "translation": "橡胶"
+      },
+      {
+        "word": "semen",
+        "translation": "水泥"
+      },
+      {
+        "word": "pasir",
+        "translation": "沙子"
+      },
+      {
+        "word": "batu",
+        "translation": "石头"
+      },
+      {
+        "word": "emas",
+        "translation": "黄金"
+      },
+      {
+        "word": "perak",
+        "translation": "白银"
+      }
+    ]
+  },
+  {
+    "category": "衣物",
+    "code": "clothing",
+    "words": [
+      {
+        "word": "pakaian",
+        "translation": "衣服/衣物"
+      },
+      {
+        "word": "baju",
+        "translation": "衣服"
+      },
+      {
+        "word": "celana",
+        "translation": "裤子"
+      },
+      {
+        "word": "kemeja",
+        "translation": "衬衫"
+      },
+      {
+        "word": "kaos",
+        "translation": "T恤"
+      },
+      {
+        "word": "jaket",
+        "translation": "外套/夹克"
+      },
+      {
+        "word": "rok",
+        "translation": "裙子"
+      },
+      {
+        "word": "sepatu",
+        "translation": "鞋子"
+      },
+      {
+        "word": "kaos kaki",
+        "translation": "袜子"
+      },
+      {
+        "word": "sandal",
+        "translation": "拖鞋/凉鞋"
+      },
+      {
+        "word": "jas",
+        "translation": "西装/大衣"
+      },
+      {
+        "word": "seragam",
+        "translation": "制服/工作服"
+      }
+    ]
+  },
+  {
+    "category": "配件",
+    "code": "accessories",
+    "words": [
+      {
+        "word": "topi",
+        "translation": "帽子"
+      },
+      {
+        "word": "kacamata",
+        "translation": "眼镜"
+      },
+      {
+        "word": "tas",
+        "translation": "包包/提包"
+      },
+      {
+        "word": "jam tangan",
+        "translation": "手表"
+      },
+      {
+        "word": "sabuk",
+        "translation": "腰带/皮带"
+      },
+      {
+        "word": "cincin",
+        "translation": "戒指"
+      },
+      {
+        "word": "kalung",
+        "translation": "项链"
+      },
+      {
+        "word": "anting",
+        "translation": "耳环"
+      },
+      {
+        "word": "gelang",
+        "translation": "手链/手镯"
+      },
+      {
+        "word": "payung",
+        "translation": "雨伞"
+      },
+      {
+        "word": "dasi",
+        "translation": "领带"
+      }
+    ]
+  },
+  {
+    "category": "水果",
+    "code": "fruits",
+    "words": [
+      {
+        "word": "buah-buahan",
+        "translation": "水果"
+      },
+      {
+        "word": "apel",
+        "translation": "苹果"
+      },
+      {
+        "word": "pisang",
+        "translation": "香蕉"
+      },
+      {
+        "word": "jeruk",
+        "translation": "橘子/橙子"
+      },
+      {
+        "word": "semangka",
+        "translation": "西瓜"
+      },
+      {
+        "word": "mangga",
+        "translation": "芒果"
+      },
+      {
+        "word": "nanas",
+        "translation": "菠萝"
+      },
+      {
+        "word": "pepaya",
+        "translation": "木瓜"
+      },
+      {
+        "word": "anggur",
+        "translation": "葡萄"
+      },
+      {
+        "word": "durian",
+        "translation": "榴莲"
+      },
+      {
+        "word": "rambutan",
+        "translation": "红毛丹"
+      },
+      {
+        "word": "kelapa",
+        "translation": "椰子"
+      }
+    ]
+  },
+  {
+    "category": "蔬菜",
+    "code": "vegetables",
+    "words": [
+      {
+        "word": "sayur-sayuran",
+        "translation": "蔬菜"
+      },
+      {
+        "word": "tomat",
+        "translation": "西红柿"
+      },
+      {
+        "word": "kentang",
+        "translation": "土豆"
+      },
+      {
+        "word": "wortel",
+        "translation": "胡萝卜"
+      },
+      {
+        "word": "bawang putih",
+        "translation": "大蒜"
+      },
+      {
+        "word": "bawang merah",
+        "translation": "红葱头/洋葱"
+      },
+      {
+        "word": "bayam",
+        "translation": "菠菜"
+      },
+      {
+        "word": "kubis",
+        "translation": "包菜/卷心菜"
+      },
+      {
+        "word": "cabai",
+        "translation": "辣椒"
+      },
+      {
+        "word": "mentimun",
+        "translation": "黄瓜"
+      },
+      {
+        "word": "terong",
+        "translation": "茄子"
+      },
+      {
+        "word": "jamur",
+        "translation": "蘑菇/真菌"
+      }
+    ]
+  },
+  {
+    "category": "肉类",
+    "code": "meat",
+    "words": [
+      {
+        "word": "daging",
+        "translation": "肉类/肉"
+      },
+      {
+        "word": "daging sapi",
+        "translation": "牛肉"
+      },
+      {
+        "word": "daging ayam",
+        "translation": "鸡肉"
+      },
+      {
+        "word": "daging babi",
+        "translation": "猪肉"
+      },
+      {
+        "word": "daging kambing",
+        "translation": "羊肉/山羊肉"
+      },
+      {
+        "word": "sosis",
+        "translation": "香肠"
+      },
+      {
+        "word": "bakso",
+        "translation": "肉丸"
+      },
+      {
+        "word": "daging bebek",
+        "translation": "鸭肉"
+      },
+      {
+        "word": "daging segar",
+        "translation": "新鲜肉类"
+      },
+      {
+        "word": "daging beku",
+        "translation": "冷冻肉"
+      }
+    ]
+  },
+  {
+    "category": "食物",
+    "code": "food",
+    "words": [
+      {
+        "word": "makanan",
+        "translation": "食物"
+      },
+      {
+        "word": "nasi",
+        "translation": "米饭"
+      },
+      {
+        "word": "roti",
+        "translation": "面包"
+      },
+      {
+        "word": "mi",
+        "translation": "面条"
+      },
+      {
+        "word": "telur",
+        "translation": "鸡蛋"
+      },
+      {
+        "word": "sup",
+        "translation": "汤"
+      },
+      {
+        "word": "keju",
+        "translation": "奶酪"
+      },
+      {
+        "word": "kue",
+        "translation": "蛋糕/点心"
+      },
+      {
+        "word": "bubur",
+        "translation": "粥"
+      },
+      {
+        "word": "mentega",
+        "translation": "黄油"
+      },
+      {
+        "word": "minyak goreng",
+        "translation": "食用油/煎炸油"
+      },
+      {
+        "word": "bumbu",
+        "translation": "调料/香料"
+      }
+    ]
+  },
+  {
+    "category": "饮料",
+    "code": "drink",
+    "words": [
+      {
+        "word": "minuman",
+        "translation": "饮料"
+      },
+      {
+        "word": "air",
+        "translation": "水"
+      },
+      {
+        "word": "susu",
+        "translation": "牛奶"
+      },
+      {
+        "word": "kopi",
+        "translation": "咖啡"
+      },
+      {
+        "word": "teh",
+        "translation": "茶"
+      },
+      {
+        "word": "jus",
+        "translation": "果汁"
+      },
+      {
+        "word": "bir",
+        "translation": "啤酒"
+      },
+      {
+        "word": "soda",
+        "translation": "汽水/苏打水"
+      },
+      {
+        "word": "air mineral",
+        "translation": "矿泉水"
+      },
+      {
+        "word": "es batu",
+        "translation": "冰块"
+      },
+      {
+        "word": "air hangat",
+        "translation": "温水"
+      },
+      {
+        "word": "air kelapa",
+        "translation": "椰子水"
+      }
+    ]
+  },
+  {
+    "category": "早餐",
+    "code": "breakfast",
+    "words": [
+      {
+        "word": "sarapan",
+        "translation": "早餐/吃早饭"
+      },
+      {
+        "word": "telur dadar",
+        "translation": "煎蛋/煎蛋卷"
+      },
+      {
+        "word": "bubur ayam",
+        "translation": "鸡肉粥"
+      },
+      {
+        "word": "nasi goreng",
+        "translation": "炒饭 (印尼特色)"
+      },
+      {
+        "word": "susu hangat",
+        "translation": "热牛奶"
+      },
+      {
+        "word": "selai",
+        "translation": "果酱"
+      },
+      {
+        "word": "roti bakar",
+        "translation": "烤面包/吐司"
+      },
+      {
+        "word": "teh manis",
+        "translation": "甜茶"
+      },
+      {
+        "word": "kopi susu",
+        "translation": "奶啡/牛奶咖啡"
+      }
+    ]
+  },
+  {
+    "category": "房子",
+    "code": "house",
+    "words": [
+      {
+        "word": "rumah",
+        "translation": "房子/家"
+      },
+      {
+        "word": "pintu",
+        "translation": "门"
+      },
+      {
+        "word": "jendela",
+        "translation": "窗户"
+      },
+      {
+        "word": "atap",
+        "translation": "屋顶"
+      },
+      {
+        "word": "dinding",
+        "translation": "墙壁"
+      },
+      {
+        "word": "lantai",
+        "translation": "地板/楼层"
+      },
+      {
+        "word": "pagar",
+        "translation": "栅栏/围墙"
+      },
+      {
+        "word": "tangga",
+        "translation": "楼梯/梯子"
+      },
+      {
+        "word": "langit-langit",
+        "translation": "天花板"
+      },
+      {
+        "word": "halaman",
+        "translation": "院子/庭院"
+      },
+      {
+        "word": "kunci",
+        "translation": "钥匙/锁"
+      }
+    ]
+  },
+  {
+    "category": "卧室",
+    "code": "bedroom",
+    "words": [
+      {
+        "word": "kamar tidur",
+        "translation": "卧室"
+      },
+      {
+        "word": "tempat tidur",
+        "translation": "床"
+      },
+      {
+        "word": "kasur",
+        "translation": "床垫"
+      },
+      {
+        "word": "bantal",
+        "translation": "枕头"
+      },
+      {
+        "word": "selimut",
+        "translation": "被子/毯子"
+      },
+      {
+        "word": "lemari pakaian",
+        "translation": "衣柜"
+      },
+      {
+        "word": "meja rias",
+        "translation": "梳妆台"
+      },
+      {
+        "word": "cermin",
+        "translation": "镜子"
+      },
+      {
+        "word": "lampu tidur",
+        "translation": "床头灯/夜灯"
+      }
+    ]
+  },
+  {
+    "category": "浴室",
+    "code": "bathroom",
+    "words": [
+      {
+        "word": "kamar mandi",
+        "translation": "浴室"
+      },
+      {
+        "word": "toilet",
+        "translation": "厕所/马桶"
+      },
+      {
+        "word": "sabun",
+        "translation": "肥皂/香皂"
+      },
+      {
+        "word": "sampo",
+        "translation": "洗发水"
+      },
+      {
+        "word": "sikat gigi",
+        "translation": "牙刷"
+      },
+      {
+        "word": "pasta gigi",
+        "translation": "牙膏"
+      },
+      {
+        "word": "handuk",
+        "translation": "毛巾"
+      },
+      {
+        "word": "kran air",
+        "translation": "水龙头"
+      },
+      {
+        "word": "ember",
+        "translation": "水桶"
+      },
+      {
+        "word": "gayung",
+        "translation": "水勺 (印尼特色)"
+      },
+      {
+        "word": "pancuran",
+        "translation": "淋浴/花洒"
+      }
+    ]
+  },
+  {
+    "category": "客厅",
+    "code": "living_room",
+    "words": [
+      {
+        "word": "ruang tamu",
+        "translation": "客厅"
+      },
+      {
+        "word": "sofa",
+        "translation": "沙发"
+      },
+      {
+        "word": "televisi",
+        "translation": "电视机"
+      },
+      {
+        "word": "meja kopi",
+        "translation": "茶几/咖啡桌"
+      },
+      {
+        "word": "karpet",
+        "translation": "地毯"
+      },
+      {
+        "word": "lukisan",
+        "translation": "挂画/画作"
+      },
+      {
+        "word": "vas bunga",
+        "translation": "花瓶"
+      },
+      {
+        "word": "kipas angin",
+        "translation": "电风扇"
+      },
+      {
+        "word": "tirai",
+        "translation": "窗帘"
+      }
+    ]
+  },
+  {
+    "category": "厨房",
+    "code": "kitchen",
+    "words": [
+      {
+        "word": "dapur",
+        "translation": "厨房"
+      },
+      {
+        "word": "kompor",
+        "translation": "炉灶/炉子"
+      },
+      {
+        "word": "kulkas",
+        "translation": "冰箱"
+      },
+      {
+        "word": "panci",
+        "translation": "锅/煮锅"
+      },
+      {
+        "word": "wajan",
+        "translation": "炒锅"
+      },
+      {
+        "word": "pisau",
+        "translation": "刀子/菜刀"
+      },
+      {
+        "word": "piring",
+        "translation": "盘子"
+      },
+      {
+        "word": "gelas",
+        "translation": "玻璃杯"
+      },
+      {
+        "word": "sendok",
+        "translation": "勺子"
+      },
+      {
+        "word": "garpu",
+        "translation": "叉子"
+      },
+      {
+        "word": "telenan",
+        "translation": "砧板/切菜板"
+      },
+      {
+        "word": "rak piring",
+        "translation": "碗碟架"
+      }
+    ]
+  },
+  {
+    "category": "洗衣店",
+    "code": "laundry",
+    "words": [
+      {
+        "word": "mesin cuci",
+        "translation": "洗衣机"
+      },
+      {
+        "word": "deterjen bubuk",
+        "translation": "洗衣粉"
+      },
+      {
+        "word": "deterjen cair",
+        "translation": "洗衣液"
+      },
+      {
+        "word": "setrika",
+        "translation": "熨斗/电熨斗"
+      },
+      {
+        "word": "jemuran",
+        "translation": "晒衣架/晾衣绳"
+      },
+      {
+        "word": "pelembut pakaian",
+        "translation": "衣服柔顺剂"
+      },
+      {
+        "word": "gantungan baju",
+        "translation": "衣架"
+      },
+      {
+        "word": "jepit jemuran",
+        "translation": "晾衣夹"
+      }
+    ]
+  },
+  {
+    "category": "地方",
+    "code": "places",
+    "words": [
+      {
+        "word": "tempat",
+        "translation": "地方/场所"
+      },
+      {
+        "word": "kota",
+        "translation": "城市"
+      },
+      {
+        "word": "desa",
+        "translation": "村庄"
+      },
+      {
+        "word": "stasiun",
+        "translation": "火车站/客运站"
+      },
+      {
+        "word": "bandara",
+        "translation": "飞机场"
+      },
+      {
+        "word": "hotel",
+        "translation": "酒店/宾馆"
+      },
+      {
+        "word": "taman",
+        "translation": "公园"
+      },
+      {
+        "word": "bank",
+        "translation": "银行"
+      },
+      {
+        "word": "sekolah",
+        "translation": "学校"
+      },
+      {
+        "word": "pasar",
+        "translation": "市场/菜市场"
+      },
+      {
+        "word": "kantor pos",
+        "translation": "邮局"
+      },
+      {
+        "word": "rumah sakit",
+        "translation": "医院"
+      },
+      {
+        "word": "apotek",
+        "translation": "药店/药房"
+      },
+      {
+        "word": "pelabuhan",
+        "translation": "港口/码头"
+      }
+    ]
+  },
+  {
+    "category": "交通",
+    "code": "transport",
+    "words": [
+      {
+        "word": "kendaraan",
+        "translation": "车辆/交通工具"
+      },
+      {
+        "word": "mobil",
+        "translation": "汽车"
+      },
+      {
+        "word": "sepeda motor",
+        "translation": "摩托车"
+      },
+      {
+        "word": "sepeda",
+        "translation": "自行车"
+      },
+      {
+        "word": "taksi",
+        "translation": "出租车"
+      },
+      {
+        "word": "bus",
+        "translation": "公共汽车/大巴"
+      },
+      {
+        "word": "kereta api",
+        "translation": "火车"
+      },
+      {
+        "word": "pesawat",
+        "translation": "飞机"
+      },
+      {
+        "word": "kapal",
+        "translation": "轮船/船"
+      },
+      {
+        "word": "truk",
+        "translation": "卡车/货车"
+      },
+      {
+        "word": "kereta cepat",
+        "translation": "高铁"
+      },
+      {
+        "word": "jalan raya",
+        "translation": "马路/公路"
+      }
+    ]
+  },
+  {
+    "category": "职业",
+    "code": "occupations",
+    "words": [
+      {
+        "word": "pekerjaan",
+        "translation": "工作/职业"
+      },
+      {
+        "word": "guru",
+        "translation": "老师"
+      },
+      {
+        "word": "dokter",
+        "translation": "医生"
+      },
+      {
+        "word": "perawat",
+        "translation": "护士"
+      },
+      {
+        "word": "polisi",
+        "translation": "警察"
+      },
+      {
+        "word": "insinyur",
+        "translation": "工程师"
+      },
+      {
+        "word": "petani",
+        "translation": "农民"
+      },
+      {
+        "word": "nelayan",
+        "translation": "渔民"
+      },
+      {
+        "word": "penyanyi",
+        "translation": "歌手"
+      },
+      {
+        "word": "tentara",
+        "translation": "士兵/军人"
+      },
+      {
+        "word": "sopir",
+        "translation": "司机"
+      },
+      {
+        "word": "satpam",
+        "translation": "保安/警卫"
+      }
+    ]
+  },
+  {
+    "category": "购物",
+    "code": "shopping",
+    "words": [
+      {
+        "word": "belanja",
+        "translation": "购物/买东西"
+      },
+      {
+        "word": "harga",
+        "translation": "价格"
+      },
+      {
+        "word": "diskon",
+        "translation": "折扣/打折"
+      },
+      {
+        "word": "kasir",
+        "translation": "收银台/收银员"
+      },
+      {
+        "word": "struk",
+        "translation": "小票/收据"
+      },
+      {
+        "word": "dompet",
+        "translation": "钱包"
+      },
+      {
+        "word": "kartu kredit",
+        "translation": "信用卡"
+      },
+      {
+        "word": "uang tunai",
+        "translation": "现金"
+      },
+      {
+        "word": "kembalian",
+        "translation": "找零/零钱"
+      },
+      {
+        "word": "tas belanja",
+        "translation": "购物袋"
+      },
+      {
+        "word": "antrean",
+        "translation": "排队队形"
+      }
+    ]
+  },
+  {
+    "category": "超市",
+    "code": "supermarket",
+    "words": [
+      {
+        "word": "supermarket",
+        "translation": "超市/大型超市"
+      },
+      {
+        "word": "troli",
+        "translation": "购物车"
+      },
+      {
+        "word": "keranjang",
+        "translation": "购物篮"
+      },
+      {
+        "word": "rak",
+        "translation": "货架"
+      },
+      {
+        "word": "lorong",
+        "translation": "通道/走廊"
+      },
+      {
+        "word": "barang",
+        "translation": "商品/物品"
+      },
+      {
+        "word": "pembayaran",
+        "translation": "付款/结账"
+      },
+      {
+        "word": "penjual",
+        "translation": "售货员/卖家"
+      },
+      {
+        "word": "timbangan",
+        "translation": "秤/称重器"
+      },
+      {
+        "word": "promosi",
+        "translation": "促销活动"
+      }
+    ]
+  },
+  {
+    "category": "电子产品",
+    "code": "electronics",
+    "words": [
+      {
+        "word": "ponsel",
+        "translation": "手机/移动电话"
+      },
+      {
+        "word": "komputer",
+        "translation": "电脑/计算机"
+      },
+      {
+        "word": "laptop",
+        "translation": "笔记本电脑"
+      },
+      {
+        "word": "televisi",
+        "translation": "电视/电视机"
+      },
+      {
+        "word": "kamera",
+        "translation": "相机/照相机"
+      },
+      {
+        "word": "headphone",
+        "translation": "耳机"
+      },
+      {
+        "word": "pengisi daya",
+        "translation": "充电器"
+      },
+      {
+        "word": "baterai",
+        "translation": "电池"
+      },
+      {
+        "word": "tablet",
+        "translation": "平板电脑"
+      },
+      {
+        "word": "kabel data",
+        "translation": "数据线"
+      }
+    ]
+  },
+  {
+    "category": "互联网",
+    "code": "internet",
+    "words": [
+      {
+        "word": "internet",
+        "translation": "互联网"
+      },
+      {
+        "word": "situs web",
+        "translation": "网站"
+      },
+      {
+        "word": "kata sandi",
+        "translation": "密码"
+      },
+      {
+        "word": "surel",
+        "translation": "电子邮件/Email"
+      },
+      {
+        "word": "jaringan",
+        "translation": "网络"
+      },
+      {
+        "word": "peramban",
+        "translation": "浏览器"
+      },
+      {
+        "word": "kuota internet",
+        "translation": "上网流量"
+      },
+      {
+        "word": "unduh",
+        "translation": "下载"
+      },
+      {
+        "word": "unggah",
+        "translation": "上传"
+      },
+      {
+        "word": "sinyal",
+        "translation": "信号"
+      }
+    ]
+  },
+  {
+    "category": "社交媒体",
+    "code": "social_media",
+    "words": [
+      {
+        "word": "akun",
+        "translation": "账号/账户"
+      },
+      {
+        "word": "obrolan",
+        "translation": "聊天/对话"
+      },
+      {
+        "word": "pengikut",
+        "translation": "粉丝/关注者"
+      },
+      {
+        "word": "kiriman",
+        "translation": "帖子/发布内容"
+      },
+      {
+        "word": "suka",
+        "translation": "点赞/赞"
+      },
+      {
+        "word": "komentar",
+        "translation": "评论/留言"
+      },
+      {
+        "word": "bagikan",
+        "translation": "分享/转发"
+      },
+      {
+        "word": "profil",
+        "translation": "个人资料/简介"
+      },
+      {
+        "word": "pesan",
+        "translation": "私信/消息"
+      },
+      {
+        "word": "blokir",
+        "translation": "拉黑/屏蔽"
+      }
+    ]
+  },
+  {
+    "category": "电子游戏",
+    "code": "video_games",
+    "words": [
+      {
+        "word": "gim",
+        "translation": "游戏/电子游戏"
+      },
+      {
+        "word": "konsol",
+        "translation": "游戏机/主机"
+      },
+      {
+        "word": "pemain",
+        "translation": "玩家"
+      },
+      {
+        "word": "tingkat",
+        "translation": "关卡/等级"
+      },
+      {
+        "word": "skor",
+        "translation": "分数/得分"
+      },
+      {
+        "word": "menang",
+        "translation": "赢/获胜"
+      },
+      {
+        "word": "kalah",
+        "translation": "输/失败"
+      },
+      {
+        "word": "karakter",
+        "translation": "角色"
+      },
+      {
+        "word": "pengontrol",
+        "translation": "手柄/控制器"
+      },
+      {
+        "word": "petualangan",
+        "translation": "冒险/闯关"
+      }
+    ]
+  },
+  {
+    "category": "运动",
+    "code": "sports",
+    "words": [
+      {
+        "word": "olahraga",
+        "translation": "运动/体育"
+      },
+      {
+        "word": "sepak bola",
+        "translation": "足球"
+      },
+      {
+        "word": "bulu tangkis",
+        "translation": "羽毛球"
+      },
+      {
+        "word": "bola basket",
+        "translation": "篮球"
+      },
+      {
+        "word": "renang",
+        "translation": "游泳"
+      },
+      {
+        "word": "lari",
+        "translation": "跑步"
+      },
+      {
+        "word": "tenis meja",
+        "translation": "乒乓球"
+      },
+      {
+        "word": "bola voli",
+        "translation": "排球"
+      },
+      {
+        "word": "stadion",
+        "translation": "体育场/馆"
+      },
+      {
+        "word": "pertandingan",
+        "translation": "比赛"
+      },
+      {
+        "word": "latihan",
+        "translation": "训练/练习"
+      }
+    ]
+  },
+  {
+    "category": "宿管管理",
+    "code": "dormitory_management",
+    "words": [
+      {
+        "word": "asrama",
+        "translation": "宿舍"
+      },
+      {
+        "word": "pengawas",
+        "translation": "管理员/宿管"
+      },
+      {
+        "word": "tata tertib",
+        "translation": "规章制度/宿舍守则"
+      },
+      {
+        "word": "kebersihan",
+        "translation": "卫生/清洁"
+      },
+      {
+        "word": "denda",
+        "translation": "罚款"
+      },
+      {
+        "word": "dilarang merokok",
+        "translation": "禁止吸烟"
+      },
+      {
+        "word": "kunci kamar",
+        "translation": "房间钥匙"
+      },
+      {
+        "word": "pemeliharaan",
+        "translation": "维护/修缮"
+      },
+      {
+        "word": "lampu mati",
+        "translation": "停电/熄灯"
+      },
+      {
+        "word": "kerusakan",
+        "translation": "损坏/损毁"
+      },
+      {
+        "word": "keran bocor",
+        "translation": "水龙头漏水"
+      },
+      {
+        "word": "AC rusak",
+        "translation": "空调故障/损坏"
+      },
+      {
+        "word": "tamu",
+        "translation": "访客/客人"
+      },
+      {
+        "word": "kartu asrama",
+        "translation": "宿舍卡/门禁卡"
+      },
+      {
+        "word": "jam malam",
+        "translation": "门禁时间/宵禁"
+      }
+    ]
+  },
+  {
+    "category": "食堂管理",
+    "code": "canteen_management",
+    "words": [
+      {
+        "word": "kantin",
+        "translation": "食堂/餐厅"
+      },
+      {
+        "word": "koki",
+        "translation": "厨师/主厨"
+      },
+      {
+        "word": "higienis",
+        "translation": "卫生的/清洁的"
+      },
+      {
+        "word": "antre",
+        "translation": "排队"
+      },
+      {
+        "word": "menu hari ini",
+        "translation": "今日菜单"
+      },
+      {
+        "word": "makanan halal",
+        "translation": "清真食品/清真菜"
+      },
+      {
+        "word": "peralatan makan",
+        "translation": "餐具 (碗筷等)"
+      },
+      {
+        "word": "sisa makanan",
+        "translation": "剩饭剩菜"
+      },
+      {
+        "word": "cuci tangan",
+        "translation": "洗手"
+      },
+      {
+        "word": "nampan",
+        "translation": "餐盘/托盘"
+      },
+      {
+        "word": "bahan makanan",
+        "translation": "食材/原料"
+      },
+      {
+        "word": "pasokan",
+        "translation": "供应/供货"
+      },
+      {
+        "word": "keracunan makanan",
+        "translation": "食物中毒"
+      },
+      {
+        "word": "tempat pembuangan",
+        "translation": "垃圾箱/剩饭收集处"
+      },
+      {
+        "word": "segar",
+        "translation": "新鲜的"
+      }
+    ]
+  },
+  {
+    "category": "车辆管理",
+    "code": "vehicle_management",
+    "words": [
+      {
+        "word": "kendaraan",
+        "translation": "车辆"
+      },
+      {
+        "word": "pengemudi",
+        "translation": "司机/驾驶员"
+      },
+      {
+        "word": "SIM (Surat Izin Mengemudi)",
+        "translation": "驾驶证/驾照"
+      },
+      {
+        "word": "STNK",
+        "translation": "车辆行驶证"
+      },
+      {
+        "word": "parkir",
+        "translation": "停车/泊车"
+      },
+      {
+        "word": "garasi",
+        "translation": "车库"
+      },
+      {
+        "word": "bahan bakar",
+        "translation": "燃料/汽油/柴油"
+      },
+      {
+        "word": "perawatan rutin",
+        "translation": "定期保养"
+      },
+      {
+        "word": "pelat nomor",
+        "translation": "车牌/车牌号"
+      },
+      {
+        "word": "perbaikan",
+        "translation": "维修/修理"
+      },
+      {
+        "word": "ban bocor",
+        "translation": "轮胎漏气/爆胎"
+      },
+      {
+        "word": "kecelakaan",
+        "translation": "事故/车祸"
+      },
+      {
+        "word": "rute perjalanan",
+        "translation": "行驶路线/轨迹"
+      },
+      {
+        "word": "batas kecepatan",
+        "translation": "限速/速度限制"
+      },
+      {
+        "word": "sabuk pengaman",
+        "translation": "安全带"
+      }
+    ]
+  },
+  {
+    "category": "物资管理",
+    "code": "material_management",
+    "words": [
+      {
+        "word": "persediaan",
+        "translation": "库存/物资"
+      },
+      {
+        "word": "gudang",
+        "translation": "仓库"
+      },
+      {
+        "word": "inventaris",
+        "translation": "盘点/财产清单"
+      },
+      {
+        "word": "pengadaan",
+        "translation": "采购/备料"
+      },
+      {
+        "word": "pengiriman",
+        "translation": "送货/运输"
+      },
+      {
+        "word": "tanda terima",
+        "translation": "签收单/收条"
+      },
+      {
+        "word": "stok habis",
+        "translation": "缺货/断货"
+      },
+      {
+        "word": "masuk barang",
+        "translation": "货物入库"
+      },
+      {
+        "word": "keluar barang",
+        "translation": "货物出库"
+      },
+      {
+        "word": "sisa",
+        "translation": "剩余/残余物"
+      },
+      {
+        "word": "pemborosan",
+        "translation": "浪费/损耗"
+      },
+      {
+        "word": "kapasitas",
+        "translation": "容量/仓储量"
+      },
+      {
+        "word": "pengepakan",
+        "translation": "包装/打包装"
+      },
+      {
+        "word": "kontrol kualitas",
+        "translation": "质量检验/QC"
+      },
+      {
+        "word": "distributor",
+        "translation": "供货商/供应商"
+      }
+    ]
+  },
+  {
+    "category": "办公室管理",
+    "code": "office_management",
+    "words": [
+      {
+        "word": "administrasi",
+        "translation": "行政管理/办公大楼"
+      },
+      {
+        "word": "jadwal kerja",
+        "translation": "工作时间表/班表"
+      },
+      {
+        "word": "rapat",
+        "translation": "会议/开会"
+      },
+      {
+        "word": "lembur",
+        "translation": "加班"
+      },
+      {
+        "word": "kehadiran",
+        "translation": "出席/考勤"
+      },
+      {
+        "word": "dokumen resmi",
+        "translation": "官方文件/公文"
+      },
+      {
+        "word": "stempel",
+        "translation": "盖章/印章"
+      },
+      {
+        "word": "pengarsipan",
+        "translation": "文件归档/存档"
+      },
+      {
+        "word": "persetujuan",
+        "translation": "审核批准/同意"
+      },
+      {
+        "word": "tanda tangan",
+        "translation": "签字/签名"
+      },
+      {
+        "word": "alat tulis kantor",
+        "translation": "办公文具/文具用品"
+      },
+      {
+        "word": "printer",
+        "translation": "打印机"
+      },
+      {
+        "word": "mesin fotokopi",
+        "translation": "复印机"
+      },
+      {
+        "word": "kartu pengenal",
+        "translation": "工牌/工作证"
+      },
+      {
+        "word": "lingkungan kerja",
+        "translation": "工作环境"
+      }
+    ]
+  }
+]
